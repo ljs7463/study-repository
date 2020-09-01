@@ -1,3 +1,4 @@
+
 # opencv 소개 및 기본 사용법 
 영상처리와 컴퓨터 비전(컴퓨터에서 보여지는 분야 라고 생각하면 편함)을 위한 오픈소스 라이브러리
 c, c++, python 등에서 사용
@@ -59,7 +60,7 @@ plt.show()
 
                           ##   기억할것!!   ##
 (1) 
-opencv와 matplotlib의 색 구조 가 다르기때문에 꼭 코드를 입력해야 한다.
+opencv(BGR)와 matplotlib(RGB)의 색 구조 가 다르기때문에 꼭 코드를 입력해야 한다.
 
 (2) 
 import cv2
@@ -176,7 +177,7 @@ image = cv2.imread('임정석.jpg')
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.show()
 
-expand = cv2.resize(image, None, fx = 2.0, fy = 2.0,  interpolation=cv2.INTER_CUBIC))
+expand = cv2.resize(image, None, fx = 2.0, fy = 2.0,  interpolation=cv2.INTER_CUBIC)
 plt.imshow(cv2.cvtColor(expand, cv2.COLOR_BGR2RGB))
 plt.show()
 
@@ -281,7 +282,7 @@ import matplotlib.pyplot as plt
 image = cv2.imread('gray_image.jpg', cv2.IMREAD_GRAYSCALE)
 
 images =[]
-ret, thresh1 = cv2.threshold(image, 127, 255, cv2.THRESH_BINARY)
+ret, thresh1 = cv2.threshold(image, 127, 255, cv2.THRESH_BINARY) # 반환값 두개를 ret과 thresh1이라는 변수에 받겠다.
 ret, thresh2 = cv2.threshold(image, 127, 255, cv2.THRESH_BINARY_INV)
 ret, thresh3 = cv2.threshold(image, 127, 255, cv2.THRESH_TRUNC)
 ret, thresh4 = cv2.threshold(image, 127, 255, cv2.THRESH_TOZERO)
@@ -298,8 +299,8 @@ for i in images:
 
 # 이미지의 적응 임계점 처리
    - 하나의 이미지에 다수의 조명 상태가 존재하는 경우 적용하면 좋습니다.(즉 여러임계점 적용)
-
-cv2.adaptiveThreshold(image, max_value, adaptive_method, type, block_size, C) : 적응 임계점 처리 함수
+임
+cv2.adaptiveThreshold(image, max_value, adaptive_method, type, block_size, C) : 적응 계점 처리 함수
   - max_value : 임계 값을 넘었을 때 적용할 값
   - adaptive_method : 임계 값을 결정하는 계산 방법
   ADAPTIVE_THRESH_MEAN_C : 주변영역의 평균값으로 결정
@@ -362,7 +363,7 @@ cv2.waitKey(0)
 
 직선 그리기
 
-cv2.line(image, start, end, color, tickess) : 하나의 직선을 그리는 함수
+cv2.line(image, start, end, color, thickness) : 하나의 직선을 그리는 함수
    -start : 시작 좌표(2차원)
    -end : 종료 좌표(2차원)
    -thickness : 선의 두께
@@ -372,7 +373,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = np.full((512, 512, 3), 255, np.uint8)
+image = np.full((512, 512, 3), 255, np.uint8) # np.full((x,y),z) -> z를 x,y만큼 채움
 image = cv2.line(image, (0, 0), (255, 255), (255, 0, 0), 3)
 
 plt.imshow(image)
@@ -483,3 +484,33 @@ image = cv2.drawContours(image, contours, -1, (0, 255, 0),4)
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.show()
 
+# openCV Contours처리
+Contor의 사각형 외각 찾기
+cv2.boundingRect(contour)  :  Contour를 포함하는 사각형을 그립니다.
+사각형의 X, Y 좌표와 너비, 높이를 반환합니다.
+
+예제)
+import cv2
+import matplotlib.pyplot as plt
+
+image = cv2.imread('digit_image.png')
+image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+ret, thresh = cv2.threshold(image_gray, 230, 255, 0)
+thresh = cv2.bitwise_not(thresh)
+# 하얀색과 검정석 반전을 시키는 코드 bitwise_not(),findCotours값은
+# threshold값을 넣었을때 하얀색값을 추출하기때문
+plt.imshow(cv2.cvtColor(thresh, cv2.COLOR_GRAY2RGB))
+plt.show()
+
+contours = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)[1]
+image = cv2.drawContours(image, contours, -1, (0, 0, 255), 4)
+
+plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
+plt.show()
+
+contour = contours[0]
+x, y, w, h = cv2.boundingRect(contour)
+image = cv2.rectangle(image, (x, y), (x + w, y + h), (0, 0, 255), 3)
+
+plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
+plt.show()
