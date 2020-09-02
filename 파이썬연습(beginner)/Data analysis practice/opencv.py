@@ -471,17 +471,17 @@ cv2.drawContours(image, contours, contour_index, color, thickness) : Contour들�
 import cv2
 import matplotlib.pyplot as plt
 
-image = cv2.imread('gray_image.jpg')
-image_gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
-ret, thresh = cv2.threshold(image_gray, 127, 255, 0)
+image_color = cv2.imread('gray_image.jpg')
+image_gray = cv2.cvtColor(image_color,cv2.COLOR_BGR2GRAY)
+ret, image_binary = cv2.threshold(image_gray, 127, 255, 0) #흰색과 검은색으로 이루어진 바이너리 이미지
 
-plt.imshow(cv2.cvtColor(thresh, cv2.COLOR_GRAY2RGB))
+plt.imshow(cv2.cvtColor(image_binary, cv2.COLOR_GRAY2RGB))
 plt.show()
 
-contours = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)[1]
-image = cv2.drawContours(image, contours, -1, (0, 255, 0),4)
+contours = cv2.findContours(image_binary, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)[1]
+image_color = cv2.drawContours(image_color, contours, -1, (0, 255, 0),4) #컨투어를 그릴때는 컬러이미지를 불러와서해야함
 
-plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
+plt.imshow(cv2.cvtColor(image_color, cv2.COLOR_BGR2RGB))
 plt.show()
 
 # openCV Contours처리
@@ -493,24 +493,58 @@ cv2.boundingRect(contour)  :  Contour를 포함하는 사각형을 그립니다.
 import cv2
 import matplotlib.pyplot as plt
 
-image = cv2.imread('digit_image.png')
-image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-ret, thresh = cv2.threshold(image_gray, 230, 255, 0)
-thresh = cv2.bitwise_not(thresh)
+image_color = cv2.imread('digit_image.png')
+image_gray = cv2.cvtColor(image_color, cv2.COLOR_BGR2GRAY)
+ret, image_binary = cv2.threshold(image_gray, 230, 255, 0) #흰색과 검은색으로 이루어진 바이너리 이미지
+image_binary = cv2.bitwise_not(image_binary)
 # 하얀색과 검정석 반전을 시키는 코드 bitwise_not(),findCotours값은
 # threshold값을 넣었을때 하얀색값을 추출하기때문
-plt.imshow(cv2.cvtColor(thresh, cv2.COLOR_GRAY2RGB))
+plt.imshow(cv2.cvtColor(image_binary, cv2.COLOR_GRAY2RGB))
 plt.show()
 
-contours = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)[1]
-image = cv2.drawContours(image, contours, -1, (0, 0, 255), 4)
+contours = cv2.findContours(image_binary, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)[1]
+image_color = cv2.drawContours(image_color, contours, -1, (0, 0, 255), 4)
 
-plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
+plt.imshow(cv2.cvtColor(image_Color, cv2.COLOR_BGR2RGB))
 plt.show()
+
+contour = contours[0] #첫번째 컨투어를 지정
+x, y, w, h = cv2.boundingRect(contour)
+image_color = cv2.rectangle(image_color, (x, y), (x + w, y + h), (0, 0, 255), 3)
+
+plt.imshow(cv2.cvtColor(image_color, cv2.COLOR_BGR2RGB))
+plt.show()
+
+
+# contour의 Convex Hull
+cv2.convexHull(contour)  :  convexHull 알고리즘으로 외각을 구하는 함수
+대략적인 형태의 Contour 외각을 빠르게 구할 수 있습니다.(단일 Contour반환)
+#여러개의 벡터(점) 들이 있을때 그 중에서 외각에 있는 것만 찾고자 할 때 사용하는 알고리즘
 
 contour = contours[0]
-x, y, w, h = cv2.boundingRect(contour)
-image = cv2.rectangle(image, (x, y), (x + w, y + h), (0, 0, 255), 3)
+hull = cv2.convexHull(contour)
+image = cv2.drawContours(image, [hull], -1, (255, 0, 0), 4)
 
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.show()
+
+##############################
+이하는 프로젝트 끝나고 하기(동빈나 opencv강의)
+
+
+
+##########################################################################################
+(멈춤보다 천천히라도opencv강의,비디오등등)
+
+
+# 동영상 다루기
+
+# camera로 부터 영상 재생
+import cv2
+def showVideo():
+   cap = cv2.VideoCapture(0)
+# 비디오 캡쳐를 위해 VideoCapture 객체를 생성. 인자는 인덱스 또는 비디오파일 이름 지정
+# 카메라가 한대면 0 을 지정, 2개 이상 달려 있는 경우에는 첫번째 웹캠은 0 두번째 웹캠은1
+# 또한 저장되어 있는 비디오 파일을 재생하려면 비디오 파일 경로와 함께 비디오 파일 이름을 지정하면
+# 됩니다. ex) cap = cv2.VideoCapture('video.mp4')
+   cap.set()
