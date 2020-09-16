@@ -1,4 +1,4 @@
-#FC버전
+#개인강의버전
 #numpy 수학, 과학 계산용 라이브러리
 
 array( 배열 ): 여러 값들의 배열
@@ -127,7 +127,7 @@ np.sort(arr)
 내림차순으로 하고싶으면 np.sort(arr)[::-1]
 
 하지만 이 값들은 유지가 되지 않는다.
-값을 유지하고 싶으면 변수arr자체에 sort를 시켜주면 된다 arr.sort()
+값을 유지하고 싶으면 변수arr자체에o sort를 시켜주면 된다 arr.srt()
 다른 방법으로는 새로운 변수에 대입한다 arr2 = np.sort(arr) 이런식으로 편한걸로 하면된다.
 두번째 꺼를 추천함!!
 
@@ -140,7 +140,7 @@ arr2d = array([[5,  6,  7,  8],
 np.sort(arr2d, axis =1) # 열 기준 정렬
 >>>array([[5,  6,  7,  8],
           [1,  2,  3,  4],
-          [0, 10, 11, 12]])
+          [9, 10, 11, 12]])
 
 np.sort(arr2d, axis = 0) # 행 기준 정렬
 >>>array([[4,  3,  2,  1],
@@ -445,3 +445,86 @@ print(arr2)
 1) 두 번째 행
 2) 두 번째 열
 
+
+#######################################################
+머신러닝을위한 넘파이 주요함수 및 기능정리
+#
+np.array([range(i, i+ 3)for i in [1, 4, 7]])
+>>> array([[1,2,3],
+           [4,5,6],
+           [7,8,9,]])
+
+#초기화 가능한 여러가지 함수 제공
+np.zeros(10)
+>>>array([0,0,0,0,0,0,0,0,0,0])
+np.ones((3, 5))
+>>>array([[1,1,1,1],
+          [1,1,1,1],
+          [1,1,1,1]])
+np.full((2,3),5)
+>>>array([[5,5,5],
+          [5,5,5]])
+
+#배열 생성
+np.arange(0,10,2)
+>>>array([0,2,4,6,8])
+
+np.linspace(0,100,5,dtype = int)
+>>>array([0,25,50,75,100])
+
+#난수와 관련된부분 
+#데이터 모의 구성 시 많이 사용하는 random함수
+np.random.random((3,3))
+#범위를 제공하는randint
+np.random.randint(0,10,(3,3))
+#정규분포를 나타내는 normal (0이 평균값,1이 표준편차)
+np.random.normal(0,1,(3,3))
+
+#랜덤 값의 재현성 문제
+#seed함수에 seed값을 주면 재현성 문제해결
+np.random.seed(0)
+
+arr1 = np.random.randint(10, size = 6)
+arr2 = np.random.randint(10, size = (2, 3))
+#ndim은 차원정보
+print("arr1:\n%s" %arr1)
+print("ndim: %d, shape: %s, size: %d, dtype: %s\n" %(arr1.ndim, arr1.shape, arr1.size, arr1.dtype))
+print("arr2:\n%s" % arr2)
+print("ndim: %d, shape: %s, size: %d, dtype: %s" %(arr2.ndim, arr2.shape, arr2.size, arr2.dtype))
+
+#인덱싱(단일원소)
+#슬라이싱(부분집합)
+start:end:step (start와 step은 생략가능하지만 end는 생략ㄴ)
+이런식으로구성
+arr1= np.arange(10)
+arr1[0:5:1]
+>>>array([0,1,2,3,4])
+arr1[:5:1]
+>>>array([0,1,2,3,4])
+arr1[:5:],arr1[:5]
+>>>array([0,1,2,3,4]), array([0,1,2,3,4])
+arr1[2:9:2], arr1[2::2]
+>>>array([2,4,6,8]), array([2,4,6,8])
+arr1[::-1]
+>>>array([9,8,7,6,5,4,3,2,1,0])
+arr1[-1:-11:-1]
+>>>array([9,8,7,6,5,4,3,2,1,0])
+arr1[5::-1]
+>>>array([5,4,3,2,1,0])
+
+#형태변환
+arr2 = np.arange(12).reshape(-1,4) # 행이 -1이다 라는것은 정해지지않았다
+arr2
+>>> array([[0,1,2,3],
+           [4,5,6,7],
+           [8,9,10,11]])
+arr2[:3,:4]
+>>> array([[0,1,2,3],
+           [4,5,6,7],
+           [8,9,10,11]])
+arr2[:,:]
+>>> array([[0,1,2,3],
+           [4,5,6,7],
+           [8,9,10,11]])
+
+https://www.youtube.com/watch?v=rfTin5JeAas
