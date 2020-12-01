@@ -258,61 +258,59 @@
 
 
 
-#pass
-#일반 유닛
-class Unit:
-    def __init__(self, name, hp, speed): 
-      self.name = name 
-      self.hp = hp
-      self.speed = speed
+# #pass
+# #일반 유닛
+# class Unit:
+#     def __init__(self, name, hp, speed): 
+#       self.name = name 
+#       self.hp = hp
+#       self.speed = speed
                              
-    def move(self, location):
-      print("[지상 유닛 이동]")
-      print("{0} : {1} 방향으로 이동합니다. [속도 {2}]".format(self.name, location, self.speed))
+#     def move(self, location):
+#       print("[지상 유닛 이동]")
+#       print("{0} : {1} 방향으로 이동합니다. [속도 {2}]".format(self.name, location, self.speed))
 
 
-#공격 유닛
-class AttackUnit(Unit):  
-    def __init__(self, name, hp, speed, damage): 
-      Unit.__init__(self, name, hp, speed) 
-      self.damage = damage
+# #공격 유닛
+# class AttackUnit(Unit):  
+#     def __init__(self, name, hp, speed, damage): 
+#       Unit.__init__(self, name, hp, speed) 
+#       self.damage = damage
     
-    def attack(self, location):
-        print('{0} : {1} 방향으로 적군을공격 합니다. [공격력 {2}]'.format(self.name, location, self.damage))
+#     def attack(self, location):
+#         print('{0} : {1} 방향으로 적군을공격 합니다. [공격력 {2}]'.format(self.name, location, self.damage))
 
-    def damaged(self, damage):
-        print('{0} : {1} 데미지를 입었습니다.'.format(self.name, damage))
-        self.hp -= damage
-        print('{0} : 현재 체력은 {1} 입니다.'.format(self.name, self.hp))
-        if self.hp <= 0:
-            print('{0} : 파괴되었습니다.'.format(self.name))
-# 날 수 있는 기능을 가진 클래스
-class Flyable:  
-  def __init__(self, name, flying_speed):
-    self.name = name
-    self.flying_speed = flying_speed
+#     def damaged(self, damage):
+#         print('{0} : {1} 데미지를 입었습니다.'.format(self.name, damage))
+#         self.hp -= damage
+#         print('{0} : 현재 체력은 {1} 입니다.'.format(self.name, self.hp))
+#         if self.hp <= 0:
+#             print('{0} : 파괴되었습니다.'.format(self.name))
+# # 날 수 있는 기능을 가진 클래스
+# class Flyable:  
+#   def __init__(self, name, flying_speed):
+#     self.name = name
+#     self.flying_speed = flying_speed
 
-  def fly(self, name,  location):
-    print("{0} : {1} 방향으로 날아갑니다. [속도 {2}]".format(self.name, location, self.flying_speed))
+#   def fly(self, name,  location):
+#     print("{0} : {1} 방향으로 날아갑니다. [속도 {2}]".format(self.name, location, self.flying_speed))
 
-# 공중 공격 유닛 클래스 
-class FlyableAttackUnit(AttackUnit, Flyable): 
-  def __init__(self, name, hp, damage, flying_speed):
-    AttackUnit.__init__(self, name, hp, 0, damage) 
-    Flyable.__init__(self, name, flying_speed)
-  def move(self, location):
-    print("[공중 유닛 이동")
-    self.fly(self.name, location)
+# # 공중 공격 유닛 클래스 
+# class FlyableAttackUnit(AttackUnit, Flyable): 
+#   def __init__(self, name, hp, damage, flying_speed):
+#     AttackUnit.__init__(self, name, hp, 0, damage) 
+#     Flyable.__init__(self, name, flying_speed)
+#   def move(self, location):
+#     print("[공중 유닛 이동")
+#     self.fly(self.name, location)
 
-# 건물
-class BuildingUnit(Unit):
-  def __init__(self, name, hp, location):
-    pass #pass의 의미는 아무것도 안하고 일단 넘어간다.(완선된거 처럼 보여지게 하고 넘어가기)
+# # 건물
+# class BuildingUnit(Unit):
+#   def __init__(self, name, hp, location):
+#     pass #pass의 의미는 아무것도 안하고 일단 넘어간다.(완선된거 처럼 보여지게 하고 넘어가기)
 
-# 서플라이 디폿 : 거문, 1개 건물 = 8 유닛.
-supply_depot = BuildingUnit("서플라이 디폿", 500, "7시")
-
-
+# # 서플라이 디폿 : 거문, 1개 건물 = 8 유닛.
+# supply_depot = BuildingUnit("서플라이 디폿", 500, "7시")
 
 
 
@@ -326,55 +324,206 @@ supply_depot = BuildingUnit("서플라이 디폿", 500, "7시")
 
 
 
-# super
-#일반 유닛
-class Unit:
-    def __init__(self, name, hp, speed): 
-      self.name = name 
-      self.hp = hp
-      self.speed = speed
+
+
+# # super
+# #일반 유닛
+# class Unit:
+#     def __init__(self, name, hp, speed): 
+#       self.name = name 
+#       self.hp = hp
+#       self.speed = speed
                              
-    def move(self, location):
-      print("[지상 유닛 이동]")
-      print("{0} : {1} 방향으로 이동합니다. [속도 {2}]".format(self.name, location, self.speed))
+#     def move(self, location):
+#       print("[지상 유닛 이동]")
+#       print("{0} : {1} 방향으로 이동합니다. [속도 {2}]".format(self.name, location, self.speed))
 
 
-#공격 유닛
-class AttackUnit(Unit):  
-    def __init__(self, name, hp, speed, damage): 
-      Unit.__init__(self, name, hp, speed) 
-      self.damage = damage
+# #공격 유닛
+# class AttackUnit(Unit):  
+#     def __init__(self, name, hp, speed, damage): 
+#       Unit.__init__(self, name, hp, speed) 
+#       self.damage = damage
     
-    def attack(self, location):
-        print('{0} : {1} 방향으로 적군을공격 합니다. [공격력 {2}]'.format(self.name, location, self.damage))
+#     def attack(self, location):
+#         print('{0} : {1} 방향으로 적군을공격 합니다. [공격력 {2}]'.format(self.name, location, self.damage))
 
-    def damaged(self, damage):
-        print('{0} : {1} 데미지를 입었습니다.'.format(self.name, damage))
-        self.hp -= damage
-        print('{0} : 현재 체력은 {1} 입니다.'.format(self.name, self.hp))
-        if self.hp <= 0:
-            print('{0} : 파괴되었습니다.'.format(self.name))
-# 날 수 있는 기능을 가진 클래스
-class Flyable:  
-  def __init__(self, name, flying_speed):
-    self.name = name
-    self.flying_speed = flying_speed
+#     def damaged(self, damage):
+#         print('{0} : {1} 데미지를 입었습니다.'.format(self.name, damage))
+#         self.hp -= damage
+#         print('{0} : 현재 체력은 {1} 입니다.'.format(self.name, self.hp))
+#         if self.hp <= 0:
+#             print('{0} : 파괴되었습니다.'.format(self.name))
+# # 날 수 있는 기능을 가진 클래스
+# class Flyable:  
+#   def __init__(self, name, flying_speed):
+#     self.name = name
+#     self.flying_speed = flying_speed
 
-  def fly(self, name,  location):
-    print("{0} : {1} 방향으로 날아갑니다. [속도 {2}]".format(self.name, location, self.flying_speed))
+#   def fly(self, name,  location):
+#     print("{0} : {1} 방향으로 날아갑니다. [속도 {2}]".format(self.name, location, self.flying_speed))
 
-# 공중 공격 유닛 클래스 
-class FlyableAttackUnit(AttackUnit, Flyable): 
-  def __init__(self, name, hp, damage, flying_speed):
-    AttackUnit.__init__(self, name, hp, 0, damage) 
-    Flyable.__init__(self, name, flying_speed)
-  def move(self, location):
-    print("[공중 유닛 이동")
-    self.fly(self.name, location)
+# # 공중 공격 유닛 클래스 
+# class FlyableAttackUnit(AttackUnit, Flyable): 
+#   def __init__(self, name, hp, damage, flying_speed):
+#     AttackUnit.__init__(self, name, hp, 0, damage) 
+#     Flyable.__init__(self, name, flying_speed)
+#   def move(self, location):
+#     print("[공중 유닛 이동")
+#     self.fly(self.name, location)
 
-# 건물
-class BuildingUnit(Unit):
-  def __init__(self, name, hp, location):
-    #Unit.__init__(self, name, hp, 0) #이렇게 상속하여 할 수 도있지만
-    super().__init__(name, hp, 0) #super로 상속할 수 있는데 이때 self는 가져오지 않고 super뒤에 괄호 붙여준다. 하지만 문제는 다중상속할 때 발생한다. 다중상속때 super를 사용하면 첫번째 인자에 있는 상속자만 상속된다.
-    self.location = location
+# # 건물
+# class BuildingUnit(Unit):
+#   def __init__(self, name, hp, location):
+#     #Unit.__init__(self, name, hp, 0) #이렇게 상속하여 할 수 도있지만
+#     super().__init__(name, hp, 0) #super로 상속할 수 있는데 이때 self는 가져오지 않고 super뒤에 괄호 붙여준다. 하지만 문제는 다중상속할 때 발생한다. 다중상속때 super를 사용하면 첫번째 인자에 있는 상속자만 상속된다.
+#     self.location = location
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # 예외 처리
+
+# try:
+#   print('나누기 전용 계산기입니다.')
+#   num1 = int(input("첫 번째 숫자를 입력하세요 : "))
+#   num2 = int(input("두 번째 숫자를 입력하세요 : "))
+#   print("{0} / {1} = {2}".format(num1, num2, int(num1/num2)))
+# except ValueError:
+#   print("에러! 잘못된 값을 입력하였습니다.")
+# except ZeroDivisionError as err:
+#   print(err)
+# except: # 지정해준 에러 이외의 것이 발생했을때
+#   print('알 수 없는 에러가 발생하였습니다.')
+# except Exception as err: # 지정하지 않은 에러가 무슨 에러인지 알고 싶을때
+#   print('알 수 없는 에러가 발생하였습니다.')
+#   print(err)
+
+
+# # 에러 발생 시키기
+# try:
+#   print('한 자리 숫자 나누기 전용 계산기입니다.')
+#   num1 = int(input('첫 번째 숫자를 입력하세요 : '))
+#   num2 = int(input('첫 번째 숫자를 입력하세요 : '))
+#   if num1 >= 10 or num2 >= 10:
+#     raise ValueError
+#   print('{0} / {1} = {2}'.format(num1, num2, int(num1 / num2)))
+# except ValueError:
+#   print('잘못된 값을 입력하였습니다. 한 자리 숫자만 입력하세요.')
+
+
+# 사용자 정의 예외처리
+# class BigNumberError(Exception):
+#   def __init__(self, msg):
+#     self.msg = msg
+
+#   def __str__(self):
+#     return self.msg
+
+# try:
+#   print('한 자리 숫자 나누기 전용 계산기입니다.')
+#   num1 = int(input('첫 번째 숫자를 입력하세요 : '))
+#   num2 = int(input('첫 번째 숫자를 입력하세요 : '))
+#   if num1 >= 10 or num2 >= 10:
+#     raise BigNumberError('입력값 : {0}, {1}'.format(num1, num2))
+#   print('{0} / {1} = {2}'.format(num1, num2, int(num1 / num2)))
+# except ValueError:
+#   print("잘못된 값을 입력하였습니다. 한 자리 숫자만 입력하세요.")
+# except BigNumberError as err:
+#   print('에러가 발생 하였습니다. 한 자리 숫자만 입력하세요.')
+#   print(err)
+
+
+
+
+# # finally
+# class BigNumberError(Exception):
+#   def __init__(self, msg):
+#     self.msg = msg
+
+#   def __str__(self):
+#     return self.msg
+
+# try:
+#   print('한 자리 숫자 나누기 전용 계산기입니다.')
+#   num1 = int(input('첫 번째 숫자를 입력하세요 : '))
+#   num2 = int(input('첫 번째 숫자를 입력하세요 : '))
+#   if num1 >= 10 or num2 >= 10:
+#     raise BigNumberError('입력값 : {0}, {1}'.format(num1, num2))
+#   print('{0} / {1} = {2}'.format(num1, num2, int(num1 / num2)))
+# except ValueError:
+#   print("잘못된 값을 입력하였습니다. 한 자리 숫자만 입력하세요.")
+# except BigNumberError as err:
+#   print('에러가 발생 하였습니다. 한 자리 숫자만 입력하세요.')
+#   print(err)
+# finally:
+#   print('계산기를 이용해 주셔서 감사합니다.')
+
+
+
+
+
+
+
+
+
+
+# # 모듈 위치 찾기
+# import inspect
+# import random
+# import numpy as np
+# print(inspect.getfile(np))
+
+
+
+# #패키지 설치하기
+# 터미널 창에 pip install <원하는 패키지>
+# pip list 하면 현재 가지고 있는 패키지 리스트
+
+# #깔려있는 패키지 업그레이드
+# pip install --upgrade <패키지 명>
+
+# #패키지 삭제
+# pip uninstall <패키지 명>
+
+
+# #glob : 경로 내의 폴더 / 파일 목록 조회 (윈도우 dir)
+# import glob
+# print(glob.glob('*.py')) #확장자가 py인 모든 파일
+
+# #os : 운영체제에서 제공하는 기본 기능
+# import os
+# print(os.getcwd()) #현재 디렉토리
+
+# folder = "sample_dir"
+# if os.path.exists(folder): #sample_dir이라는 폴더가 있으면 이 구문을 탄다
+#     print('이미 존재하는 폴더입니다.')
+#     #삭제할 떄는 OS.rmdir(folder)
+# else: 
+#     os.makedirs(folder) #폴더생성
+#     print(folder, '폴더를 생성하였습니다.')
+
+
+# print(os.listdir)
+
+# import time
+# print(time.localtime())
+# print(time.strftime('%y-%m-%d %H : %M : %S'))
+
+import datetime
+# print('오늘 날짜는', datetime.date.today)
+
+#timedelta : 두 날짜 사이의 간격
+today = datetime.date.today()
+td = datetime.timedelta(days = 100)
+print('우리가 만난지 100일은', today + td)
+
