@@ -519,11 +519,28 @@
 # print(time.localtime())
 # print(time.strftime('%y-%m-%d %H : %M : %S'))
 
-import datetime
-# print('오늘 날짜는', datetime.date.today)
+# import datetime
+# # print('오늘 날짜는', datetime.date.today)
 
-#timedelta : 두 날짜 사이의 간격
-today = datetime.date.today()
-td = datetime.timedelta(days = 100)
-print('우리가 만난지 100일은', today + td)
+# #timedelta : 두 날짜 사이의 간격
+# today = datetime.date.today()
+# td = datetime.timedelta(days = 100)
+# print('우리가 만난지 100일은', today + td)
+
+
+
+# 1부터 입력받은 숫자 N사이에 있는 소수의 개수를 반환하는 
+# 함수, SOLUTION을 만들어 보세요
+
+#  조건 : N은 2이상 1000000이하 자연수
+
+n = int(input('2이상 1000000이하 자연수를 입력하시오. : '))
+
+def solution(n):
+    for i in range(n + 1):
+        if i%2 == 1 or i%3 == 1 or i%5 == 1 or i%7 ==1:
+            return n
+
+
+
 
