@@ -95,13 +95,16 @@ print(A, A, A)
 
 18. 어떤 형식에 맞추어 시간이 입력될 때, 그대로 출력하는 연습을 해보자.
 ```
-
+hour, minute = input().split(':')
+print(hour+':'+minute)
 ```
 
 19. 년, 월, 일을 입력받아 지정된 형식으로 출력하는 연습을 해보자.
 ```
-
+yyyy, mm, dd = input().split('.')
+print('%04d' % int(yyyy)+'.'+'%02d' % int(mm)+'.'+'%02d' % int(dd))
 ```
+풀이) '%04d' 는 정수를 4자리를 가져올건데 부족한자리수는 0으로 채움
 
 20. 
 주민번호는 다음과 같이 구성된다.
@@ -112,6 +115,11 @@ XXXXXX-XXXXXXX
 주민번호를 입력받아 형태를 바꿔 출력해보자.
 
 ```
-
+a =input()
+print(a.replace('-',''))
 ```
 
+```
+a, b =input().split('-')
+print(a+b)
+```
