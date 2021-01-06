@@ -123,3 +123,25 @@ print(a.replace('-',''))
 a, b =input().split('-')
 print(a+b)
 ```
+
+21. 1개의 단어를 입력받아 그대로 출력해 보자.(50자이하만 출력)
+
+```
+word = input()
+if len(word) <= 50:
+    print(word)
+```
+
+22. 공백 문자가 포함되어 있는 문장을 입력받고 그대로 출력하는 연습을 해보자
+
+```
+sentense = input()
+print(sentense)
+```
+
+23. 실수1개 입력받아 정수 부분과 실수 부분으로 나누어 출력한다.
+```
+d, f = input().split('.')
+print(d)
+print(f)
+```
