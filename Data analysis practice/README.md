@@ -1,167 +1,92 @@
-### 코드업 기초 100제
+## 캐글 및 데이터 분석에 대한 메모입니다.(캐글 데이터분석캠프 영상 참고 후 메모)
 
-1. Hello 출력하기
-```
-print('Hello')
-```
-2. Hello World
-```
-print('Hello World')
-```
-3.
-Hello
+### 용어 정리
+competition : 대회, Dataset : 데이터 셋, NoteBook : 코드 공유, 듀토리얼 공유, Discussion : Text로 의견공유, 팀원모집, 솔루션공유등
 
-World
-```
-print('Hello\nWorld')
-```
-4. 'Hello'
-```
-print("'Hello'")
-```
+### 목표
+공부, 메달, 상금, 성취감
 
-5. "Hello World"
-```
-print('"Hello World"')
-```
-6. "!@#$%^&*()"
-(단, 큰따옴표도 함께 출력한다.)
-```
-print('"!@#$%^&*()"')
-```
-7. "C:\Download\hello.cpp"
-(단, 큰따옴표도 함께 출력한다.)
-```
-print('"C:\\Download\\hello.cpp"')
-```
-8.
-┌┬┐
+### 티어 와 메달
+티어 : 초록-> 하늘 ->보라(Expert) -> 주황(Master) -> 금색(GrandMaster)
+메달 : 동 -> 은 -> 금
 
-├┼┤
+### 기타
+현업에 깔끔한 데이터가 없다, 앙상블 위주의 접근, 그냥문제풀이 아니냐 등의 부정적 측면 말고
+본인이 얻고 싶은것을 명확히 하기 ( 다양한 도메인 지식, 우승 솔루션을통한 전체적인 프로세스 공략, 정지된 데이터 모델링 초점, 고전적인 방법부터
+최신 논문까지 활용 가능)
 
-└┴┘
-```
-print("\u250c\u252c\u2510\n\u251c\u253c\u2524\n\u2514\u2534\u2518")
-```
-10. 정수형(int)으로 변수를 선언하고, 변수에 정수값을 저장한 후
-변수에 저장되어 있는 값을 그대로 출력해보자.
-```
-a = int(input(''))
-print(a)
-```
-11. 문자형(char)으로 변수를 하나 선언하고, 변수에 문자를 저장한 후
-변수에 저장되어 있는 문자를 그대로 출력해보자.
-```
-a = str(input(''))
-print(a)
-```
-12. 실수형(float)로 변수를 선언하고 그 변수에 실수값을 저장한 후
-저장되어 있는 실수값을 출력해보자.
-```
-a=float(input())
-print('%.6f'%a)
-```
-(소수점 이하 자릿수 지정 : '%.자릿수f'%숫자)
+### Competitions
 
-13. 정수(int) 2개를 입력받아 그대로 출력해보자.
-```
-a, b = input().split()
-x = int(a)
-y = int(b)
-print(x, y)
-```
-split 함수를 통해 공백을 기준으로 하여 a와 b로 나누어 주어서 확실하게 정수로 받기위해서 int를 통해 
-각각을 x와 y로 저장을 해주고 출력을 한다.
+대회타입 
+* Featrued : 스코어 대회
+* Analytics : 분석 대회
+* Research : 연구 대회
+* Getting Started : 듀토리얼
+* Play ground : 재미용 대회
 
-14. 2개의 문자(ASCII CODE)를 입력받아서 순서를 바꿔 출력해보자.
-```
-d1, d2 = input().split()
-str(print(d2, d1))
-```
+제출 방식
+* Simple Competition : 제출 파일만 제출
+* code competition : 코드로 제출
 
-15. 실수(float) 1개를 입력받아 저장한 후,
-저장되어 있는 값을 소수점 셋 째 자리에서 반올림하여
-소수점 이하 둘 째 자리까지 출력하시오.
-```
-a = float(input())
-print('%.2f'%a)
-```
+### 대회 세부 확인
+* 대회가 어떤 주제인지 Description 확인
+* Data의 종류와 분량 확인(EDA)
+* Evaluation 확인 + 리더보드 대략 확인(이미 사람들이 정확도 최고를 찍었는데 내가 한다고 얻을 수 있는게 있을까?? 등등)
+* 기존에 논의된 Discussion 살펴보기
+* Upvote 많은 Notebook 살펴보기
+* Leaderboard : public = 대회 중간 score, private = 대회 최종 score / 제출한 Test Data의 33% public 나머지 priavate
+* Notebook 퀄리티 높히기 : 마크업, 링크, 설명 등등
 
-17. int형 정수 1개를 입력받아 공백을 사이에 두고 3번 출력해보자.
-```
-A= int(input(''))
-print(A, A, A)
-```
 
-18. 어떤 형식에 맞추어 시간이 입력될 때, 그대로 출력하는 연습을 해보자.
-```
-hour, minute = input().split(':')
-print(hour+':'+minute)
-```
+### 머신러닝
 
-19. 년, 월, 일을 입력받아 지정된 형식으로 출력하는 연습을 해보자.
-```
-yyyy, mm, dd = input().split('.')
-print('%04d' % int(yyyy)+'.'+'%02d' % int(mm)+'.'+'%02d' % int(dd))
-```
-풀이) '%04d' 는 정수를 4자리를 가져올건데 부족한자리수는 0으로 채움
+입력 -> EDA -> 전처리 -> 모델 -> 결과
+      
+입력->EDA(데이터에서 인사이트 찾기) -> 전처리(모델에 적합하게 수정, Feature Engineer/Selection, 도메인지식활용) -> 모델 -> 결과
+결과 -> 모델 ( Hyperparameter개선, 여러모델 시도, 모델 합치기(앙상블)
+결과 -> EDA(새로운 인사이트)
 
-20. 
-주민번호는 다음과 같이 구성된다.
+### 입력
+CSV파일, 판다스 라이브러리 (일반 크기의 파일)
 
-XXXXXX-XXXXXXX
+Dask, Datable, Rapids (큰 데이터)
 
-앞의 6자리는 생년월일(yymmdd)이고 뒤 7자리는 성별, 지역, 오류검출코드이다.
-주민번호를 입력받아 형태를 바꿔 출력해보자.
+### EDA
+Pandas, Matplot, seaborn, plotly
 
-```
-a =input()
-print(a.replace('-',''))
-```
+##### 실제 이 단계에서 봐야할 것
+* 어떤 문제를 해결하려고 하는가
+* 어떤 종류의 데이터가 있고 어떻게 처리할까??(어떤데이터 이니까 어떻게 인코딩 해야겠다)
+* 데이터의 누락값이 무엇이고, 이를 어떻게 처리할까?
+* 특이 값(outlier)은 어디에 있으며 이를 어떻게 처리할까?
+* 데이터를 최대한 활용하기 위해 어떻게 새로운 피쳐를 만들까
 
-```
-a, b =input().split('-')
-print(a+b)
-```
+##### 데이터 살피기
+* 어떤 데이터 인지, 모델에 넣을수 있는 데이터 인지
+* numerical / categorical
+* numerical : 이산형(정수로 나누어 지는것)/ 연속형(연속적인값, 예를들면 나이)
+* categorical : 명목형(순서 상관x)/ 순서형(순서가 있는것)
+* feature들을 적어보고 숫자 데이터 간의 관계 확인, 숫자와 categorical데이터 간의 관계 확인, categorical 데이터들 간의 관계 확인
 
-21. 1개의 단어를 입력받아 그대로 출력해 보자.(50자이하만 출력)
+##### ML 
+* 머신러닝의 기본은 통계 
+* 시각화를 하는 이유는 : 이해
+* What would you like to show?? : 구성(comparison), 분포(distribution,나이분포등..), 관계(Relation, 데이터들의 관계), 데이터간의 차이
 
-```
-word = input()
-if len(word) <= 50:
-    print(word)
-```
+### 전처리
+* Feature Engineering : 어떻게 새롭게 만들것인가, 조합할것인가
+* Feature Seletion : 어떻게 Feature를 선택할 것인가.
+* 도메인 지시고가 모델의 특성에 맞게
 
-22. 공백 문자가 포함되어 있는 문장을 입력받고 그대로 출력하는 연습을 해보자
+### 모델
+* ml모델
+* 부스팅 모델
+* 스태킹, 앙상블 등등
 
-```
-sentense = input()
-print(sentense)
-```
+### 결과
+* score이해
+* overfitting 과의 싸움
+* Hyperparameter 바꿔가며 실험
+* 다시 돌아가며 EDA 부터 
 
-23. 실수1개 입력받아 정수 부분과 실수 부분으로 나누어 출력한다.
-```
-d, f = input().split('.')
-print(d)
-print(f)
-```
 
-24. 단어를 1개 입력받는다. 입력받은 단어(영어)의 각 문자를 한줄에 한 문자씩 분리해 출력한다.(단, 단어의 길이는 20자 이하이다)
-
-```
-a = input()
-for b in a:
-    print("'"+b+"'")
-```
-
-25. 다섯 자리의 정수 1개를 입력받아 각 자리별로 나누어 출력한다
-
-```
-n=input()
-
-print('['+str(int(n[0])*10000)+']')
-print('['+str(int(n[1])*1000)+']')
-print('['+str(int(n[2])*100)+']')
-print('['+str(int(n[3])*10)+']')
-print('['+str(int(n[4]))+']')
-```
