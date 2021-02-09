@@ -121,3 +121,8 @@ Pandas, Matplot, seaborn, plotly
 * 예를 들면 A형: 1 , B형: 2, c형: 3 일때 A형 + B형 = C형 이라는 관계가 생기게 된다.
 * 따라서 이러한 Norminal 데이터는 one-hot 인코딩을 사용해주고
 * Ordinal 데이터는 순서가 있기 때문에 LabelEncoder()를 사용해도 무방하다.
+
+### 인코딩 방법 정리
+
+* Norminal 데이터 = one-hot인코딩(get_dummies), map()
+* Ordinal 데이터 = LabelEncoder()
