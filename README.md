@@ -1,2 +1,2 @@
-### 혼자서 코딩을 연습하고 기록하기 위해서 만들어 둔 저장소이다.
-### 21년 2월 기준 데이터 분석을 주로 공부하고 있으며 시작하게 된 이유는 데이터 분석을통한 예측과 의사결정을 통해 세상에 좋은 임펙트를 주고싶기위해 시작했다.
+# 코세라 수료증
+Programming for Everybody (Getting Started with Python) <https://coursera.org/share/dd9f298aba2352d12e6f8e2d2d98338c>
