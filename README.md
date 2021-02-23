@@ -4,3 +4,7 @@
 2. Python Data Structures  <https://coursera.org/share/b9ad8f7feb7f0bc87532526629a01dc3>
  
 (1, 2번 블로그 <https://blog.naver.com/ljs7463/222249577621>)
+
+# 블로그 링크
+1. 타이타닉 생존자 예측 (데이터확인) <https://blog.naver.com/ljs7463/222253966591>
+2. 타이타닉 생존자 예측 (시각화)
