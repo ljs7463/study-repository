@@ -8,6 +8,6 @@
 # 블로그 링크
 1. 타이타닉 생존자 예측 (데이터확인) <https://blog.naver.com/ljs7463/222253966591>
 2. 타이타닉 생존자 예측 (시각화를 통한 데이터탐색하기) <https://blog.naver.com/ljs7463/222289623844>
-
+3. 타이타닉 생존자 예측 (데이터 전처리) <https://blog.naver.com/ljs7463/222299723063>
 # 모두를 위한 머신러닝, 딥러닝 정리
 <https://blog.naver.com/PostList.nhn?blogId=ljs7463&from=postList&categoryNo=28>
