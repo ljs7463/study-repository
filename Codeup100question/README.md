@@ -165,3 +165,11 @@ print('['+str(int(n[2])*100)+']')
 print('['+str(int(n[3])*10)+']')
 print('['+str(int(n[4]))+']')
 ```
+
+26. 시분초 입력받아 분만 출력하기
+
+```
+num = [int(x) for x in input().strip().split(":")]
+print(num[1])
+
+```
