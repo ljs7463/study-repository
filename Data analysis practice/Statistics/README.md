@@ -1,17 +1,13 @@
-# 코세라 수료증 
-
-1. Programming for Everybody (Getting Started with Python) <https://coursera.org/share/dd9f298aba2352d12e6f8e2d2d98338c>
-2. Python Data Structures  <https://coursera.org/share/b9ad8f7feb7f0bc87532526629a01dc3>
- 
-(1, 2번 블로그 <https://blog.naver.com/ljs7463/222249577621>)
-
-# 블로그 링크
-1. 타이타닉 생존자 예측 (데이터확인) <https://blog.naver.com/ljs7463/222253966591>
-2. 타이타닉 생존자 예측 (시각화를 통한 데이터탐색하기) <https://blog.naver.com/ljs7463/222289623844>
-3. 타이타닉 생존자 예측 (데이터 전처리) <https://blog.naver.com/ljs7463/222299723063>
-
-4. Telco 고객 이탈 방지 모델 만들기(소개)<https://blog.naver.com/ljs7463/222316544585>
-
-
-# 모두를 위한 머신러닝, 딥러닝 정리
-<https://blog.naver.com/PostList.nhn?blogId=ljs7463&from=postList&categoryNo=28>
+# Data
+- Categorical(범주로 나누어진 자료)
+  - Nominal(명목) : 순서가 없고, 셀 수 있다/ 성별, 성공여부, 혈액형이 포함된다 (One-Hot Encoding)
+  - Ordinal(순서) : 카테고리들이 순서가 있다./ 매우만족, 만족, 보통이 대표적인 예다.(Label Encoding)
+- Numerical(이산형과 연속형으로 나누어진 자료)
+  - Discrete(이산) : 수치적 의미를 가지지만 소수점X -> 사람이 3.5명x, 사람은 3명
+  - Continuous(연속) : 소수점이 가능하며 측정 가능한 데이터/ 키, 몸무게 -> 180, 180.1, 180.2,.....
+--------------------------------------------------------------------------------------------------------------------------------------
+# EDA
+ - 시각화 같은 도구를 통해서 패턴을 발견하거나
+ - 데이터의 특이성을 확인하거나
+ - 통계와 그래프(혹은 시각적 표현)을 통해서 가설을 검증하는 과정
+ --------------------------------------------------------------------------------------------------------------------------------------
