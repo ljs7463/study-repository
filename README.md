@@ -11,7 +11,7 @@
 3. 타이타닉 생존자 예측 (데이터 전처리) <https://blog.naver.com/ljs7463/222299723063>
 
 4. Telco 고객 이탈 방지 모델 만들기(소개)<https://blog.naver.com/ljs7463/222316544585>
-
+5. Telco 고객 이탈방지 모델만들기(데이터 탐색과 시각화 1) <https://blog.naver.com/ljs7463/222324974737>
 
 # 모두를 위한 머신러닝, 딥러닝 정리
 <https://blog.naver.com/PostList.nhn?blogId=ljs7463&from=postList&categoryNo=28>
