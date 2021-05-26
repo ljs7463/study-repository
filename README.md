@@ -15,3 +15,7 @@
 
 # 모두를 위한 머신러닝, 딥러닝 정리
 <https://blog.naver.com/PostList.nhn?blogId=ljs7463&from=postList&categoryNo=28>
+
+# 각종 학습 흔적
+1. 통계 <https://blog.naver.com/ljs7463/222357394598>
+2. 
