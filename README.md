@@ -27,8 +27,8 @@
 18. 머신러닝 학습을 위한 데이터셋 분리(train,test,validation) <https://velog.io/@ljs7463/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%ED%95%99%EC%8A%B5%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%85%8B-%EB%B6%84%EB%A6%ACtraintestvalidation>
 19. 회귀모델 평가지표(evaluation metrics)<https://velog.io/@ljs7463/%ED%9A%8C%EA%B7%80%EB%AA%A8%EB%8D%B8-%ED%8F%89%EA%B0%80%EC%A7%80%ED%91%9Cevaluation-metrics >
 20. 편향-분산 트레이드오프<https://velog.io/@ljs7463/%ED%8E%B8%ED%96%A5-%EB%B6%84%EC%82%B0-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%93%9C%EC%98%A4%ED%94%84>
-
-
+21. Nominal데이터 인코딩(One-hot-encoding, get_dummies) <https://velog.io/@ljs7463/Nominal%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%9D%B8%EC%BD%94%EB%94%A9One-hot-encoding-getdummies>
+22. 릿지회귀(Ridge Regression)<https://velog.io/@ljs7463/%EB%A6%BF%EC%A7%80%ED%9A%8C%EA%B7%80Ridge-Regression>
 
 # 모두를 위한 머신러닝, 딥러닝 정리
 <https://blog.naver.com/PostList.nhn?blogId=ljs7463&from=postList&categoryNo=28>
