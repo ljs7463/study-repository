@@ -29,7 +29,8 @@
 20. 편향-분산 트레이드오프<https://velog.io/@ljs7463/%ED%8E%B8%ED%96%A5-%EB%B6%84%EC%82%B0-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%93%9C%EC%98%A4%ED%94%84>
 21. Nominal데이터 인코딩(One-hot-encoding, get_dummies) <https://velog.io/@ljs7463/Nominal%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%9D%B8%EC%BD%94%EB%94%A9One-hot-encoding-getdummies>
 22. 릿지회귀(Ridge Regression)<https://velog.io/@ljs7463/%EB%A6%BF%EC%A7%80%ED%9A%8C%EA%B7%80Ridge-Regression>
-
+23. 사이킷런 파이프라인(Pipelines) <https://velog.io/@ljs7463/%EC%82%AC%EC%9D%B4%ED%82%B7%EB%9F%B0-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8Pipelines>.
+24. 결정트리(Decision Tree)모델(Model)(수정중) <https://velog.io/@ljs7463/%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%ACDecision-Tree%EB%AA%A8%EB%8D%B8Model>
 # 모두를 위한 머신러닝, 딥러닝 정리
 <https://blog.naver.com/PostList.nhn?blogId=ljs7463&from=postList&categoryNo=28>
 
