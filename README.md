@@ -31,6 +31,10 @@
 22. 릿지회귀(Ridge Regression)<https://velog.io/@ljs7463/%EB%A6%BF%EC%A7%80%ED%9A%8C%EA%B7%80Ridge-Regression>
 23. 사이킷런 파이프라인(Pipelines) <https://velog.io/@ljs7463/%EC%82%AC%EC%9D%B4%ED%82%B7%EB%9F%B0-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8Pipelines>.
 24. 결정트리(Decision Tree)모델(Model)(수정중) <https://velog.io/@ljs7463/%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%ACDecision-Tree%EB%AA%A8%EB%8D%B8Model>
+25. 앙상블 학습 <https://velog.io/@ljs7463/%EC%95%99%EC%83%81%EB%B8%94-%ED%95%99%EC%8A%B5>
+
+
+
 # 모두를 위한 머신러닝, 딥러닝 정리
 <https://blog.naver.com/PostList.nhn?blogId=ljs7463&from=postList&categoryNo=28>
 
