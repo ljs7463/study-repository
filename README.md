@@ -26,7 +26,7 @@
 23. 사이킷런 파이프라인(Pipelines) <https://velog.io/@ljs7463/%EC%82%AC%EC%9D%B4%ED%82%B7%EB%9F%B0-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8Pipelines>.
 24. 결정트리(Decision Tree)모델(Model)(수정중) <https://velog.io/@ljs7463/%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%ACDecision-Tree%EB%AA%A8%EB%8D%B8Model>
 25. 앙상블 학습 <https://velog.io/@ljs7463/%EC%95%99%EC%83%81%EB%B8%94-%ED%95%99%EC%8A%B5>
-
+26. 랜덤 포레스트(RandomForest)모델 <https://velog.io/@ljs7463/%EB%9E%9C%EB%8D%A4-%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8RandomForest%EB%AA%A8%EB%8D%B8>
 
 
 
