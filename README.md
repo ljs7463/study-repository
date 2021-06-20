@@ -14,7 +14,7 @@
 ###### 11. 변수의 종류와 의미 <https://velog.io/@ljs7463/%EB%B3%80%EC%88%98%EC%9D%98-%EC%A2%85%EB%A5%98%EC%99%80-%EC%9D%98%EB%AF%B8 >
 ###### 12. 판다스 결측값 제거하기(dropna()) <https://velog.io/@ljs7463/%ED%8C%90%EB%8B%A4%EC%8A%A4-%EA%B2%B0%EC%B8%A1%EA%B0%92-%EC%A0%9C%EA%B1%B0%ED%95%98%EA%B8%B0dropna>
 ###### 13. 정규표현식 re.sub()을 이용한 문자열 치환<https://velog.io/@ljs7463/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D-re.sub%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%B9%98%ED%99%98>
-###### 14. https://velog.io/@ljs7463/%EB%84%98%ED%8C%8C%EC%9D%B4-%EC%A1%B0%EA%B1%B4%EC%97%90-%EB%A7%9E%EB%8A%94-%EC%9D%B8%EB%8D%B1%EC%8A%A4-%EB%B0%8F-%EA%B0%92-%EB%B0%98%ED%99%98%ED%95%A8%EC%88%98np.wherenp.argmax <https://velog.io/@ljs7463/%EB%84%98%ED%8C%8C%EC%9D%B4-%EC%A1%B0%EA%B1%B4%EC%97%90-%EB%A7%9E%EB%8A%94-%EC%9D%B8%EB%8D%B1%EC%8A%A4-%EB%B0%8F-%EA%B0%92-%EB%B0%98%ED%99%98%ED%95%A8%EC%88%98np.wherenp.argmax>
+###### 14. 넘파이 조건에 맞는 인덱스 및 값 반환함수(np.where,np.argmax)<https://velog.io/@ljs7463/%EB%84%98%ED%8C%8C%EC%9D%B4-%EC%A1%B0%EA%B1%B4%EC%97%90-%EB%A7%9E%EB%8A%94-%EC%9D%B8%EB%8D%B1%EC%8A%A4-%EB%B0%8F-%EA%B0%92-%EB%B0%98%ED%99%98%ED%95%A8%EC%88%98np.wherenp.argmax>
 ###### 15. 넘파이로 이상치 확인 함수 구현 <https://velog.io/@ljs7463/%EB%84%98%ED%8C%8C%EC%9D%B4%EB%A1%9C-%EC%9D%B4%EC%83%81%EC%B9%98-%ED%99%95%EC%9D%B8-%ED%95%A8%EC%88%98-%EA%B5%AC%ED%98%84>
 ###### 16. 판다스 데이터프레임 재구조화 정리 <https://velog.io/@ljs7463/%ED%8C%90%EB%8B%A4%EC%8A%A4-%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%94%84%EB%A0%88%EC%9E%84-%EC%9E%AC%EA%B5%AC%EC%A1%B0%ED%99%94-%EC%A0%95%EB%A6%AC >
 ###### 17. 단순선형회귀, 다중선형회귀 <https://velog.io/@ljs7463/%EB%8B%A8%EC%88%9C%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80Simple-Regression>
