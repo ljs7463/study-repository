@@ -27,7 +27,7 @@
 ###### 24. 결정트리(Decision Tree)모델(Model)(수정중) <https://velog.io/@ljs7463/%EA%B2%B0%EC%A0%95%ED%8A%B8%EB%A6%ACDecision-Tree%EB%AA%A8%EB%8D%B8Model>
 ###### 25. 앙상블 학습 <https://velog.io/@ljs7463/%EC%95%99%EC%83%81%EB%B8%94-%ED%95%99%EC%8A%B5>
 ###### 26. 랜덤 포레스트(RandomForest)모델 <https://velog.io/@ljs7463/%EB%9E%9C%EB%8D%A4-%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8RandomForest%EB%AA%A8%EB%8D%B8>
-
+###### 27. 머신러닝 모델 평가(정밀도,재현율,f1-score등) < https://velog.io/@ljs7463/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%AA%A8%EB%8D%B8-%ED%8F%89%EA%B0%80%EC%A0%95%EB%B0%80%EB%8F%84%EC%9E%AC%ED%98%84%EC%9C%A8f1-score%EB%93%B1>
 
 
 ---
