@@ -34,4 +34,6 @@
 머신러닝 완벽가이드 공부
 https://velog.io/@ljs7463?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%99%84%EB%B2%BD%EA%B0%80%EC%9D%B4%EB%93%9C
 
-
+---
+# 코드스테이츠 후기(매주차 업데이트)
+코드스테이츠 AI부트캠프 후기(누적)<https://velog.io/@ljs7463/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0-AI%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%ED%9B%84%EA%B8%B0%EB%88%84%EC%A0%81>
