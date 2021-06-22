@@ -43,3 +43,5 @@ ___
 https://brunch.co.kr/@hozoon1027/10
 
 https://brunch.co.kr/@changsikcho33ug#articles
+
+https://brunch.co.kr/brunchbook/dataliteracy
