@@ -31,6 +31,7 @@
 ###### 28. 교차검증과 하이퍼파라미터 튜닝<https://velog.io/@ljs7463/%EA%B5%90%EC%B0%A8%EA%B2%80%EC%A6%9D%EA%B3%BC-%ED%95%98%EC%9D%B4%ED%8D%BC%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0-%ED%8A%9C%EB%8B%9D>
 ###### 29. 인코딩 방법<https://velog.io/@ljs7463/%EC%9D%B8%EC%BD%94%EB%94%A9-%EB%B0%A9%EB%B2%95>
 ###### 30. 특성중요도<https://velog.io/@ljs7463/%ED%8A%B9%EC%84%B1%EC%A4%91%EC%9A%94%EB%8F%84>
+###### 31. 피처 스케일링(StandardScaler,MinMaxScaler) <https://velog.io/@ljs7463/%ED%94%BC%EC%B2%98-%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81StandardScalerMinMaxScaler>
 ---
 머신러닝 완벽가이드 공부
 https://velog.io/@ljs7463?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%99%84%EB%B2%BD%EA%B0%80%EC%9D%B4%EB%93%9C
