@@ -35,6 +35,7 @@
 ###### 32. 위드클라우드 활용하기 <https://velog.io/@ljs7463/%EC%9C%84%EB%93%9C%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0>
 ###### 33. git가이드
 ###### 34. SQL기초 <https://velog.io/@ljs7463/SQL-%EA%B8%B0%EC%B4%88>
+###### 35. 파이썬 기초 <https://velog.io/@ljs7463/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EC%B4%88>
 ---
 머신러닝 완벽가이드 공부
 https://velog.io/@ljs7463?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%99%84%EB%B2%BD%EA%B0%80%EC%9D%B4%EB%93%9C
