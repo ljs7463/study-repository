@@ -1,5 +1,9 @@
 # 공부 흔적
+
+# 딥러닝 아이디어 공모전 프로젝트
 딥러닝 프로젝트 <https://blog.naver.com/ljs7463/222244134328>
+
+# 개인 공부
 ###### 1. 타이타닉 생존자 예측 (데이터확인) <https://blog.naver.com/ljs7463/222253966591>
 ###### 2. 타이타닉 생존자 예측 (시각화를 통한 데이터탐색하기) <https://blog.naver.com/ljs7463/222289623844>
 ###### 3. 타이타닉 생존자 예측 (데이터 전처리) <https://blog.naver.com/ljs7463/222299723063>
@@ -36,6 +40,9 @@
 ###### 33. git가이드
 ###### 34. SQL 기초(SQLIte사용) <https://velog.io/@ljs7463/SQL-%EA%B8%B0%EC%B4%88>
 
+
+# 짧은 글쓰기
+##### 내가 되고싶은 데이터분석가의 모습 <https://velog.io/@ljs7463/%EB%82%B4%EA%B0%80-%EB%90%98%EA%B3%A0%EC%8B%B6%EC%9D%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EB%AA%A8%EC%8A%B5>
 ---
 머신러닝 완벽가이드 공부
 https://velog.io/@ljs7463?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%99%84%EB%B2%BD%EA%B0%80%EC%9D%B4%EB%93%9C
