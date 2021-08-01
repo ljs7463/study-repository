@@ -39,7 +39,11 @@
 ###### 32. 위드클라우드 활용하기 <https://velog.io/@ljs7463/%EC%9C%84%EB%93%9C%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0>
 ###### 33. git가이드
 ###### 34. SQL 기초(SQLIte사용) <https://velog.io/@ljs7463/SQL-%EA%B8%B0%EC%B4%88>
-
+###### 35. [웹 크롤링]BeautifulSoup, Selenium 비교 <https://velog.io/@ljs7463/%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%A7%81BeautifulSoup-Selenium>
+###### 36. 웹페이지 스크레핑/크롤링<기본> <https://velog.io/@ljs7463/%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%8A%A4%ED%81%AC%EB%A0%88%ED%95%91%ED%81%AC%EB%A1%A4%EB%A7%81%EA%B8%B0%EB%B3%B8>
+###### 37. Practical Statistics for Data Science (1)위치추정 <https://velog.io/@ljs7463/Practical-Statistics-for-Data-Science-1%EC%9C%84%EC%B9%98%EC%B6%94%EC%A0%95>
+###### 38. Practical Statistics for Data Science (2)변이추정 <https://velog.io/@ljs7463/Practical-Statistics-for-Data-Science-2%EB%B3%80%EC%9D%B4%EC%B6%94%EC%A0%95>
+###### 39. Practical Statistics for Data Science (3) 분포탐색하기 <https://velog.io/@ljs7463/Practical-Statistics-for-Data-Science-3-%EB%B6%84%ED%8F%AC%ED%83%90%EC%83%89%ED%95%98%EA%B8%B0 
 
 # 짧은 글쓰기
 ##### 내가 되고싶은 데이터분석가의 모습 <https://velog.io/@ljs7463/%EB%82%B4%EA%B0%80-%EB%90%98%EA%B3%A0%EC%8B%B6%EC%9D%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EB%AA%A8%EC%8A%B5>
