@@ -43,7 +43,7 @@
 ###### 36. 웹페이지 스크레핑/크롤링<기본> <https://velog.io/@ljs7463/%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%8A%A4%ED%81%AC%EB%A0%88%ED%95%91%ED%81%AC%EB%A1%A4%EB%A7%81%EA%B8%B0%EB%B3%B8>
 ###### 37. Practical Statistics for Data Science (1)위치추정 <https://velog.io/@ljs7463/Practical-Statistics-for-Data-Science-1%EC%9C%84%EC%B9%98%EC%B6%94%EC%A0%95>
 ###### 38. Practical Statistics for Data Science (2)변이추정 <https://velog.io/@ljs7463/Practical-Statistics-for-Data-Science-2%EB%B3%80%EC%9D%B4%EC%B6%94%EC%A0%95>
-###### 39. Practical Statistics for Data Science (3) 분포탐색하기 <https://velog.io/@ljs7463/Practical-Statistics-for-Data-Science-3-%EB%B6%84%ED%8F%AC%ED%83%90%EC%83%89%ED%95%98%EA%B8%B0 
+###### 39. Practical Statistics for Data Science (3) 분포탐색하기 <https://velog.io/@ljs7463/Practical-Statistics-for-Data-Science-3-%EB%B6%84%ED%8F%AC%ED%83%90%EC%83%89%ED%95%98%EA%B8%B0>
 ###### 40. 통계에서 기댓값(expected value) <https://velog.io/@ljs7463/%ED%86%B5%EA%B3%84%EC%97%90%EC%84%9C-%EA%B8%B0%EB%8C%93%EA%B0%92expected-value>
 
 
