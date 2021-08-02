@@ -12,6 +12,7 @@ cartoons = soup.find_all('td',attrs={'class':'title'})
 # print(title)
 # print(link)
 
+# 만화 제목 + 링크 가져오기
 for cartoon in cartoons:
     title = cartoon.a.get_text()
     link = 'https://comic.naver.com' + cartoon.a['href']

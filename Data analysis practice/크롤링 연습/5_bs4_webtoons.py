@@ -11,4 +11,3 @@ cartoons = soup.find_all('a', attrs={'class':'title'}) # 리스트로 반환된�
 # class 속성이 title 인 모든 'a' element를 반환
 for cartoon in cartoons:
     print(cartoon.get_text())
-

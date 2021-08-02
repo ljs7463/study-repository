@@ -17,7 +17,6 @@ soup = BeautifulSoup(res.text, 'lxml')
 
 # print(soup.find('a', attrs={'class':'Nbtn_upload'})) # 클래스 값이 'Nbtn_upload' 인 a element 를 찾아줘
 # # soup.find() : 괄호안에 입력해준 정보에 따라 처음으로 발견되는 것을 출력
-# print(soup.find('a', attrs={'class':'Nbtn_upload'})) # 클래스 값이 'Nbtn_upload' 인 어떤 element 를 찾아줘
 
 rank1 = soup.find('li', attrs = {'class':'rank01'})
 # print(rank1.a.get_text())
