@@ -19,8 +19,15 @@ import requests
 browser = webdriver.Chrome()
 browser.get('https://sports.news.naver.com/wfootball/news/index?isphoto=N&type=latest')
 browser.implicitly_wait(3)
-elem = browser.find_element_by_class_name("new_list")
-print(elem)
+html = browser.page_source
+soup = BeautifulSoup(html, 'html.parser')
+print(soup)
+# elem = browser.find_element_by_class_name("new_list")
+# print(elem)
+
+
+
+
 
 # html = browser.page_source
 # soup = BeautifulSoup(html, 'lxml')
@@ -29,5 +36,5 @@ print(elem)
 # news_list = first_child.find_all('li')
 # first_news_list = news_list[0]
 
-print(news)
+# print(news)
 
