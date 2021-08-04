@@ -9,19 +9,27 @@ import requests
 # res =requests.get(url,headers=headers)
 # soup = BeautifulSoup(res.text, 'html.parser')
 # news = soup.find_all('div', attrs={'class':'news_list'})
-# first_child = news[0]
+# print(news)
 
 # news_list = first_child.find_all('li')
 # print(first_child.find_all('li'))
 
 
+#####
 
 browser = webdriver.Chrome()
-browser.get('https://sports.news.naver.com/wfootball/news/index?isphoto=N&type=latest')
-browser.implicitly_wait(3)
-html = browser.page_source
-soup = BeautifulSoup(html, 'html.parser')
-print(soup)
+browser.get("https://sports.news.naver.com/wfootball/news/index?isphoto=N&type=latest")
+
+page = browser.page_source
+soup = BeautifulSoup(page, 'html.parser')
+
+news = soup.find('div', attrs={'class':'news_list'})
+news_list = news.find_all('li')
+
+first_news = news_list[0]
+first_news_alt = first_news.find('a').find('img').attrs['alt']
+breakpoint()
+print(first_news_alt)
 # elem = browser.find_element_by_class_name("new_list")
 # print(elem)
 

@@ -7,7 +7,7 @@ from selenium import webdriver
 # browser.back() 뒤로가기
 # browser.forward() 앞으로 가기
 # browser.refresh() 새로고침
-# 엔터를 위해서는(=Keys.Enter를 위해서는) -> from selenium.webdriver.common.keys import Keys
+# 엔터를 위해서는(=Keys.ENTER를 위해서는) -> from selenium.webdriver.common.keys import Keys
 # elem.send_keys("~~") ~~로 작성
 # elem.send_keys(Keys.ENTER) 엔터누르기
 # browser.close() 현재 창 닫기
