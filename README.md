@@ -45,7 +45,7 @@
 ###### 38. Practical Statistics for Data Science (2)변이추정 <https://velog.io/@ljs7463/Practical-Statistics-for-Data-Science-2%EB%B3%80%EC%9D%B4%EC%B6%94%EC%A0%95>
 ###### 39. Practical Statistics for Data Science (3) 분포탐색하기 <https://velog.io/@ljs7463/Practical-Statistics-for-Data-Science-3-%EB%B6%84%ED%8F%AC%ED%83%90%EC%83%89%ED%95%98%EA%B8%B0>
 ###### 40. 통계에서 기댓값(expected value) <https://velog.io/@ljs7463/%ED%86%B5%EA%B3%84%EC%97%90%EC%84%9C-%EA%B8%B0%EB%8C%93%EA%B0%92expected-value>
-
+###### 41. SQL 논리연산자 정리 <https://velog.io/@ljs7463/SQL-%EB%85%BC%EB%A6%AC%EC%97%B0%EC%82%B0%EC%9E%90-%EC%A0%95%EB%A6%AC>
 
 # 짧은 글쓰기
 ##### 내가 되고싶은 데이터분석가의 모습 <https://velog.io/@ljs7463/%EB%82%B4%EA%B0%80-%EB%90%98%EA%B3%A0%EC%8B%B6%EC%9D%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EB%AA%A8%EC%8A%B5>
