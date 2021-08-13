@@ -31,7 +31,7 @@
 ######  기초통계 (6) 분산과 공분산 그리고 상관계수 <https://velog.io/@ljs7463/%EB%B6%84%EC%82%B0%EA%B3%BC-%EA%B3%B5%EB%B6%84%EC%82%B0-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%83%81%EA%B4%80%EA%B3%84%EC%88%98>
 ######  기초통계 (7) 표본추출과 편향 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-7-%ED%91%9C%EB%B3%B8%EC%B6%94%EC%B6%9C%EA%B3%BC-%ED%8E%B8%ED%96%A5>
 ######  기초통계 (8) 표준오차 와 표준편차 차이 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-8-%ED%91%9C%EC%A4%80%EC%98%A4%EC%B0%A8-%EC%99%80-%ED%91%9C%EC%A4%80%ED%8E%B8%EC%B0%A8-%EC%B0%A8%EC%9D%B4>
-
+###### 기초통계 (9) 복원추출과 비복원추출 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-9-%EB%B3%B5%EC%9B%90%EC%B6%94%EC%B6%9C%EA%B3%BC-%EB%B9%84%EB%B3%B5%EC%9B%90%EC%B6%94%EC%B6%9C>
 
 ## 기타
 ######  정규표현식 re.sub()을 이용한 문자열 치환<https://velog.io/@ljs7463/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D-re.sub%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%B9%98%ED%99%98>
