@@ -19,4 +19,8 @@ print(len(movies)) # 정보를 찾을 수 없다고 뜬다.
 
 # # html을 직접 파일로 저장해서 확인해 보기
 # with open('movie.html', 'w', encoding='utf-8') as f:
-#     f.write(soup.prettify()) 
+#     f.write(soup.prettify())  # html 문서를 예쁘게 출력(정돈되게)
+for moive in movies:
+    title = movie.find('div',attrs={'class':'WsMG1c nnK0zc'}).get_text()
+
+# 여기까지 하게되면 최초의 10개 영화만 불러올 수 있기때문에 requests가 아닌 selenium으로 불러와야한다.
