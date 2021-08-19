@@ -59,8 +59,9 @@
 ######  피처 스케일링(StandardScaler,MinMaxScaler) <https://velog.io/@ljs7463/%ED%94%BC%EC%B2%98-%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81StandardScalerMinMaxScaler>
 ######  위드클라우드 활용하기 <https://velog.io/@ljs7463/%EC%9C%84%EB%93%9C%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0>
 
-
-
+## 딥러닝/ 자연어처리
+###### 딥러닝 기본 용어 개념 정리 <https://velog.io/@ljs7463/%EB%94%A5%EB%9F%AC%EB%8B%9D-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC>
+###### 자연어처리(NLP) 텍스트전처리/벡터화 <https://velog.io/@ljs7463/%EC%9E%90%EC%97%B0%EC%96%B4%EC%B2%98%EB%A6%ACNLP-%ED%85%8D%EC%8A%A4%ED%8A%B8%EC%A0%84%EC%B2%98%EB%A6%AC%EB%B2%A1%ED%84%B0%ED%99%94>
 
 ## SQL
 ######  SQL 기초(SQLIte사용) <https://velog.io/@ljs7463/SQL-%EA%B8%B0%EC%B4%88>
