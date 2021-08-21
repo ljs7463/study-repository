@@ -71,6 +71,7 @@
 ######  SQL 기초(SQLIte사용) <https://velog.io/@ljs7463/SQL-%EA%B8%B0%EC%B4%88>
 ######  SQL 논리연산자 정리 <https://velog.io/@ljs7463/SQL-%EB%85%BC%EB%A6%AC%EC%97%B0%EC%82%B0%EC%9E%90-%EC%A0%95%EB%A6%AC>
 ######  SQL 중복값 찾아내는 방법 <https://velog.io/@ljs7463/SQL-%EC%A4%91%EB%B3%B5%EA%B0%92-%EC%B0%BE%EC%95%84%EB%82%B4%EB%8A%94-%EB%B0%A9%EB%B2%95>
+######  SQL having 과 where 차이 <https://velog.io/@ljs7463/SQL-having-%EA%B3%BC-where-%EC%B0%A8%EC%9D%B4>
 
 ## 크롤링
 ######  [웹 크롤링]BeautifulSoup, Selenium 비교 <https://velog.io/@ljs7463/%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%A7%81BeautifulSoup-Selenium>
