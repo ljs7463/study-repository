@@ -68,6 +68,7 @@
 ###### 자연어처리(NLP) 텍스트전처리/벡터화 <https://velog.io/@ljs7463/%EC%9E%90%EC%97%B0%EC%96%B4%EC%B2%98%EB%A6%ACNLP-%ED%85%8D%EC%8A%A4%ED%8A%B8%EC%A0%84%EC%B2%98%EB%A6%AC%EB%B2%A1%ED%84%B0%ED%99%94>
 ###### 자연어처리(NLP) 유사도 <https://velog.io/@ljs7463/%EC%9E%90%EC%97%B0%EC%96%B4%EC%B2%98%EB%A6%ACNLP-%EC%9C%A0%EC%82%AC%EB%8F%84>
 ###### 자연어처리(NLP) Word2Vec, fastText <https://velog.io/@ljs7463/%EC%9E%90%EC%97%B0%EC%96%B4%EC%B2%98%EB%A6%ACNLP-Word2Vec-fastText>
+###### 자연어처리(NLP) RNN, LSTM, GRU 그리고 attention <https://velog.io/@ljs7463/%EC%9E%90%EC%97%B0%EC%96%B4%EC%B2%98%EB%A6%ACNLP-RNN-LSTM-GRU-%EA%B7%B8%EB%A6%AC%EA%B3%A0-attention>
 
 ## SQL
 ######  SQL 기초(SQLIte사용) <https://velog.io/@ljs7463/SQL-%EA%B8%B0%EC%B4%88>
