@@ -76,6 +76,9 @@
 ######  SQL 중복값 찾아내는 방법 <https://velog.io/@ljs7463/SQL-%EC%A4%91%EB%B3%B5%EA%B0%92-%EC%B0%BE%EC%95%84%EB%82%B4%EB%8A%94-%EB%B0%A9%EB%B2%95>
 ######  SQL having 과 where 차이 <https://velog.io/@ljs7463/SQL-having-%EA%B3%BC-where-%EC%B0%A8%EC%9D%B4>
 ######  SQL 날짜함수 <https://velog.io/@ljs7463/SQL-%EB%82%A0%EC%A7%9C%ED%95%A8%EC%88%98>
+######  [MySQL] null값 치환하기 <https://velog.io/@ljs7463/MySQL-null%EA%B0%92-%EC%B9%98%ED%99%98%ED%95%98%EA%B8%B0>
+######  [MySQL] 입양 시각 구하기(2) <https://velog.io/@ljs7463/MySQL-%EC%9E%85%EC%96%91-%EC%8B%9C%EA%B0%81-%EA%B5%AC%ED%95%98%EA%B8%B02>
+
 
 ## 크롤링
 ######  [웹 크롤링]BeautifulSoup, Selenium 비교 <https://velog.io/@ljs7463/%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%A7%81BeautifulSoup-Selenium>
