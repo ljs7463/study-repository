@@ -84,6 +84,9 @@
 ######  [웹 크롤링]BeautifulSoup, Selenium 비교 <https://velog.io/@ljs7463/%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%A7%81BeautifulSoup-Selenium>
 ######  웹페이지 스크레핑/크롤링<기본> <https://velog.io/@ljs7463/%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%8A%A4%ED%81%AC%EB%A0%88%ED%95%91%ED%81%AC%EB%A1%A4%EB%A7%81%EA%B8%B0%EB%B3%B8>
 
+## 시행착오
+###### 시각화의 함정?<https://velog.io/@ljs7463/%EC%8B%9C%EA%B0%81%ED%99%94%EC%9D%98-%ED%95%A8%EC%A0%95>
+
 
 # 생각과 일상
 ##### 내가 되고싶은 데이터분석가의 모습 <https://velog.io/@ljs7463/%EB%82%B4%EA%B0%80-%EB%90%98%EA%B3%A0%EC%8B%B6%EC%9D%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EB%AA%A8%EC%8A%B5>
