@@ -83,12 +83,14 @@
 # Visualization
 ###### 시간에 따른 정량적 데이터 시각화 <https://velog.io/@ljs7463/%EC%8B%9C%EA%B0%84%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%A0%95%EB%9F%89%EC%A0%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%8B%9C%EA%B0%81%ED%99%94>
 
+
 ## 기타
 ######  정규표현식 re.sub()을 이용한 문자열 치환<https://velog.io/@ljs7463/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D-re.sub%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%B9%98%ED%99%98>
 ######  넘파이 조건에 맞는 인덱스 및 값 반환함수(np.where,np.argmax)<https://velog.io/@ljs7463/%EB%84%98%ED%8C%8C%EC%9D%B4-%EC%A1%B0%EA%B1%B4%EC%97%90-%EB%A7%9E%EB%8A%94-%EC%9D%B8%EB%8D%B1%EC%8A%A4-%EB%B0%8F-%EA%B0%92-%EB%B0%98%ED%99%98%ED%95%A8%EC%88%98np.wherenp.argmax>
 ######  넘파이로 이상치 확인 함수 구현 <https://velog.io/@ljs7463/%EB%84%98%ED%8C%8C%EC%9D%B4%EB%A1%9C-%EC%9D%B4%EC%83%81%EC%B9%98-%ED%99%95%EC%9D%B8-%ED%95%A8%EC%88%98-%EA%B5%AC%ED%98%84>
 ######  판다스 데이터프레임 재구조화 정리 <https://velog.io/@ljs7463/%ED%8C%90%EB%8B%A4%EC%8A%A4-%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%94%84%EB%A0%88%EC%9E%84-%EC%9E%AC%EA%B5%AC%EC%A1%B0%ED%99%94-%EC%A0%95%EB%A6%AC >
 ######  git가이드
+
 
 # 생각과 일상
 ##### 내가 되고싶은 데이터분석가의 모습 <https://velog.io/@ljs7463/%EB%82%B4%EA%B0%80-%EB%90%98%EA%B3%A0%EC%8B%B6%EC%9D%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EB%AA%A8%EC%8A%B5>
