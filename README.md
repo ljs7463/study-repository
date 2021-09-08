@@ -80,7 +80,7 @@
 ######  [MySQL] 입양 시각 구하기(2) <https://velog.io/@ljs7463/MySQL-%EC%9E%85%EC%96%91-%EC%8B%9C%EA%B0%81-%EA%B5%AC%ED%95%98%EA%B8%B02>
 ######  [MySQL] CASE절 사용하기(중성화 여부 파악하기) <https://velog.io/@ljs7463/MySQL-CASE%EC%A0%88-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0%EC%A4%91%EC%84%B1%ED%99%94-%EC%97%AC%EB%B6%80-%ED%8C%8C%EC%95%85%ED%95%98%EA%B8%B0>
 ###### [MySQL] 홀수, 짝수 출력 <https://velog.io/@ljs7463/MySQL-%ED%99%80%EC%88%98-%EC%A7%9D%EC%88%98-%EC%B6%9C%EB%A0%A5>
-
+###### [MySQL] 정규식활용 <https://velog.io/@ljs7463/MySQL-%EC%A0%95%EA%B7%9C%EC%8B%9D%ED%99%9C%EC%9A%A9>
 
 ## 크롤링
 ######  [웹 크롤링]BeautifulSoup, Selenium 비교 <https://velog.io/@ljs7463/%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%A7%81BeautifulSoup-Selenium>
