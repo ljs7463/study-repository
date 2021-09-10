@@ -82,7 +82,7 @@
 ######  [웹 크롤링]BeautifulSoup, Selenium 비교 <https://velog.io/@ljs7463/%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%A7%81BeautifulSoup-Selenium>
 ######  웹페이지 스크레핑/크롤링<기본> <https://velog.io/@ljs7463/%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%8A%A4%ED%81%AC%EB%A0%88%ED%95%91%ED%81%AC%EB%A1%A4%EB%A7%81%EA%B8%B0%EB%B3%B8>
 
-# Visualization
+## Visualization
 ###### 시간에 따른 정량적 데이터 시각화 <https://velog.io/@ljs7463/%EC%8B%9C%EA%B0%84%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%A0%95%EB%9F%89%EC%A0%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%8B%9C%EA%B0%81%ED%99%94>
 
 
@@ -92,6 +92,9 @@
 ######  넘파이로 이상치 확인 함수 구현 <https://velog.io/@ljs7463/%EB%84%98%ED%8C%8C%EC%9D%B4%EB%A1%9C-%EC%9D%B4%EC%83%81%EC%B9%98-%ED%99%95%EC%9D%B8-%ED%95%A8%EC%88%98-%EA%B5%AC%ED%98%84>
 ######  판다스 데이터프레임 재구조화 정리 <https://velog.io/@ljs7463/%ED%8C%90%EB%8B%A4%EC%8A%A4-%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%94%84%EB%A0%88%EC%9E%84-%EC%9E%AC%EA%B5%AC%EC%A1%B0%ED%99%94-%EC%A0%95%EB%A6%AC >
 ######  git가이드
+
+## 파이썬
+Python 람다(lambda)함수와 응용 <https://velog.io/@ljs7463/Python-%EB%9E%8C%EB%8B%A4lambda>
 
 
 # 생각과 일상
