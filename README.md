@@ -76,7 +76,7 @@
 ###### [MySQL] 홀수, 짝수 출력 <https://velog.io/@ljs7463/MySQL-%ED%99%80%EC%88%98-%EC%A7%9D%EC%88%98-%EC%B6%9C%EB%A0%A5>
 ###### [MySQL] 정규식활용 <https://velog.io/@ljs7463/MySQL-%EC%A0%95%EA%B7%9C%EC%8B%9D%ED%99%9C%EC%9A%A9>
 ###### [MySQL]Higher Than 75 Marks <https://velog.io/@ljs7463/MySQLHigher-Than-75-Marks>
-
+###### [MySQL] Aggregation함수 <https://velog.io/@ljs7463/MySQL-Aggregation%ED%95%A8%EC%88%98>
 
 ## 크롤링
 ######  [웹 크롤링]BeautifulSoup, Selenium 비교 <https://velog.io/@ljs7463/%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%A7%81BeautifulSoup-Selenium>
