@@ -95,7 +95,7 @@
 
 ## 파이썬
 Python 람다(lambda)함수와 응용 <https://velog.io/@ljs7463/Python-%EB%9E%8C%EB%8B%A4lambda>
-
+Object- Oriented Programming(객체 지향)?? <https://velog.io/@ljs7463/Object-Oriented-Programming%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5>
 
 # 생각과 일상
 ##### 내가 되고싶은 데이터분석가의 모습 <https://velog.io/@ljs7463/%EB%82%B4%EA%B0%80-%EB%90%98%EA%B3%A0%EC%8B%B6%EC%9D%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EB%AA%A8%EC%8A%B5>
