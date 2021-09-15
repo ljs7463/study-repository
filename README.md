@@ -78,7 +78,7 @@
 ###### [MySQL]Higher Than 75 Marks <https://velog.io/@ljs7463/MySQLHigher-Than-75-Marks>
 ###### [MySQL] Aggregation함수 <https://velog.io/@ljs7463/MySQL-Aggregation%ED%95%A8%EC%88%98>
 ###### [MySQL] The Blunder(REPLACE활용) <https://velog.io/@ljs7463/MySQL-The-BlunderREPLACE%ED%99%9C%EC%9A%A9>
-
+###### [MySQL]Weather Observation Station 19(SQRT, POW) <https://velog.io/@ljs7463/MySQLWeather-Observation-Station-19SQRT-POW>
 
 
 ## 크롤링
