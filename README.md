@@ -81,7 +81,7 @@
 ###### [MySQL] Aggregation함수 <https://velog.io/@ljs7463/MySQL-Aggregation%ED%95%A8%EC%88%98>
 ###### [HackerRank] The Blunder(REPLACE활용) <https://velog.io/@ljs7463/MySQL-The-BlunderREPLACE%ED%99%9C%EC%9A%A9>
 ###### [HackerRank] Weather Observation Station 19(SQRT, POW)<https://velog.io/@ljs7463/MySQLWeather-Observation-Station-19SQRT-POW>
-###### [HackerRank] The Report
+###### [HackerRank] The Report(Non-Equi Join 활용)
 
 ## 크롤링
 ######  [웹 크롤링]BeautifulSoup, Selenium 비교 <https://velog.io/@ljs7463/%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%A7%81BeautifulSoup-Selenium>
