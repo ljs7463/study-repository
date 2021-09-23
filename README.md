@@ -92,10 +92,6 @@
 ## Visualization
 ###### 시간에 따른 정량적 데이터 시각화 <https://velog.io/@ljs7463/%EC%8B%9C%EA%B0%84%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%A0%95%EB%9F%89%EC%A0%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%8B%9C%EA%B0%81%ED%99%94>
 
-## 자료구조&알고리즘
-###### [알고리즘] 최대값 출력하기 <https://velog.io/@ljs7463/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%B5%9C%EB%8C%80%EA%B0%92-%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0>
-
-
 ## 마케팅&기획 과 관련된 분석기법
 Funnel Analysis(Funnel, AARRR) <https://velog.io/@ljs7463/Funnel-AnalysisFunnel-AARRR>
 
