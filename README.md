@@ -107,10 +107,14 @@ Funnel Analysis(Funnel, AARRR) <https://velog.io/@ljs7463/Funnel-AnalysisFunnel-
 ######  git가이드
 
 ## 파이썬
-Python 람다(lambda)함수와 응용 <https://velog.io/@ljs7463/Python-%EB%9E%8C%EB%8B%A4lambda>
-Object- Oriented Programming(객체 지향)?? <https://velog.io/@ljs7463/Object-Oriented-Programming%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5>
-Python 중복제거(set함수) <https://velog.io/@ljs7463/Python-%EC%A4%91%EB%B3%B5%EC%A0%9C%EA%B1%B0set%ED%95%A8%EC%88%98>
+###### Python 람다(lambda)함수와 응용 <https://velog.io/@ljs7463/Python-%EB%9E%8C%EB%8B%A4lambda>
+###### Object- Oriented Programming(객체 지향)?? <https://velog.io/@ljs7463/Object-Oriented-Programming%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5>
+###### Python 중복제거(set함수) <https://velog.io/@ljs7463/Python-%EC%A4%91%EB%B3%B5%EC%A0%9C%EA%B1%B0set%ED%95%A8%EC%88%98>
 
+## 알고리즘
+
+###### [알고리즘] 최대값 출력하기 <https://velog.io/@ljs7463/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%B5%9C%EB%8C%80%EA%B0%92-%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0>
+###### [알고리즘]python 알고리즘 기초1 <https://velog.io/@ljs7463/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98python-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B8%B0%EC%B4%881>
 
 # 생각과 일상
 ##### 내가 되고싶은 데이터분석가의 모습 <https://velog.io/@ljs7463/%EB%82%B4%EA%B0%80-%EB%90%98%EA%B3%A0%EC%8B%B6%EC%9D%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EB%AA%A8%EC%8A%B5>
