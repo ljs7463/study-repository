@@ -29,7 +29,7 @@
 ######  기초통계 (1)위치추정 <https://velog.io/@ljs7463/Practical-Statistics-for-Data-Science-1%EC%9C%84%EC%B9%98%EC%B6%94%EC%A0%95>
 ######  기초통계 (2)변이추정 <https://velog.io/@ljs7463/Practical-Statistics-for-Data-Science-2%EB%B3%80%EC%9D%B4%EC%B6%94%EC%A0%95>
 ######  기초통계 (3) 분포탐색하기 <https://velog.io/@ljs7463/Practical-Statistics-for-Data-Science-3-%EB%B6%84%ED%8F%AC%ED%83%90%EC%83%89%ED%95%98%EA%B8%B0>
-######  기초통계 (4) 통계에서 기댓값(expected value) <https://velog.io/@ljs7463/%ED%86%B5%EA%B3%84%EC%97%90%EC%84%9C-%EA%B8%B0%EB%8C%93%EA%B0%92expected-value>
+######  기초통계 (4) 이진 데이터와 범주 데이터 탐색 <https://velog.io/@ljs7463/%ED%86%B5%EA%B3%84%EC%97%90%EC%84%9C-%EA%B8%B0%EB%8C%93%EA%B0%92expected-value>
 ######  기초통계 (5) 상관관계 <https://velog.io/@ljs7463/Practical-Statistics-for-Data-Science-4-%EC%83%81%EA%B4%80%EA%B4%80%EA%B3%84>
 ######  기초통계 (6) 분산과 공분산 그리고 상관계수 <https://velog.io/@ljs7463/%EB%B6%84%EC%82%B0%EA%B3%BC-%EA%B3%B5%EB%B6%84%EC%82%B0-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%83%81%EA%B4%80%EA%B3%84%EC%88%98>
 ######  기초통계 (7) 표본추출과 편향 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-7-%ED%91%9C%EB%B3%B8%EC%B6%94%EC%B6%9C%EA%B3%BC-%ED%8E%B8%ED%96%A5>
