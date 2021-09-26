@@ -39,7 +39,7 @@
 ###### 기초통계 (10) 중심극한정리 와 재표본추출(순열검정, 부트스트랩) <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-9-%EC%A4%91%EC%8B%AC%EA%B7%B9%ED%95%9C%EC%A0%95%EB%A6%AC-%EC%99%80-%EB%B6%80%ED%8A%B8%EC%8A%A4%ED%8A%B8%EB%9E%A9>
 ###### 기초통계 (11) 통계 기호 정리 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-11-%ED%86%B5%EA%B3%84-%EA%B8%B0%ED%98%B8-%EC%A0%95%EB%A6%AC>
 ###### 기초통계 (12) 신뢰구간(Confidence interval) <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-12-%EC%8B%A0%EB%A2%B0%EA%B5%AC%EA%B0%84Confidence-interval>
-
+###### 기초통계 (13) 대표값의 함정 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-13-%EB%8C%80%ED%91%9C%EA%B0%92%EC%9D%98-%ED%95%A8%EC%A0%95>
 
 ## 머신러닝
 
