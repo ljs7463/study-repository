@@ -121,10 +121,6 @@ Funnel Analysis(Funnel, AARRR) <https://velog.io/@ljs7463/Funnel-AnalysisFunnel-
 머신러닝 완벽가이드 공부
 https://velog.io/@ljs7463?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%99%84%EB%B2%BD%EA%B0%80%EC%9D%B4%EB%93%9C
 
----
-# 코드스테이츠 후기(매주차 업데이트)
-코드스테이츠 AI부트캠프 후기(누적)<https://blog.naver.com/ljs7463>
-
 ___
 # 데이터 분석가 브런치
 https://brunch.co.kr/@hozoon1027/10
