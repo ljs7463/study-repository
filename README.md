@@ -34,7 +34,7 @@
 ######  기초통계 (5-2) 두 개 이상의 변수 탐색하기 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-5-2-%EB%91%90-%EA%B0%9C-%EC%9D%B4%EC%83%81%EC%9D%98-%EB%B3%80%EC%88%98-%ED%83%90%EC%83%89%ED%95%98%EA%B8%B0>
 ######  기초통계 (6) 분산과 공분산 그리고 상관계수 <https://velog.io/@ljs7463/%EB%B6%84%EC%82%B0%EA%B3%BC-%EA%B3%B5%EB%B6%84%EC%82%B0-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%83%81%EA%B4%80%EA%B3%84%EC%88%98>
 ######  기초통계 (7) 표본추출과 편향 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-7-%ED%91%9C%EB%B3%B8%EC%B6%94%EC%B6%9C%EA%B3%BC-%ED%8E%B8%ED%96%A5>
-######  기초통계 (8) 표준오차 와 표준편차 차이 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-8-%ED%91%9C%EC%A4%80%EC%98%A4%EC%B0%A8-%EC%99%80-%ED%91%9C%EC%A4%80%ED%8E%B8%EC%B0%A8-%EC%B0%A8%EC%9D%B4>
+######  기초통계 (8) 기초통계 (8) 통계학에서의 표본분포(와 표준오차 표준편차 구분) <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-8-%ED%91%9C%EC%A4%80%EC%98%A4%EC%B0%A8-%EC%99%80-%ED%91%9C%EC%A4%80%ED%8E%B8%EC%B0%A8-%EC%B0%A8%EC%9D%B4>
 ###### 기초통계 (9) 복원추출과 비복원추출 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-9-%EB%B3%B5%EC%9B%90%EC%B6%94%EC%B6%9C%EA%B3%BC-%EB%B9%84%EB%B3%B5%EC%9B%90%EC%B6%94%EC%B6%9C>
 ###### 기초통계 (10) 중심극한정리 와 재표본추출(순열검정, 부트스트랩) <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-9-%EC%A4%91%EC%8B%AC%EA%B7%B9%ED%95%9C%EC%A0%95%EB%A6%AC-%EC%99%80-%EB%B6%80%ED%8A%B8%EC%8A%A4%ED%8A%B8%EB%9E%A9>
 ###### 기초통계 (11) 통계 기호 정리 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-11-%ED%86%B5%EA%B3%84-%EA%B8%B0%ED%98%B8-%EC%A0%95%EB%A6%AC>
