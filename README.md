@@ -85,6 +85,7 @@
 ###### [HackerRank] The Report(Non-Equi Join 활용) <https://velog.io/@ljs7463/HackerRank-The-Report>
 ###### [HackerRank] Top Competitors(다중 join) <https://velog.io/@ljs7463/HackerRank-Top-Competitors>
 ###### [HackerRank] Ollivander's Inventory(join, 서브쿼리) <https://velog.io/@ljs7463/HackerRank-Ollivanders-Inventoryjoin-%EC%84%9C%EB%B8%8C%EC%BF%BC%EB%A6%AC>
+###### [HackerRank] Challenges(복잡한 서브쿼리) <https://velog.io/@ljs7463/HackerRank-Challenges%EB%B3%B5%EC%9E%A1%ED%95%9C-%EC%84%9C%EB%B8%8C%EC%BF%BC%EB%A6%AC>
 
 ## 크롤링
 ######  [웹 크롤링]BeautifulSoup, Selenium 비교 <https://velog.io/@ljs7463/%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%A7%81BeautifulSoup-Selenium>
