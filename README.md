@@ -114,7 +114,9 @@ Funnel Analysis(Funnel, AARRR) <https://velog.io/@ljs7463/Funnel-AnalysisFunnel-
 ## 알고리즘
 
 ###### [알고리즘] 최대값 출력하기 <https://velog.io/@ljs7463/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%B5%9C%EB%8C%80%EA%B0%92-%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0>
-###### [알고리즘]python 알고리즘 기초1 <https://velog.io/@ljs7463/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98python-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B8%B0%EC%B4%881>
+###### [알고리즘] python 알고리즘 기초1 <https://velog.io/@ljs7463/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98python-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B8%B0%EC%B4%881>
+###### [알고리즘] 중첩리스트 <https://velog.io/@ljs7463/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%A4%91%EC%B2%A9%EB%A6%AC%EC%8A%A4%ED%8A%B8>
+
 
 # 생각과 일상
 ##### 내가 되고싶은 데이터분석가의 모습 <https://velog.io/@ljs7463/%EB%82%B4%EA%B0%80-%EB%90%98%EA%B3%A0%EC%8B%B6%EC%9D%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EB%AA%A8%EC%8A%B5>
