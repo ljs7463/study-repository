@@ -40,6 +40,10 @@
 ###### 기초통계 (11) 통계 기호 정리 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-11-%ED%86%B5%EA%B3%84-%EA%B8%B0%ED%98%B8-%EC%A0%95%EB%A6%AC>
 ###### 기초통계 (12) 신뢰구간(Confidence interval) <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-12-%EC%8B%A0%EB%A2%B0%EA%B5%AC%EA%B0%84Confidence-interval>
 ###### 기초통계 (13) 대표값의 함정 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-13-%EB%8C%80%ED%91%9C%EA%B0%92%EC%9D%98-%ED%95%A8%EC%A0%95>
+###### 기초통계 (14) 정규분포(정규화,표준화) <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-14-%EC%A0%95%EA%B7%9C%EB%B6%84%ED%8F%AC%EC%A0%95%EA%B7%9C%ED%99%94%ED%91%9C%EC%A4%80%ED%99%94>
+
+
+
 
 ## 머신러닝
 
