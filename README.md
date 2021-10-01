@@ -120,6 +120,8 @@ Funnel Analysis(Funnel, AARRR) <https://velog.io/@ljs7463/Funnel-AnalysisFunnel-
 ###### [알고리즘] 최대값 출력하기 <https://velog.io/@ljs7463/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%B5%9C%EB%8C%80%EA%B0%92-%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0>
 ###### [알고리즘] python 알고리즘 기초1 <https://velog.io/@ljs7463/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98python-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B8%B0%EC%B4%881>
 ###### [알고리즘] 중첩리스트 <https://velog.io/@ljs7463/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%A4%91%EC%B2%A9%EB%A6%AC%EC%8A%A4%ED%8A%B8>
+###### [알고리즘] 딕셔너리 count <https://velog.io/@ljs7463/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC-count>
+
 
 
 # 생각과 일상
