@@ -43,7 +43,7 @@
 ###### 기초통계 (14) 정규분포(정규화,표준화) <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-14-%EC%A0%95%EA%B7%9C%EB%B6%84%ED%8F%AC%EC%A0%95%EA%B7%9C%ED%99%94%ED%91%9C%EC%A4%80%ED%99%94>
 ###### 기초통계 (15) 스튜던트의 t분포 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-15-%EC%8A%A4%ED%8A%9C%EB%8D%98%ED%8A%B8%EC%9D%98-t%EB%B6%84%ED%8F%AC>
 ###### 기초통계 (16) 이항분포 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-16-%EC%9D%B4%ED%95%AD%EB%B6%84%ED%8F%AC>
-
+###### 기초통계 (17) 카이제곱분포, F분포, 푸아송 분포 및 기타 다른분포들 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-17-%EC%B9%B4%EC%9D%B4%EC%A0%9C%EA%B3%B1%EB%B6%84%ED%8F%AC-F%EB%B6%84%ED%8F%AC-%ED%91%B8%EC%95%84%EC%86%A1-%EB%B6%84-%ED%8F%AC-%EB%B0%8F-%EA%B8%B0%ED%83%80-%EB%8B%A4%EB%A5%B8%EB%B6%84%ED%8F%AC%EB%93%A4>
 
 
 ## 머신러닝
