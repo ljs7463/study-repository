@@ -114,10 +114,15 @@ Funnel Analysis(Funnel, AARRR) <https://velog.io/@ljs7463/Funnel-AnalysisFunnel-
 ######  판다스 데이터프레임 재구조화 정리 <https://velog.io/@ljs7463/%ED%8C%90%EB%8B%A4%EC%8A%A4-%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%94%84%EB%A0%88%EC%9E%84-%EC%9E%AC%EA%B5%AC%EC%A1%B0%ED%99%94-%EC%A0%95%EB%A6%AC >
 ######  git가이드
 
+
 ## 파이썬
 ###### Python 람다(lambda)함수와 응용 <https://velog.io/@ljs7463/Python-%EB%9E%8C%EB%8B%A4lambda>
 ###### Object- Oriented Programming(객체 지향)?? <https://velog.io/@ljs7463/Object-Oriented-Programming%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5>
 ###### Python 중복제거(set함수) <https://velog.io/@ljs7463/Python-%EC%A4%91%EB%B3%B5%EC%A0%9C%EA%B1%B0set%ED%95%A8%EC%88%98>
+###### 데이터프레임 특이값(error) 찾아내기(try~except활용) <https://velog.io/@ljs7463/%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%94%84%EB%A0%88%EC%9E%84-%ED%8A%B9%EC%9D%B4%EA%B0%92error-%EC%B0%BE%EC%95%84%EB%82%B4%EA%B8%B0tryexcept%ED%99%9C%EC%9A%A9>
+
+
+
 
 ## 알고리즘
 
