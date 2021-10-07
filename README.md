@@ -47,7 +47,7 @@
 ###### 기초통계 (18) A/B 검정 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-18-AB-%EA%B2%80%EC%A0%95>
 ###### 기초통계 (19) 가설검정 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-19-%EA%B0%80%EC%84%A4%EA%B2%80%EC%A0%95>
 ###### 기초통계 (20) 재표본추출2(순열검정) <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-20-%EC%9E%AC%ED%91%9C%EB%B3%B8%EC%B6%94%EC%B6%9C2%EC%88%9C%EC%97%B4%EA%B2%80%EC%A0%95>
-
+###### 기초통계 (21) 통계적 유의성과 p값 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-21-%ED%86%B5%EA%B3%84%EC%A0%81-%EC%9C%A0%EC%9D%98%EC%84%B1%EA%B3%BC-p%EA%B0%92>
 
 ## 머신러닝
 
@@ -94,6 +94,8 @@
 ###### [HackerRank] Top Competitors(다중 join) <https://velog.io/@ljs7463/HackerRank-Top-Competitors>
 ###### [HackerRank] Ollivander's Inventory(join, 서브쿼리) <https://velog.io/@ljs7463/HackerRank-Ollivanders-Inventoryjoin-%EC%84%9C%EB%B8%8C%EC%BF%BC%EB%A6%AC>
 ###### [HackerRank] Challenges(복잡한 서브쿼리) <https://velog.io/@ljs7463/HackerRank-Challenges%EB%B3%B5%EC%9E%A1%ED%95%9C-%EC%84%9C%EB%B8%8C%EC%BF%BC%EB%A6%AC>
+###### [MySQL] 날짜 관련 함수(지속적 업데이트) <https://velog.io/@ljs7463/MySQL-%EB%82%A0%EC%A7%9C-%EA%B4%80%EB%A0%A8-%ED%95%A8%EC%88%98%EC%A7%80%EC%86%8D%EC%A0%81-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8>
+
 
 ## 크롤링
 ######  [웹 크롤링]BeautifulSoup, Selenium 비교 <https://velog.io/@ljs7463/%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%A7%81BeautifulSoup-Selenium>
