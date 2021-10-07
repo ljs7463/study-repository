@@ -120,7 +120,7 @@ Funnel Analysis(Funnel, AARRR) <https://velog.io/@ljs7463/Funnel-AnalysisFunnel-
 ###### Object- Oriented Programming(객체 지향)?? <https://velog.io/@ljs7463/Object-Oriented-Programming%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5>
 ###### Python 중복제거(set함수) <https://velog.io/@ljs7463/Python-%EC%A4%91%EB%B3%B5%EC%A0%9C%EA%B1%B0set%ED%95%A8%EC%88%98>
 ###### 데이터프레임 특이값(error) 찾아내기(try~except활용) <https://velog.io/@ljs7463/%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%94%84%EB%A0%88%EC%9E%84-%ED%8A%B9%EC%9D%B4%EA%B0%92error-%EC%B0%BE%EC%95%84%EB%82%B4%EA%B8%B0tryexcept%ED%99%9C%EC%9A%A9>
-
+###### 파이썬 자료형 활용문제 <https://velog.io/@ljs7463/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%90%EB%A3%8C%ED%98%95-%ED%99%9C%EC%9A%A9%EB%AC%B8%EC%A0%9C>
 
 
 
