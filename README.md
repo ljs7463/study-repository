@@ -50,6 +50,8 @@
 ###### 기초통계 (21) 통계적 유의성과 p값 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-21-%ED%86%B5%EA%B3%84%EC%A0%81-%EC%9C%A0%EC%9D%98%EC%84%B1%EA%B3%BC-p%EA%B0%92>
 ###### 기초통계 (22) t검정 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-22-t%EA%B2%80%EC%A0%95> 
 ###### 기초통계 (23) 다중검정 과 자유도 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-23-%EB%8B%A4%EC%A4%91%EA%B2%80%EC%A0%95>
+###### 기초통계 (24) 분산분석(아노바검정) <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-24-%EB%B6%84%EC%82%B0%EB%B6%84%EC%84%9D%EC%95%84%EB%85%B8%EB%B0%94%EA%B2%80%EC%A0%95>
+ 
 
 
 ## 머신러닝
