@@ -51,7 +51,7 @@
 ###### 기초통계 (22) t검정 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-22-t%EA%B2%80%EC%A0%95> 
 ###### 기초통계 (23) 다중검정 과 자유도 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-23-%EB%8B%A4%EC%A4%91%EA%B2%80%EC%A0%95>
 ###### 기초통계 (24) 분산분석(아노바검정) <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-24-%EB%B6%84%EC%82%B0%EB%B6%84%EC%84%9D%EC%95%84%EB%85%B8%EB%B0%94%EA%B2%80%EC%A0%95>
- 
+###### 기초통계 (25) 카이제곱검정 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-25-%EC%B9%B4%EC%9D%B4%EC%A0%9C%EA%B3%B1%EA%B2%80%EC%A0%95>
 
 
 ## 머신러닝
