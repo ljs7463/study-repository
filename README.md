@@ -52,6 +52,10 @@
 ###### 기초통계 (23) 다중검정 과 자유도 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-23-%EB%8B%A4%EC%A4%91%EA%B2%80%EC%A0%95>
 ###### 기초통계 (24) 분산분석(아노바검정) <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-24-%EB%B6%84%EC%82%B0%EB%B6%84%EC%84%9D%EC%95%84%EB%85%B8%EB%B0%94%EA%B2%80%EC%A0%95>
 ###### 기초통계 (25) 카이제곱검정 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-25-%EC%B9%B4%EC%9D%B4%EC%A0%9C%EA%B3%B1%EA%B2%80%EC%A0%95>
+###### 기초통계 (26) 멀티암드 밴딧 알고리즘 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-26-%EB%A9%80%ED%8B%B0%EC%95%94%EB%93%9C-%EB%B0%B4%EB%94%A7-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98>
+###### 기초통계 (27) 검정력과 표본크기 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-27-%EA%B2%80%EC%A0%95%EB%A0%A5%EA%B3%BC-%ED%91%9C%EB%B3%B8%ED%81%AC%EA%B8%B0>
+###### 가설검정 로드맵 <https://velog.io/@ljs7463/%EA%B0%80%EC%84%A4%EA%B2%80%EC%A0%95-%EB%A1%9C%EB%93%9C%EB%A7%B5>
+###### 기초통계 (28) 단순선형회귀 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-28-%EB%8B%A8%EC%88%9C%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80>
 
 
 ## 머신러닝
