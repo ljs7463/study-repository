@@ -104,6 +104,8 @@
 ###### [HackerRank] Ollivander's Inventory(join, 서브쿼리) <https://velog.io/@ljs7463/HackerRank-Ollivanders-Inventoryjoin-%EC%84%9C%EB%B8%8C%EC%BF%BC%EB%A6%AC>
 ###### [HackerRank] Challenges(복잡한 서브쿼리) <https://velog.io/@ljs7463/HackerRank-Challenges%EB%B3%B5%EC%9E%A1%ED%95%9C-%EC%84%9C%EB%B8%8C%EC%BF%BC%EB%A6%AC>
 ###### [MySQL] 날짜 관련 함수(지속적 업데이트) <https://velog.io/@ljs7463/MySQL-%EB%82%A0%EC%A7%9C-%EA%B4%80%EB%A0%A8-%ED%95%A8%EC%88%98%EC%A7%80%EC%86%8D%EC%A0%81-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8>
+###### SQL groupby 와 select메모 <https://velog.io/@ljs7463/SQL-groupby-%EC%99%80-select%EB%A9%94%EB%AA%A8>
+
 
 
 ## 크롤링
