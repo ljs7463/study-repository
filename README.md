@@ -106,6 +106,8 @@
 ###### [MySQL] 날짜 관련 함수(지속적 업데이트) <https://velog.io/@ljs7463/MySQL-%EB%82%A0%EC%A7%9C-%EA%B4%80%EB%A0%A8-%ED%95%A8%EC%88%98%EC%A7%80%EC%86%8D%EC%A0%81-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8>
 ###### SQL groupby 와 select메모 <https://velog.io/@ljs7463/SQL-groupby-%EC%99%80-select%EB%A9%94%EB%AA%A8>
 ###### [HackerRank] Contest Leaderboard(문제풀이기록) <https://velog.io/@ljs7463/HackerRank-Contest-Leaderboard%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4%EA%B8%B0%EB%A1%9D>
+###### [HackerRank] The PADS <https://velog.io/@ljs7463/HackerRank-The-PADS>
+
 
 
 ## 크롤링
