@@ -107,7 +107,9 @@
 ###### SQL groupby 와 select메모 <https://velog.io/@ljs7463/SQL-groupby-%EC%99%80-select%EB%A9%94%EB%AA%A8>
 ###### [HackerRank] Contest Leaderboard(문제풀이기록) <https://velog.io/@ljs7463/HackerRank-Contest-Leaderboard%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4%EA%B8%B0%EB%A1%9D>
 ###### [HackerRank] The PADS <https://velog.io/@ljs7463/HackerRank-The-PADS>
+###### [MySQL] DATETIME에서 DATE로 형 변환 <https://velog.io/@ljs7463/MySQL-DATETIME%EC%97%90%EC%84%9C-DATE%EB%A1%9C-%ED%98%95-%EB%B3%80%ED%99%98>
 
+ 
 
 
 ## 크롤링
