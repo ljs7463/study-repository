@@ -76,6 +76,8 @@
 ######  특성중요도<https://velog.io/@ljs7463/%ED%8A%B9%EC%84%B1%EC%A4%91%EC%9A%94%EB%8F%84>
 ######  피처 스케일링(StandardScaler,MinMaxScaler) <https://velog.io/@ljs7463/%ED%94%BC%EC%B2%98-%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81StandardScalerMinMaxScaler>
 ######  위드클라우드 활용하기 <https://velog.io/@ljs7463/%EC%9C%84%EB%93%9C%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0>
+######  클러스터링 <https://velog.io/@ljs7463/%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%EB%A7%81>
+
 
 ## 딥러닝/ 자연어처리
 ###### 딥러닝 기본 용어 개념 정리 <https://velog.io/@ljs7463/%EB%94%A5%EB%9F%AC%EB%8B%9D-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC>
@@ -108,7 +110,7 @@
 ###### [HackerRank] Contest Leaderboard(문제풀이기록) <https://velog.io/@ljs7463/HackerRank-Contest-Leaderboard%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4%EA%B8%B0%EB%A1%9D>
 ###### [HackerRank] The PADS <https://velog.io/@ljs7463/HackerRank-The-PADS>
 ###### [MySQL] DATETIME에서 DATE로 형 변환 <https://velog.io/@ljs7463/MySQL-DATETIME%EC%97%90%EC%84%9C-DATE%EB%A1%9C-%ED%98%95-%EB%B3%80%ED%99%98>
-
+###### [HackerRank] Type of Triangle <https://velog.io/@ljs7463/HackerRank-Type-of-Triangle>
  
 
 
