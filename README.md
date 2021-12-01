@@ -112,6 +112,7 @@
 ###### [MySQL] DATETIME에서 DATE로 형 변환 <https://velog.io/@ljs7463/MySQL-DATETIME%EC%97%90%EC%84%9C-DATE%EB%A1%9C-%ED%98%95-%EB%B3%80%ED%99%98>
 ###### [HackerRank] Type of Triangle <https://velog.io/@ljs7463/HackerRank-Type-of-Triangle>
 ###### [HackerRank] Occupations <https://velog.io/@ljs7463/HackerRank-Occupations>
+###### [HackerRank] New Companies <https://velog.io/@ljs7463/HackerRank-New-Companies>
 
 
 
