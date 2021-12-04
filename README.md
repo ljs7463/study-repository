@@ -117,18 +117,20 @@
 
 
 
-
 ## 크롤링
 ######  [웹 크롤링]BeautifulSoup, Selenium 비교 <https://velog.io/@ljs7463/%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%A7%81BeautifulSoup-Selenium>
 ######  웹페이지 스크레핑/크롤링<기본> <https://velog.io/@ljs7463/%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%8A%A4%ED%81%AC%EB%A0%88%ED%95%91%ED%81%AC%EB%A1%A4%EB%A7%81%EA%B8%B0%EB%B3%B8>
+
 
 ## Visualization
 ###### 시간에 따른 정량적 데이터 시각화 <https://velog.io/@ljs7463/%EC%8B%9C%EA%B0%84%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%A0%95%EB%9F%89%EC%A0%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%8B%9C%EA%B0%81%ED%99%94>
 ###### 시각화를 통한 코로나19 현황 파악 <https://velog.io/@ljs7463/%EC%BD%94%EB%A1%9C%EB%82%9819-%EC%8B%9C%EA%B0%81%ED%99%94-%ED%95%B4%EB%B3%B4%EA%B8%B0>
 ###### matplotlib 오른쪽 Y축 사용하는이유와 방법 <https://velog.io/@ljs7463/matplotlib-%EC%98%A4%EB%A5%B8%EC%AA%BD-Y%EC%B6%95-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%EC%9D%B4%EC%9C%A0%EC%99%80-%EB%B0%A9%EB%B2%95>
 
+
 ## 마케팅&기획 과 관련된 분석기법
 Funnel Analysis(Funnel, AARRR) <https://velog.io/@ljs7463/Funnel-AnalysisFunnel-AARRR>
+
 
 ## 기타
 ######  정규표현식 re.sub()을 이용한 문자열 치환<https://velog.io/@ljs7463/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D-re.sub%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%B9%98%ED%99%98>
