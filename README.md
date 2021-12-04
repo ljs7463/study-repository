@@ -113,6 +113,8 @@
 ###### [HackerRank] Type of Triangle <https://velog.io/@ljs7463/HackerRank-Type-of-Triangle>
 ###### [HackerRank] Occupations <https://velog.io/@ljs7463/HackerRank-Occupations>
 ###### [HackerRank] New Companies <https://velog.io/@ljs7463/HackerRank-New-Companies>
+###### [HackerRank] Draw The Triangle 1,2 <https://velog.io/@ljs7463/HackerRank-Draw-The-Triangle-1>
+
 
 
 
