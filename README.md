@@ -127,7 +127,7 @@
 ###### 시각화를 통한 코로나19 현황 파악 <https://velog.io/@ljs7463/%EC%BD%94%EB%A1%9C%EB%82%9819-%EC%8B%9C%EA%B0%81%ED%99%94-%ED%95%B4%EB%B3%B4%EA%B8%B0>
 ###### matplotlib 오른쪽 Y축 사용하는이유와 방법 <https://velog.io/@ljs7463/matplotlib-%EC%98%A4%EB%A5%B8%EC%AA%BD-Y%EC%B6%95-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%EC%9D%B4%EC%9C%A0%EC%99%80-%EB%B0%A9%EB%B2%95>
 ###### [태블로 1일차] 코로나19 시각화 <https://velog.io/@ljs7463/%EC%BD%94%EB%A1%9C%EB%82%9819-%EC%8B%9C%EA%B0%81%ED%99%94-%ED%83%9C%EB%B8%94%EB%A1%9C-%EC%B2%AB-%EC%97%B0%EC%8A%B5>
-
+###### [태블로 2일차] 레이블, 색상 추가 및 서식 <https://velog.io/@ljs7463/%ED%83%9C%EB%B8%94%EB%A1%9C-2%EC%9D%BC%EC%B0%A8-%EB%A0%88%EC%9D%B4%EB%B8%94-%EC%83%89%EC%83%81-%EC%B6%94%EA%B0%80-%EB%B0%8F-%EC%84%9C%EC%8B%9D>
 
 
 ## 마케팅&기획 과 관련된 분석기법
