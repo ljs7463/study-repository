@@ -129,7 +129,7 @@
 ###### [태블로 1일차] 코로나19 시각화 <https://velog.io/@ljs7463/%EC%BD%94%EB%A1%9C%EB%82%9819-%EC%8B%9C%EA%B0%81%ED%99%94-%ED%83%9C%EB%B8%94%EB%A1%9C-%EC%B2%AB-%EC%97%B0%EC%8A%B5>
 ###### [태블로 2일차] 레이블, 색상 추가 및 서식 <https://velog.io/@ljs7463/%ED%83%9C%EB%B8%94%EB%A1%9C-2%EC%9D%BC%EC%B0%A8-%EB%A0%88%EC%9D%B4%EB%B8%94-%EC%83%89%EC%83%81-%EC%B6%94%EA%B0%80-%EB%B0%8F-%EC%84%9C%EC%8B%9D>
 ###### [태블로 3일차] areaplot ,필터, 하이라이트 <https://velog.io/@ljs7463/%ED%83%9C%EB%B8%94%EB%A1%9C-3%EC%9D%BC%EC%B0%A8-areaplot-%ED%95%84%ED%84%B0-%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8>
-
+###### [태블로 4일차]테이블 JOIN <https://velog.io/@ljs7463/%ED%83%9C%EB%B8%94%EB%A1%9C-4%EC%9D%BC%EC%B0%A8%ED%85%8C%EC%9D%B4%EB%B8%94-JOIN>
 
 
 
