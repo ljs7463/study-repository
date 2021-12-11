@@ -1,0 +1,41 @@
+.container {
+    padding-top: 20px;
+    padding-right: 300px;
+    padding-left: 300px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .jumbotron {
+    background-color : rgba(0,0,0,0.9);
+    color : white;
+    padding : 100px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .table {
+    table-layout: fixed;
+    padding-left : 200px;
+    padding-right : 200px;
+    width: 100%;
+    font-size : 25px
+  }
+
+  ul {
+    display : inline;
+  }
+  
+  li {
+    display : inline;
+  }
+  
+  li a{
+    display: inline;
+    color : white;
+    text-align: center;
+    padding : 15px 20px;
+    text-decoration:none
+  
+  }

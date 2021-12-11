@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>
+        Index Page
+        </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main_style.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main_bootstrap.css') }}">
+
+    </head>
+
+
+    <body>
+        {% include "navbar.html" %}
+        
+        <div class='title'>
+          <h1 style="font-size:100px; text-align:center; margin-top:50px; color:white;">Code Store</h1>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <form method="get" action="{{ url_for('main.search', name='kw') }}">
+            <div class="input-group" style='font-size: 50px;'>
+              <input type="text" class="form-control kw" name="kw" id="kw" value="{{kw or '' }}" placeholder="Enter search value">
+              <input type="submit" class="btn btn-primary" style="width:120px;background-color: maroon; border:none; cursor:pointer;" value="Search">
+            </div>  
+          </form>
+
+
+    </body>
+</html>

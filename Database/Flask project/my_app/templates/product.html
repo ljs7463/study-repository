@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <title>
+      Index Page
+    </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main_style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/recipe_bootstrap.css') }}">
+  </head>
+
+  <body>
+    {% include "navbar.html" %}
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1 style="font-size:40px; text-align:center; margin-top:0;">{{product.title_orig}}</h1>
+        <br>
+        <h1 style="text-align:center;"><img src="../static/images/sample2.jpg" width=80%> </h1>
+        <br>
+
+        <table style='color:white'>
+          <thead>
+            <tr>
+              <th colspan=2 style='font-size:25px;'>Price</th>
+              <th> &nbsp;&nbsp;&nbsp;&nbsp;</th> 
+              <th colospan=4 style='font-size:20px;'>{{'%-.2f' %product.price|float}}</th>
+            </tr>
+            <tr><th><br></th></tr>
+            <tr>
+              <th colspan=2 style='font-size:25px;'>Color </th>
+              <th> &nbsp;&nbsp;&nbsp;&nbsp; </th>
+              <th colospan=4 style='font-size:20px;'> {{product.product_color}}</th>
+            </tr>
+            <tr><th><br></th></tr>
+            <tr>
+              <th colspan=2 style='font-size:25px;'>Shipping Option </th>
+              <th> &nbsp;&nbsp;&nbsp;&nbsp; </th>
+              <th colospan=4 style='font-size:20px;'> {{product.shipping_option_name}}</th>
+            </tr>
+            <tr><th><br></th></tr>
+            <tr>
+              <th colspan=2 style='font-size:25px;'>Shipping Fee</th>
+              <th>&nbsp;&nbsp;&nbsp;&nbsp; </th>
+              <th colospan=4 style='font-size:20px;'> {{product.shipping_option_price}}</th>
+            </tr>
+            <tr><th><br></th></tr>
+            <tr>
+              <th colspan=2 style='font-size:25px;'>Origin </th>
+              <th> &nbsp;&nbsp;  &nbsp;&nbsp; </th>
+              <th colospan=4 style='font-size:20px;'> {{product.origin_country}}</th>
+            </tr>
+            <tr><th><br></th></tr>
+            <tr>
+              <th colspan=2 style='font-size:25px;'>Units Sold </th>
+              <th>&nbsp;&nbsp;  &nbsp;&nbsp; </th>
+              <th colospan=4 style='font-size:20px;'> {{total_sales}}</th>
+            </tr>
+            <tr><th><br></th></tr>
+            <tr>
+              <th colspan=2 style='font-size:25px;'>Rating </th>
+              <th> &nbsp;&nbsp;&nbsp;&nbsp; </th>
+              <th colospan=4 style='font-size:20px;'> {{'%-.2f' %rating_data.rating|float}}</th>
+            </tr>
+            <tr><th><br></th></tr>
+            <tr>
+              <th colspan=2 style='font-size:25px;'>Total Rating Count</th> 
+              <th> &nbsp;&nbsp; &nbsp;&nbsp; </th>
+              <th colospan=4 style='font-size:20px;'> {{'%-0.f' %rating_count}}</th>
+            </tr>
+            <tr><th><br></th></tr>
+            <tr>
+              <th colspan=2 style='font-size:25px;'>Rating 5</th>
+              <th> &nbsp;&nbsp; &nbsp;&nbsp; </th>
+              <th colospan=4 style='font-size:20px;'> {{'%-0.f' %rating_data.rating_five_count}}</th>
+            </tr>
+            <tr><th><br></th></tr>
+            <tr>
+              <th colspan=2 style='font-size:25px;'>Rating 4 </th>
+              <th> &nbsp;&nbsp; &nbsp;&nbsp;</th>
+              <th colospan=4 style='font-size:20px;'> {{'%-0.f' %rating_data.rating_four_count}}</th>
+            </tr>
+            <tr><th><br></th></tr>
+            <tr>
+              <th colspan=2 style='font-size:25px;'>Rating 3 </th>
+              <th> &nbsp;&nbsp; &nbsp;&nbsp; </th>
+              <th colospan=4 style='font-size:20px;'> {{'%-0.f' %rating_data.rating_three_count}}</th>
+            </tr>
+            <tr><th><br></th></tr>
+            <tr>
+              <th colspan=2 style='font-size:25px;'>Rating 2 </th>
+              <th> &nbsp;&nbsp; &nbsp;&nbsp; </th>
+              <th colospan=4 style='font-size:20px;'> {{'%-0.f' %rating_data.rating_two_count}}</th>
+            </tr>
+            <tr><th><br></th></tr>
+            <tr>
+              <th colspan=2 style='font-size:25px;'>Rating 1 </th>
+              <th> &nbsp;&nbsp; &nbsp;&nbsp; </th>
+              <th colospan=4 style='font-size:20px;'> {{'%-0.f' %rating_data.rating_one_count}}</th>
+            </tr>
+            <tr><th><br></th></tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

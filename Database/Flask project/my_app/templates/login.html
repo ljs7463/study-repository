@@ -1,0 +1,33 @@
+<html>
+    <head>
+    <title>
+      Index Page
+    </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main_style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main_bootstrap.css') }}">
+
+  </head>
+    </head>
+    <body>
+        {% include "navbar.html" %}
+        <div class="jumbotron_login">
+            <h1 style="font-size:50px; text-align:center; margin-top:50px; color:white;">Log In</h1>
+            <form method="post" class="post-form">
+                {{ form.csrf_token }}
+                {% include "form_errors.html" %}
+                <div class="form-group">
+                    <label for="username">User Name&nbsp;&nbsp;</label>
+                    <input type="text" class="form-control" name="username" id="username"
+                        value="{{ form.username.data or '' }}">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password&nbsp;&nbsp;&nbsp;</label>
+                    <input type="password" class="form-control" name="password" id="password"
+                        value="{{ form.password.data or '' }}">
+                </div>
+                <button type="submit" class="btn btn-primary" style='font-size:20px; color:white; background:rgba(0,0,0,0); border:none; cursor:pointer; display:inline-block;'>Log In</button>
+
+                
+            </form>
+        </div>
+    </body>

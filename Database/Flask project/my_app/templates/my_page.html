@@ -1,0 +1,40 @@
+<html>
+    <head>
+    <title>
+      My Page
+    </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main_style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main_bootstrap.css') }}">
+
+  
+    </head>
+    <body>
+        {% include "navbar.html" %}
+        <div class="jumbotron_mypage">
+            <h1 style="font-size:50px; text-align:center; margin-top:50px; color:white;">My Page</h1>
+
+            <h2 class='my_page'>User Name : {{g.user.username}}</h2>
+
+            <h2 class='my_page'>ID : {{g.user.username}}</h2>
+
+
+
+
+            <form method="post" class="post-form">
+                {{ form.csrf_token }}
+                {% include "form_errors.html" %}
+
+                <div class="form-group">
+                    <label for="password">New Password&nbsp;&nbsp;&nbsp;</label>
+                    <input type="password" class="form-control" name="password" id="password"
+                        value="{{ form.password.data or '' }}">
+                </div>
+                <button type="submit" class="btn btn-primary" style='font-size:20px; color:white; background:rgba(0,0,0,0); border:none; cursor:pointer; display:inline-block;'>
+                    Change Password</button>
+            </form>
+
+
+            <a class="delete btn btn-sm btn-outline-secondary" href="{{ url_for('user.delete', user_id=g.user.username) }}">Delete User</a>
+
+        </div>
+    </body>

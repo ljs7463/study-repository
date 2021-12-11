@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>
+      Index Page
+    </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main_style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/search_bootstrap.css') }}">
+
+  </head>
+  <body>
+    {% include "navbar.html" %}
+   
+    <div class="container">
+      <div class="jumbotron">
+        <h1 style='color:rgb(255, 102, 0)'> Search results for "{{keyword}}"</h1>
+        <br>
+        
+        <br>
+        {% for result in results %}
+        {% set title = result[0] %}
+        {% set rating = result[4] %}
+        {% set color = result[2] %}
+        {% set origin = result[1] %}
+        {% set index = result[5] %}
+        {% set price = result[6] %}
+
+          <div class="results"> 
+            <div classs="name">
+              <h1>
+                <a href="{{ url_for('main.product', item_index=index) }}"><span style='color:white'>{{title}}</span></a>
+              </h1>
+              <a ><b>Price</b> : {{'%-.2f' %price|float}}</a>
+              <br>
+              <a ><b>Rating</b> : {{'%-.2f' %rating|float}}</a>
+              <br>
+              <a><b>color</b> : {{color}}</a>
+              <br>
+              <a><b>origin</b> : {{origin}}</a>
+              <br>         
+              <br>
+              <hr>
+              <br>
+            </div>
+          </div>
+        {% endfor %}
+        
+
+
+
+        <!-- {% for id in ids %}
+            {% set item_1 = ids[loop.index-1] %}
+            {% set item_2 = counts[loop.index-1] %}
+            {% set item_3 = results[loop.index-1][2] %}
+            <h1> {{item_1}}, {{item_2}}, {{item_3}}</h1>
+
+        {% endfor %} -->
+        
+
+<!-- 
+
+      {% for id in ids %}
+        {% for count in counts %}
+        {{id, count}} <br>
+        {% endfor %}
+      {% endfor %} -->
+
+
+      </div>
+
+    </div>
+  </body>
+</html>
