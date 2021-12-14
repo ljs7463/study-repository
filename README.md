@@ -115,6 +115,8 @@
 ###### [HackerRank] New Companies <https://velog.io/@ljs7463/HackerRank-New-Companies>
 ###### [HackerRank] Draw The Triangle 1,2 <https://velog.io/@ljs7463/HackerRank-Draw-The-Triangle-1>
 ###### [HackerRank] SQL Project Planning <https://velog.io/@ljs7463/HackerRank-SQL-Project-Planning>
+###### [HackerRank] Placements <https://velog.io/@ljs7463/HackerRank-Placements>
+
 
 
 ## 크롤링
