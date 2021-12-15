@@ -133,7 +133,7 @@
 ###### [태블로 3일차] areaplot ,필터, 하이라이트 <https://velog.io/@ljs7463/%ED%83%9C%EB%B8%94%EB%A1%9C-3%EC%9D%BC%EC%B0%A8-areaplot-%ED%95%84%ED%84%B0-%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8>
 ###### [태블로 4일차]테이블 JOIN <https://velog.io/@ljs7463/%ED%83%9C%EB%B8%94%EB%A1%9C-4%EC%9D%BC%EC%B0%A8%ED%85%8C%EC%9D%B4%EB%B8%94-JOIN>
 ###### [태블로 5일차] 지도, 산점도, 필터, 하이라이트 <https://velog.io/@ljs7463/%ED%83%9C%EB%B8%94%EB%A1%9C-5%EC%9D%BC%EC%B0%A8%EC%A7%80%EB%8F%84-%EC%82%B0%EC%A0%90%EB%8F%84-%ED%95%84%ED%84%B0-%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8>
-
+###### [태블로 6일차] JOIN 과 블렌딩 <https://velog.io/@ljs7463/%ED%83%9C%EB%B8%94%EB%A1%9C-6%EC%9D%BC%EC%B0%A8-JOIN-%EA%B3%BC-%EB%B8%94%EB%A0%8C%EB%94%A9>
 
 ## 마케팅&기획 과 관련된 분석기법
 Funnel Analysis(Funnel, AARRR) <https://velog.io/@ljs7463/Funnel-AnalysisFunnel-AARRR>
