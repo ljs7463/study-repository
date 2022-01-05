@@ -118,6 +118,9 @@
 ###### [HackerRank] Placements <https://velog.io/@ljs7463/HackerRank-Placements>
 ###### [MySQL] DATE_FORMAT <https://velog.io/@ljs7463/MySQL-DATEFORMAT>
 ###### SQL 집합 연산자(UNION, UNION ALL, INTERSECT, EXCEPT) <https://velog.io/@ljs7463/SQL-집합-연산자UNION-UNION-ALL-INTERSECT-EXCEPT>
+###### 변수를 설정하는 쿼리문 set 변수 <https://velog.io/@ljs7463/변수를-설정하는-쿼리문-set-변수>
+
+
 
 ## 크롤링
 ######  [웹 크롤링]BeautifulSoup, Selenium 비교 <https://velog.io/@ljs7463/%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%A7%81BeautifulSoup-Selenium>
