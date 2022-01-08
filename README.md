@@ -56,7 +56,7 @@
 ###### 기초통계 (27) 검정력과 표본크기 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-27-%EA%B2%80%EC%A0%95%EB%A0%A5%EA%B3%BC-%ED%91%9C%EB%B3%B8%ED%81%AC%EA%B8%B0>
 ###### 가설검정 로드맵 <https://velog.io/@ljs7463/%EA%B0%80%EC%84%A4%EA%B2%80%EC%A0%95-%EB%A1%9C%EB%93%9C%EB%A7%B5>
 ###### 기초통계 (28) 단순선형회귀 <https://velog.io/@ljs7463/%EA%B8%B0%EC%B4%88%ED%86%B5%EA%B3%84-28-%EB%8B%A8%EC%88%9C%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80>
-
+###### 다중검정(Multiple Comparison) <https://velog.io/@ljs7463/다중검정Multiple-Comparison>
 
 ## 머신러닝
 
