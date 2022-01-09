@@ -127,6 +127,11 @@
 ######  웹페이지 스크레핑/크롤링<기본> <https://velog.io/@ljs7463/%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%8A%A4%ED%81%AC%EB%A0%88%ED%95%91%ED%81%AC%EB%A1%A4%EB%A7%81%EA%B8%B0%EB%B3%B8>
 
 
+## 판다스
+###### 판다스 계층적 색인( stack(), unstack() )<https://velog.io/@ljs7463/판다스-계층적-색인-stack-unstack>
+
+
+
 ## Visualization
 ###### 시간에 따른 정량적 데이터 시각화 <https://velog.io/@ljs7463/%EC%8B%9C%EA%B0%84%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%A0%95%EB%9F%89%EC%A0%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%8B%9C%EA%B0%81%ED%99%94>
 ###### 시각화를 통한 코로나19 현황 파악 <https://velog.io/@ljs7463/%EC%BD%94%EB%A1%9C%EB%82%9819-%EC%8B%9C%EA%B0%81%ED%99%94-%ED%95%B4%EB%B3%B4%EA%B8%B0>
