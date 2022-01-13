@@ -129,7 +129,7 @@
 
 ## 판다스
 ###### 판다스 계층적 색인( stack(), unstack() )<https://velog.io/@ljs7463/판다스-계층적-색인-stack-unstack>
-
+###### 판다스 특정 문자로 검색하는 str.contains() <https://velog.io/@ljs7463/판다스-특정-문자로-검색하는-str.contains>
 
 
 ## Visualization
