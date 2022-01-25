@@ -144,7 +144,7 @@
 ###### [태블로 6일차] JOIN 과 블렌딩 <https://velog.io/@ljs7463/%ED%83%9C%EB%B8%94%EB%A1%9C-6%EC%9D%BC%EC%B0%A8-JOIN-%EA%B3%BC-%EB%B8%94%EB%A0%8C%EB%94%A9>
 ###### [태블로 7일차] 블렌딩 활용 및 이중축 차트 <https://velog.io/@ljs7463/태블로-7일차-블렌딩-활용-및-이중축-차트>
 ###### [태블로 8일차] 블랜딩에서 계산된 필드 사용하기 <https://velog.io/@ljs7463/태블로-8일차-블랜딩에서-계산된-필드-사용하기>
-
+###### [태블로 9일차] 스키마 구성하기 <https://velog.io/@ljs7463/태블로-9일차-스키마-구성하기>
 
 ## 마케팅&기획 과 관련된 분석기법
 Funnel Analysis(Funnel, AARRR) <https://velog.io/@ljs7463/Funnel-AnalysisFunnel-AARRR>
