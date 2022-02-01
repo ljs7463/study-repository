@@ -10,7 +10,7 @@ soup = BeautifulSoup(res.text, 'lxml')
 #print(res.text)
 
 items = soup.find_all('li', attrs={'class':re.compile('^search-product')})
-#print(items[0].find('div', attrs={'class':'name'}).get_text())
+# print(items[0].find('div', attrs={'class':'name'}).get_text())
 for item in items:
     name = item.find('div', attrs={'class':'name'}).get_text() #제품명
     price = item.find('strong', attrs = {'class':'price-value'}).get_text() #가격

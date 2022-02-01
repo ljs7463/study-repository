@@ -7,7 +7,10 @@ res.raise_for_status()
 
 soup = BeautifulSoup(res.text, 'lxml')
 cartoons = soup.find_all('td',attrs={'class':'title'})
-# title = cartoons[0].a.get_text()
+title = cartoons[0].a.get_text()
+# print(title)
+
+# 만화 링크 출력
 # link = 'https://comic.naver.com' + cartoons[0].a['href']
 # print(title)
 # print(link)

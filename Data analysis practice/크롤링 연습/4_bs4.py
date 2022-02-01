@@ -19,19 +19,21 @@ soup = BeautifulSoup(res.text, 'lxml')
 #===========================================================================================
 
 
-print(soup.find('a', attrs={'class':'Nbtn_upload'})) # 클래스 값이 'Nbtn_upload' 인 a element 를 찾아줘
-print(soup.find('a', attrs={'class':'Nbtn_upload'}).get_text()) # 클래스 값이 'Nbtn_upload' 인 a element 를 찾아서 텍스트만 추출
+# print(soup.find('a', attrs={'class':'Nbtn_upload'})) # 클래스 값이 'Nbtn_upload' 인 a element 를 찾아줘
+# print(soup.find('a', attrs={'class':'Nbtn_upload'}).get_text()) # 클래스 값이 'Nbtn_upload' 인 a element 를 찾아서 텍스트만 추출
 # # soup.find() : 괄호안에 입력해준 정보에 따라 처음으로 발견되는 것을 출력
 
 # rank1 = soup.find('li', attrs = {'class':'rank01'})
 # print(rank1.a.get_text())
 # print(rank1.next_sibling)
+# print(rank1.next_sibling.next_sibling)
 # rank2 = rank1.next_sibling.next_sibling
 # rank3 = rank2.next_sibling.next_sibling
-# print(rank3.a.get_text())
+# # print(rank3.a.get_text())
 # rank2 = rank3.previous_sibling.previous_sibling 
+# print(rank2.a.get_text())
 # print(rank1.parent)
-# rank2 = rank1.find_next_sibling('li') n # "li" element 기준으로 다음것을 찾는것
+# rank2 = rank1.find_next_sibling('li')  # "li" element 기준으로 다음것을 찾는것
 # print(rank2.a.get_text())
 # rank1 = rank2.find_previous_sibling('li')
 # print(rank1.a.get_text())
