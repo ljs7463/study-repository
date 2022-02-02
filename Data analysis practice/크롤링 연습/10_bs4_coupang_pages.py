@@ -42,8 +42,7 @@ for i in range(1, 6):
 
         rate_count = item.find('span', attrs = {'class':'rating-total-count'}) # 평점 수
         if rate_count:
-            rate_count = rate_count.get_text()
-            rate_count = rate_count[1:-1] # 평점에 출력되는 괄호 제거
+            rate_count = rate_count.get_text()[1:-1] # 평점에 출력되는 괄호 제거
         else:
             #print('   <평점 수 없는 상품 제외합니다>    ')
             continue

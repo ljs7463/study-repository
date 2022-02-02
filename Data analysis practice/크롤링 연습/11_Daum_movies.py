@@ -14,7 +14,8 @@ for idx, image in enumerate(images):
 
     print(image_url)
     image_res = requests.get(image_url)
-
+    image_res.raise_for_status()
+    
     with open('movie{}.jpg'.format(idx+1), "wb") as f:
         f.write(image_res.content)
 

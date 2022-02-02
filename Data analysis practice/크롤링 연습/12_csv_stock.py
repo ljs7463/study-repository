@@ -12,7 +12,7 @@ writer = csv.writer(f)
 title = "N	종목명	현재가	전일비	등락률	액면가	시가총액	상장주식수	외국인비율	거래량	PER	ROE	토론실".split('\t')
 writer.writerow(title)
 
-for page in range(1, 2):
+for page in range(1, 5): # 1, 5페이지 가져오기
     res = requests.get(url+str(page))
     res.raise_for_status
     soup = BeautifulSoup(res.text,'lxml')
@@ -23,5 +23,5 @@ for page in range(1, 2):
         if len(columns) <= 1: #의미 없는 데이터 skip
             continue
         data = [column.get_text().strip() for column in columns]
-        #print(data)
+        # print(data)
         writer.writerow(data) # 리스트 형태로 넣어주어야한다.
