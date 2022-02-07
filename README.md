@@ -150,7 +150,7 @@
 ###### [태블로 9일차] 스키마 구성하기 <https://velog.io/@ljs7463/태블로-9일차-스키마-구성하기>
 ###### [태블로 10일차] 관계형성으로 시각화 해보기 <https://velog.io/@ljs7463/태블로-10일차-관계형성으로-시각화-해보기>
 ###### [태블로 11일차] 대시보드 만들기 <https://velog.io/@ljs7463/태블로-11일차-대시보드-만들기>
-
+###### [태블로 12일차] 스토리라인 만들기 <https://velog.io/@ljs7463/태블로-12일차-스토리라인-만들기>
 
 ## 마케팅&기획 과 관련된 분석기법
 Funnel Analysis(Funnel, AARRR) <https://velog.io/@ljs7463/Funnel-AnalysisFunnel-AARRR>
