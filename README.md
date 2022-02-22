@@ -157,6 +157,10 @@
 ###### [태블로 10일차] 관계형성으로 시각화 해보기 <https://velog.io/@ljs7463/태블로-10일차-관계형성으로-시각화-해보기>
 ###### [태블로 11일차] 대시보드 만들기 <https://velog.io/@ljs7463/태블로-11일차-대시보드-만들기>
 ###### [태블로 12일차] 스토리라인 만들기 <https://velog.io/@ljs7463/태블로-12일차-스토리라인-만들기>
+###### 직장인 태블로 교육 수강1일차 <https://velog.io/@ljs7463/%EC%A7%81%EC%9E%A5%EC%9D%B8-%ED%83%9C%EB%B8%94%EB%A1%9C-%EA%B5%90%EC%9C%A1-%EC%88%98%EA%B0%951%EC%9D%BC%EC%B0%A8>
+
+
+
 
 ## 마케팅&기획 과 관련된 분석기법
 Funnel Analysis(Funnel, AARRR) <https://velog.io/@ljs7463/Funnel-AnalysisFunnel-AARRR>
