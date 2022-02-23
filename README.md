@@ -124,6 +124,7 @@
 ###### SQL 집합 연산자(UNION, UNION ALL, INTERSECT, EXCEPT) <https://velog.io/@ljs7463/SQL-집합-연산자UNION-UNION-ALL-INTERSECT-EXCEPT>
 ###### 변수를 설정하는 쿼리문 set 변수 <https://velog.io/@ljs7463/변수를-설정하는-쿼리문-set-변수>
 ###### SQL 가상테이블을 만드는 With문 <https://velog.io/@ljs7463/SQL-%EA%B0%80%EC%83%81%ED%85%8C%EC%9D%B4%EB%B8%94%EC%9D%84-%EB%A7%8C%EB%93%9C%EB%8A%94-With%EB%AC%B8>
+###### [MySQL] 행의 순위를 만드는 함수 RANK, DENSE_RANK, ROW_NUMBER(), <https://velog.io/@ljs7463/MySQL-행의-순위를-만드는-함수-RANK-DENSERANK-ROWNUMBER>
 
 
 ## 크롤링
