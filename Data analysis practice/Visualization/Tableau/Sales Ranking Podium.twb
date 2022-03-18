@@ -1,0 +1,1570 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.21.1214.2057                               -->
+<workbook original-version='18.1' source-build='2021.4.1 (20214.21.1214.2057)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Superstore_Seoul_2021.xlsx' inline='true' name='federated.0kr8asy1x3qyfo12e49530z1ra6j' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Superstore_Seoul_2021.xlsx' name='google-sheets.0ljw6pb0elxw9a17ummvx0405hec'>
+            <connection class='google-sheets' cleaning='no' compat='no' dataRefreshTime='' filename='Sales Ranking Podium' googleSheetId='1OGfBKtc9DSsc_9_xt_43eDyiXI1UNO5U' interpretationMode='8' mimeType='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' server-oauth='' username='nevergiveup7463@gmail.com' validate='no' workgroup-auth-mode='prompt' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation all='true' name='202101+' type='union'>
+          <columns header='yes'>
+            <column datatype='date' name='Order Date' />
+            <column datatype='string' name='Segment' />
+            <column datatype='string' name='State / Province' />
+            <column datatype='string' name='County' />
+            <column datatype='string' name='Category' />
+            <column datatype='string' name='Sub-Category' />
+            <column datatype='real' name='Sales' />
+            <column datatype='integer' name='Quantity' />
+            <column datatype='integer' name='Profit' />
+            <column datatype='string' name='Sheet' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202101' table='[&apos;202101$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202102' table='[&apos;202102$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202103' table='[&apos;202103$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202104' table='[&apos;202104$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='2'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202105' table='[&apos;202105$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202106' table='[&apos;202106$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202107' table='[&apos;202107$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202108' table='[&apos;202108$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202109' table='[&apos;202109$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='2'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202110' table='[&apos;202110$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202111' table='[&apos;202111$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202112' table='[&apos;202112$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation all='true' name='202101+' type='union'>
+          <columns header='yes'>
+            <column datatype='date' name='Order Date' />
+            <column datatype='string' name='Segment' />
+            <column datatype='string' name='State / Province' />
+            <column datatype='string' name='County' />
+            <column datatype='string' name='Category' />
+            <column datatype='string' name='Sub-Category' />
+            <column datatype='real' name='Sales' />
+            <column datatype='integer' name='Quantity' />
+            <column datatype='integer' name='Profit' />
+            <column datatype='string' name='Sheet' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202101' table='[&apos;202101$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202102' table='[&apos;202102$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202103' table='[&apos;202103$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202104' table='[&apos;202104$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='2'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202105' table='[&apos;202105$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202106' table='[&apos;202106$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202107' table='[&apos;202107$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202108' table='[&apos;202108$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202109' table='[&apos;202109$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='2'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202110' table='[&apos;202110$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202111' table='[&apos;202111$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202112' table='[&apos;202112$&apos;]' type='table'>
+            <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+              <column datatype='date' name='Order Date' ordinal='0' />
+              <column datatype='string' name='Segment' ordinal='1' />
+              <column datatype='string' name='State / Province' ordinal='2' />
+              <column datatype='string' name='County' ordinal='3' />
+              <column datatype='string' name='Category' ordinal='4' />
+              <column datatype='string' name='Sub-Category' ordinal='5' />
+              <column datatype='real' name='Sales' ordinal='6' />
+              <column datatype='integer' name='Quantity' ordinal='7' />
+              <column datatype='integer' name='Profit' ordinal='8' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <refresh increment-key='' incremental-updates='false' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[202101+]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Order Date]</local-name>
+            <parent-name>[202101+]</parent-name>
+            <remote-alias>Order Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Segment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Segment]</local-name>
+            <parent-name>[202101+]</parent-name>
+            <remote-alias>Segment</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State / Province</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State / Province]</local-name>
+            <parent-name>[202101+]</parent-name>
+            <remote-alias>State / Province</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[County]</local-name>
+            <parent-name>[202101+]</parent-name>
+            <remote-alias>County</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[202101+]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sub-Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sub-Category]</local-name>
+            <parent-name>[202101+]</parent-name>
+            <remote-alias>Sub-Category</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sales]</local-name>
+            <parent-name>[202101+]</parent-name>
+            <remote-alias>Sales</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Quantity]</local-name>
+            <parent-name>[202101+]</parent-name>
+            <remote-alias>Quantity</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Profit</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Profit]</local-name>
+            <parent-name>[202101+]</parent-name>
+            <remote-alias>Profit</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sheet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sheet]</local-name>
+            <parent-name>[202101+]</parent-name>
+            <remote-alias>Sheet</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[202101+]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Rank suffix' datatype='string' name='[Calculation_4360047399407386624]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF RANK(SUM([Sales])) =1 THEN &apos;st&apos;&#10;ELSEIF RANK(SUM([Sales])) = 2 THEN &apos;nd&apos;&#10;ELSE &apos;rd&apos;&#10;END'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+      <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column datatype='string' name='[State / Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='202101+' datatype='table' name='[__tableau_internal_object_id__].[_B05C235BB1244FCE926F513CC02076F2]' role='measure' type='quantitative' />
+      <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+      <drill-paths>
+        <drill-path name='State / Province, County'>
+          <field>[State / Province]</field>
+          <field>[County]</field>
+        </drill-path>
+      </drill-paths>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='ko_KR' class='hyper' dbname='/Users/jeongseok/Desktop/임정석/빅스데이터 태블로/6일차/Sales Ranking Podium.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='03/07/2022 01:44:38 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh increment-key='' incremental-updates='false'>
+            <refresh-event add-from-file-path='Superstore_Seoul_2021.xlsx' increment-value='%null%' refresh-type='create' rows-inserted='39525' timestamp-start='2022-03-07 13:44:38.090' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Order Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Order Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Date</remote-alias>
+              <ordinal>0</ordinal>
+              <family>202101+</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Segment</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Segment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Segment</remote-alias>
+              <ordinal>1</ordinal>
+              <family>202101+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State / Province</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State / Province]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State / Province</remote-alias>
+              <ordinal>2</ordinal>
+              <family>202101+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>County</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[County]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>County</remote-alias>
+              <ordinal>3</ordinal>
+              <family>202101+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category</remote-alias>
+              <ordinal>4</ordinal>
+              <family>202101+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sub-Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sub-Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sub-Category</remote-alias>
+              <ordinal>5</ordinal>
+              <family>202101+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sales</remote-alias>
+              <ordinal>6</ordinal>
+              <family>202101+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>192</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Quantity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Quantity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Quantity</remote-alias>
+              <ordinal>7</ordinal>
+              <family>202101+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Profit</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Profit]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Profit</remote-alias>
+              <ordinal>8</ordinal>
+              <family>202101+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>33732</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sheet</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sheet]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sheet</remote-alias>
+              <ordinal>9</ordinal>
+              <family>202101+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Table Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Table Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Table Name</remote-alias>
+              <ordinal>10</ordinal>
+              <family>202101+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_B05C235BB1244FCE926F513CC02076F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Category:nk]' type='palette'>
+            <map to='#c0c0c0'>
+              <bucket>&quot;Furniture&quot;</bucket>
+            </map>
+            <map to='#cc9966'>
+              <bucket>&quot;Office Supplies&quot;</bucket>
+            </map>
+            <map to='#ffd700'>
+              <bucket>&quot;Technology&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='202101+' id='_B05C235BB1244FCE926F513CC02076F2'>
+            <properties context=''>
+              <relation all='true' name='202101+' type='union'>
+                <columns header='yes'>
+                  <column datatype='date' name='Order Date' />
+                  <column datatype='string' name='Segment' />
+                  <column datatype='string' name='State / Province' />
+                  <column datatype='string' name='County' />
+                  <column datatype='string' name='Category' />
+                  <column datatype='string' name='Sub-Category' />
+                  <column datatype='real' name='Sales' />
+                  <column datatype='integer' name='Quantity' />
+                  <column datatype='integer' name='Profit' />
+                  <column datatype='string' name='Sheet' />
+                  <column datatype='string' name='Table Name' />
+                </columns>
+                <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202101' table='[&apos;202101$&apos;]' type='table'>
+                  <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+                    <column datatype='date' name='Order Date' ordinal='0' />
+                    <column datatype='string' name='Segment' ordinal='1' />
+                    <column datatype='string' name='State / Province' ordinal='2' />
+                    <column datatype='string' name='County' ordinal='3' />
+                    <column datatype='string' name='Category' ordinal='4' />
+                    <column datatype='string' name='Sub-Category' ordinal='5' />
+                    <column datatype='real' name='Sales' ordinal='6' />
+                    <column datatype='integer' name='Quantity' ordinal='7' />
+                    <column datatype='integer' name='Profit' ordinal='8' />
+                  </columns>
+                </relation>
+                <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202102' table='[&apos;202102$&apos;]' type='table'>
+                  <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+                    <column datatype='date' name='Order Date' ordinal='0' />
+                    <column datatype='string' name='Segment' ordinal='1' />
+                    <column datatype='string' name='State / Province' ordinal='2' />
+                    <column datatype='string' name='County' ordinal='3' />
+                    <column datatype='string' name='Category' ordinal='4' />
+                    <column datatype='string' name='Sub-Category' ordinal='5' />
+                    <column datatype='real' name='Sales' ordinal='6' />
+                    <column datatype='integer' name='Quantity' ordinal='7' />
+                    <column datatype='integer' name='Profit' ordinal='8' />
+                  </columns>
+                </relation>
+                <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202103' table='[&apos;202103$&apos;]' type='table'>
+                  <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+                    <column datatype='date' name='Order Date' ordinal='0' />
+                    <column datatype='string' name='Segment' ordinal='1' />
+                    <column datatype='string' name='State / Province' ordinal='2' />
+                    <column datatype='string' name='County' ordinal='3' />
+                    <column datatype='string' name='Category' ordinal='4' />
+                    <column datatype='string' name='Sub-Category' ordinal='5' />
+                    <column datatype='real' name='Sales' ordinal='6' />
+                    <column datatype='integer' name='Quantity' ordinal='7' />
+                    <column datatype='integer' name='Profit' ordinal='8' />
+                  </columns>
+                </relation>
+                <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202104' table='[&apos;202104$&apos;]' type='table'>
+                  <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='2'>
+                    <column datatype='date' name='Order Date' ordinal='0' />
+                    <column datatype='string' name='Segment' ordinal='1' />
+                    <column datatype='string' name='State / Province' ordinal='2' />
+                    <column datatype='string' name='County' ordinal='3' />
+                    <column datatype='string' name='Category' ordinal='4' />
+                    <column datatype='string' name='Sub-Category' ordinal='5' />
+                    <column datatype='real' name='Sales' ordinal='6' />
+                    <column datatype='integer' name='Quantity' ordinal='7' />
+                    <column datatype='integer' name='Profit' ordinal='8' />
+                  </columns>
+                </relation>
+                <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202105' table='[&apos;202105$&apos;]' type='table'>
+                  <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+                    <column datatype='date' name='Order Date' ordinal='0' />
+                    <column datatype='string' name='Segment' ordinal='1' />
+                    <column datatype='string' name='State / Province' ordinal='2' />
+                    <column datatype='string' name='County' ordinal='3' />
+                    <column datatype='string' name='Category' ordinal='4' />
+                    <column datatype='string' name='Sub-Category' ordinal='5' />
+                    <column datatype='real' name='Sales' ordinal='6' />
+                    <column datatype='integer' name='Quantity' ordinal='7' />
+                    <column datatype='integer' name='Profit' ordinal='8' />
+                  </columns>
+                </relation>
+                <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202106' table='[&apos;202106$&apos;]' type='table'>
+                  <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+                    <column datatype='date' name='Order Date' ordinal='0' />
+                    <column datatype='string' name='Segment' ordinal='1' />
+                    <column datatype='string' name='State / Province' ordinal='2' />
+                    <column datatype='string' name='County' ordinal='3' />
+                    <column datatype='string' name='Category' ordinal='4' />
+                    <column datatype='string' name='Sub-Category' ordinal='5' />
+                    <column datatype='real' name='Sales' ordinal='6' />
+                    <column datatype='integer' name='Quantity' ordinal='7' />
+                    <column datatype='integer' name='Profit' ordinal='8' />
+                  </columns>
+                </relation>
+                <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202107' table='[&apos;202107$&apos;]' type='table'>
+                  <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+                    <column datatype='date' name='Order Date' ordinal='0' />
+                    <column datatype='string' name='Segment' ordinal='1' />
+                    <column datatype='string' name='State / Province' ordinal='2' />
+                    <column datatype='string' name='County' ordinal='3' />
+                    <column datatype='string' name='Category' ordinal='4' />
+                    <column datatype='string' name='Sub-Category' ordinal='5' />
+                    <column datatype='real' name='Sales' ordinal='6' />
+                    <column datatype='integer' name='Quantity' ordinal='7' />
+                    <column datatype='integer' name='Profit' ordinal='8' />
+                  </columns>
+                </relation>
+                <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202108' table='[&apos;202108$&apos;]' type='table'>
+                  <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+                    <column datatype='date' name='Order Date' ordinal='0' />
+                    <column datatype='string' name='Segment' ordinal='1' />
+                    <column datatype='string' name='State / Province' ordinal='2' />
+                    <column datatype='string' name='County' ordinal='3' />
+                    <column datatype='string' name='Category' ordinal='4' />
+                    <column datatype='string' name='Sub-Category' ordinal='5' />
+                    <column datatype='real' name='Sales' ordinal='6' />
+                    <column datatype='integer' name='Quantity' ordinal='7' />
+                    <column datatype='integer' name='Profit' ordinal='8' />
+                  </columns>
+                </relation>
+                <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202109' table='[&apos;202109$&apos;]' type='table'>
+                  <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='2'>
+                    <column datatype='date' name='Order Date' ordinal='0' />
+                    <column datatype='string' name='Segment' ordinal='1' />
+                    <column datatype='string' name='State / Province' ordinal='2' />
+                    <column datatype='string' name='County' ordinal='3' />
+                    <column datatype='string' name='Category' ordinal='4' />
+                    <column datatype='string' name='Sub-Category' ordinal='5' />
+                    <column datatype='real' name='Sales' ordinal='6' />
+                    <column datatype='integer' name='Quantity' ordinal='7' />
+                    <column datatype='integer' name='Profit' ordinal='8' />
+                  </columns>
+                </relation>
+                <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202110' table='[&apos;202110$&apos;]' type='table'>
+                  <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+                    <column datatype='date' name='Order Date' ordinal='0' />
+                    <column datatype='string' name='Segment' ordinal='1' />
+                    <column datatype='string' name='State / Province' ordinal='2' />
+                    <column datatype='string' name='County' ordinal='3' />
+                    <column datatype='string' name='Category' ordinal='4' />
+                    <column datatype='string' name='Sub-Category' ordinal='5' />
+                    <column datatype='real' name='Sales' ordinal='6' />
+                    <column datatype='integer' name='Quantity' ordinal='7' />
+                    <column datatype='integer' name='Profit' ordinal='8' />
+                  </columns>
+                </relation>
+                <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202111' table='[&apos;202111$&apos;]' type='table'>
+                  <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+                    <column datatype='date' name='Order Date' ordinal='0' />
+                    <column datatype='string' name='Segment' ordinal='1' />
+                    <column datatype='string' name='State / Province' ordinal='2' />
+                    <column datatype='string' name='County' ordinal='3' />
+                    <column datatype='string' name='Category' ordinal='4' />
+                    <column datatype='string' name='Sub-Category' ordinal='5' />
+                    <column datatype='real' name='Sales' ordinal='6' />
+                    <column datatype='integer' name='Quantity' ordinal='7' />
+                    <column datatype='integer' name='Profit' ordinal='8' />
+                  </columns>
+                </relation>
+                <relation connection='google-sheets.0ljw6pb0elxw9a17ummvx0405hec' name='202112' table='[&apos;202112$&apos;]' type='table'>
+                  <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='6'>
+                    <column datatype='date' name='Order Date' ordinal='0' />
+                    <column datatype='string' name='Segment' ordinal='1' />
+                    <column datatype='string' name='State / Province' ordinal='2' />
+                    <column datatype='string' name='County' ordinal='3' />
+                    <column datatype='string' name='Category' ordinal='4' />
+                    <column datatype='string' name='Sub-Category' ordinal='5' />
+                    <column datatype='real' name='Sales' ordinal='6' />
+                    <column datatype='integer' name='Quantity' ordinal='7' />
+                    <column datatype='integer' name='Profit' ordinal='8' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Rank by Category'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>&lt;</run>
+            <run bold='true' fontalignment='1'>Sheet Name</run>
+            <run bold='true' fontalignment='1'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Superstore_Seoul_2021.xlsx' name='federated.0kr8asy1x3qyfo12e49530z1ra6j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kr8asy1x3qyfo12e49530z1ra6j'>
+            <column caption='Rank suffix' datatype='string' name='[Calculation_4360047399407386624]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF RANK(SUM([Sales])) =1 THEN &apos;st&apos;&#10;ELSEIF RANK(SUM([Sales])) = 2 THEN &apos;nd&apos;&#10;ELSE &apos;rd&apos;&#10;END'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='SUM([Sales])*0.8' datatype='real' name='[Calculation_4360047399460126723]' role='measure' type='quantitative' user:unnamed='시트 1'>
+              <calculation class='tableau' formula='SUM([Sales])*0.8' />
+            </column>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sales]' derivation='Sum' name='[rank:sum:Sales:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' rank-options='Competition,Descending' type='Rank' />
+            </column-instance>
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_4360047399407386624]' derivation='User' name='[usr:Calculation_4360047399407386624:nk]' pivot='key' type='nominal'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+            <column-instance column='[Calculation_4360047399460126723]' derivation='User' name='[usr:Calculation_4360047399460126723:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0kr8asy1x3qyfo12e49530z1ra6j].[none:Category:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Furniture&quot;</bucket>
+              <bucket>&quot;Technology&quot;</bucket>
+              <bucket>&quot;Office Supplies&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0kr8asy1x3qyfo12e49530z1ra6j].[sum:Sales:qk]' scope='rows' value='false' />
+            <encoding attr='space' class='0' field='[federated.0kr8asy1x3qyfo12e49530z1ra6j].[usr:Calculation_4360047399460126723:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.0kr8asy1x3qyfo12e49530z1ra6j].[usr:Calculation_4360047399460126723:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='cell-w' value='198' />
+            <format attr='cell-h' value='66' />
+            <format attr='cell' value='66' />
+            <format attr='cell-q' value='330' />
+            <format attr='font-size' field='[federated.0kr8asy1x3qyfo12e49530z1ra6j].[sum:Sales:qk]' value='12' />
+            <format attr='text-format' field='[federated.0kr8asy1x3qyfo12e49530z1ra6j].[sum:Sales:qk]' value='c&quot;$&quot;#,##0;(&quot;$&quot;#,##0)' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0kr8asy1x3qyfo12e49530z1ra6j].[none:Category:nk]' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <customized-label>
+              <formatted-text>
+                <run fontsize='12'><![CDATA[<[federated.0kr8asy1x3qyfo12e49530z1ra6j].[rank:sum:Sales:qk]><[federated.0kr8asy1x3qyfo12e49530z1ra6j].[usr:Calculation_4360047399407386624:nk]>]]></run>
+                <run><![CDATA[
+<[federated.0kr8asy1x3qyfo12e49530z1ra6j].[none:Category:nk]>
+]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0kr8asy1x3qyfo12e49530z1ra6j].[sum:Sales:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0kr8asy1x3qyfo12e49530z1ra6j].[none:Category:nk]' />
+              <text column='[federated.0kr8asy1x3qyfo12e49530z1ra6j].[rank:sum:Sales:qk]' />
+              <text column='[federated.0kr8asy1x3qyfo12e49530z1ra6j].[usr:Calculation_4360047399407386624:nk]' />
+              <text column='[federated.0kr8asy1x3qyfo12e49530z1ra6j].[none:Category:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='12'><![CDATA[<[federated.0kr8asy1x3qyfo12e49530z1ra6j].[rank:sum:Sales:qk]><[federated.0kr8asy1x3qyfo12e49530z1ra6j].[usr:Calculation_4360047399407386624:nk]>]]></run>
+                <run><![CDATA[
+<[federated.0kr8asy1x3qyfo12e49530z1ra6j].[none:Category:nk]>
+]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0kr8asy1x3qyfo12e49530z1ra6j].[usr:Calculation_4360047399460126723:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.0kr8asy1x3qyfo12e49530z1ra6j].[sum:Sales:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='8'>&lt;</run>
+                <run fontsize='8'>[federated.0kr8asy1x3qyfo12e49530z1ra6j].[sum:Sales:qk]</run>
+                <run fontsize='8'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='0.69165748357772827' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0kr8asy1x3qyfo12e49530z1ra6j].[sum:Sales:qk] + [federated.0kr8asy1x3qyfo12e49530z1ra6j].[usr:Calculation_4360047399460126723:qk])</rows>
+        <cols>[federated.0kr8asy1x3qyfo12e49530z1ra6j].[none:Category:nk]</cols>
+      </table>
+      <simple-id uuid='{99B17456-622C-4821-A3BE-243E9959F8F7}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='대시보드 1'>
+      <style />
+      <size maxheight='600' maxwidth='800' minheight='600' minwidth='800' preset-index='3' sizing-mode='fixed' />
+      <zones>
+        <zone h='25000' id='4' type-v2='text' w='97500' x='1250' y='75000'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#b9ddf1' />
+          </zone-style>
+        </zone>
+        <zone h='90000' id='3' name='Rank by Category' w='90000' x='5000' y='3333' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97334' id='11' param='vert' type-v2='layout-flow' w='98000' x='1000' y='1333'>
+                <zone fixed-size='280' h='90000' id='3' is-fixed='true' name='Rank by Category' w='90000' x='5000' y='3333'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='25000' id='4' type-v2='text' w='97500' x='1250' y='75000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#b9ddf1' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C4E4521F-AFF3-4734-B81F-0466B00C7FE1}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Rank by Category'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0kr8asy1x3qyfo12e49530z1ra6j].[none:Category:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0kr8asy1x3qyfo12e49530z1ra6j].[none:Category:nk]</field>
+            <field>[federated.0kr8asy1x3qyfo12e49530z1ra6j].[usr:Calculation_4360047399407386624:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F78C70DE-DE19-4A13-A597-EBDF48655338}' />
+    </window>
+    <window class='dashboard' name='대시보드 1'>
+      <viewpoints>
+        <viewpoint name='Rank by Category'>
+          <zoom type='entire-view' />
+          <selection-collection>
+            <tuple-selection>
+              <tuple-reference>
+                <tuple-descriptor>
+                  <pane-descriptor>
+                    <x-fields>
+                      <field>[federated.0kr8asy1x3qyfo12e49530z1ra6j].[none:Category:nk]</field>
+                    </x-fields>
+                    <y-fields>
+                      <field>[federated.0kr8asy1x3qyfo12e49530z1ra6j].[usr:Calculation_4360047399460126723:qk]</field>
+                    </y-fields>
+                  </pane-descriptor>
+                  <columns>
+                    <field>[federated.0kr8asy1x3qyfo12e49530z1ra6j].[none:Category:nk]</field>
+                    <field>[federated.0kr8asy1x3qyfo12e49530z1ra6j].[sum:Sales:qk]</field>
+                    <field>[federated.0kr8asy1x3qyfo12e49530z1ra6j].[usr:Calculation_4360047399460126723:qk]</field>
+                    <field>[federated.0kr8asy1x3qyfo12e49530z1ra6j].[rank:sum:Sales:qk]</field>
+                    <field>[federated.0kr8asy1x3qyfo12e49530z1ra6j].[usr:Calculation_4360047399407386624:nk]</field>
+                  </columns>
+                </tuple-descriptor>
+                <tuple>
+                  <value>&quot;Technology&quot;</value>
+                  <value>4029876408.0099015</value>
+                  <value>3223901126.4079213</value>
+                  <value>1</value>
+                  <value>&quot;st&quot;</value>
+                </tuple>
+              </tuple-reference>
+            </tuple-selection>
+          </selection-collection>
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{9C68320C-8AB2-47AB-8DC0-42B082206BFE}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Rank by Category' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO3deXSU9aH/8ffMZE9MCCFhSQIhAZEQQAOKIlpAAQto8YLXjVpFwaXai9vV
+      4q+Cp5a2UrFXbNXWtRfRiwoqZVOwBwRkXxICARICIRCyQDJJJtssz++PKdEIKEGSQL6f1zke
+      k8yzfGf0PO95vs8sNsuyLERExDj21h6AiIi0DgVARMRQCoCIiKEUABERQykAIiKGUgBERAyl
+      AIiIGEoBEBExlAIgImIoBUBExFAKgIiIoRQAERFDKQAiIoZSAEREDKUAiIgYSgEQETGUAiAi
+      YigFQETEUAqAiIihFAAREUMpACIihlIAREQMpQCIiBhKARA5A/X19ViW1drDEDmnFACR71FV
+      VcWrr77K+PHjqa6u/sHls7OzcTqdLTAykR9PARA5DafTybhx48jPz6e0tBSfz9fodsuyTjor
+      eOWVV9i3b19LDlPkrAW09gBEzlehoaG89957xMbGMmLEiIa/W5bF/PnzmTdvHjabjdGjRzNl
+      yhRef/11Vq5cSV5eHnFxcdx2222MGjWqFe+ByPdTAEROIygoiI4dO570zL+4uJg5c+awYMEC
+      7HY7a9asAeCWW25h/fr13HLLLfTv35927dq1xrBFzpimgESaKDg4mLq6Ov75z3/i8XgYN24c
+      AO3btyc8PJy4uDji4+MJDw9v5ZGKfD8FQKSJoqKiWLhwISUlJfz85z/nnnvuwev1tvawRJpM
+      ARBpotraWqKionjqqadYunQpJSUlHDlyBICQkBDKy8tbeYQiZ0bXAEROY/v27cyaNQvLssjK
+      yuLee+8lJiaGhx9+mIcffpi+fftSUVGBw+Ggc+fOAIwZM4annnqKzz77jNGjR3PDDTe08r0Q
+      OT2bpXe3iJxSfX39Sa/pt9vtREdH43K5yMnJAaB3796EhIQA/lcIHTlyhKKiInr16qXrAHJe
+      UwBERAylawAiIoZSAEREDKUAiIgYSgGQNs/j8VBdXd3onzO59HXo0KGz2l9JSckZfXCcSGtT
+      AKTN27FjBzNmzGDixIk8+eSTzJo1i5qamh9c749//ONZ7W/BggX6QDi5IOh9ANLmDRgwgAED
+      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
+      EUMpACIihlIAREQMpQCIiBhKARARMZQCICJiKAVARMRQCoCIiKEUABERQykAIiKGUgBERAyl
+      AIiIGEoBEBExlAIgImIoBUBExFAKgIiIoRQAERFDKQAiIoZSAEREDKUAiIgYSgEQETGUAiAi
+      YigFQETEUAqAiIihFAAREUMpACIihlIAREQMpQCIiBhKARARMZQCICJiKAVARMRQCoCIiKEU
+      ABERQykAIiKGUgBERAylAIiIGEoBEBExlAIgImIoBUBExFAKgIiIoRQAERFDKQAiIoZSAERE
+      DKUAiIgYSgEQETGUAiAiYigFQETEUAqAiIihFAAREUMpACIihlIAREQMpQCIiBhKARARMZQC
+      ICJiKAVARMRQCoCIiKEUABERQykAIiKGUgBERAylAIiIGEoBEBExlAIgImIoBUBExFAKgIiI
+      oRQAERFDKQAiIoZSAEREDKUAiIgYSgEQETGUAiAiYijjA+Dz+dizZw9LliwhIyMDj8fTpPUL
+      Cgr4+OOPm2l0IiLNx+gAeL1eHnjgAR577DE2bNjAtGnTmD59Oj6f74y3UVxczMqVK5txlCIi
+      zSOgtQfQmizLYsiQIUycOBG73U59fT1Dhw7F5XIREBBAYGAgFRUVlJeXk5CQQFBQUMN6LpcL
+      p9OJy+Vq5XshInJ2jA5AQEAAd911F+A/qGdmZhIaGkpQUBBPPvkkBw8exOfzUVtbS3x8PG+/
+      /TYACxcu5MUXXyQpKYn8/Hz69u3bmndDROSsGB2AE3w+H/PmzeOll17irbfeIjg4mJqaGh58
+      8EFGjRqF2+1mzJgx1NTUUF1dzQsvvMCiRYuIjY1l69atvPHGG619F0REmsz4ANTX1/PLX/6S
+      srIyli5dSlxcXMNtXbt2xWazERAQQEBAAD6fj127djFkyBBiY2NbcdQiIj+e0QGwLIunnnqK
+      Dh068Prrr2O3//A1cZ/Ph81ma4HRiYg0L6MDUFlZydKlS1m9ejXHjx8HwGazER0dfdp1UlNT
+      efzxxzlw4ADx8fGsX7++pYYrInJOGR2AiooKkpKSmDx5csPfgoKCeOutt0hNTSU8PLzh7+np
+      6TgcDmJjY3nuueeYNGkSAJdeeim9e/du8bGLiPxYNsuyrNYexIXGsiy8Xi9er5fg4ODWHs6F
+      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
+      rmh49l9QUIDX6yUnJweHw0H37t0BKCkpITAwkMDAQOx2O9XV1ViWxZIlSxg9erSe/YtIi7rg
+      rgG0a9eOrKwsdu/ezahRo0hKSmLLli0cPHiQ6OhovvzySzp06EBpaSnp6emsWLECj8dDYmIi
+      SUlJ3HrrrXz++ed4PB7GjRtHeHg44eHhAFxzzTV06dKFv//979x0000EBgYSFxfHihUrAEhP
+      TyclJYWvvvoKgOTkZAYOHIhlWQwePBiAqqoq3n//fR599FHq6+tZvHhxw+19+/bl888/56OP
+      PqJLly707t0bj8dDenp6wxhERFqKzTrVayfPgdzcXAoKCppj0wBs2rSJyy+//JS3bdmyhbS0
+      tIZX8zSF1+tl8+bNXHHFFWf1jPzgwYMEBAQQHx/f5HWbW2JiIsnJya07CPdByE1quf2lFEDg
+      +fff4gcV3gvOt1pufwmLIWJ0y+1PzgsX3BnACac7+AMMGDDgrLfrcDgYNGjQWa/frVu3s15X
+      RKQlXXDXAERE5Ny4YM8Avi0yMpKuXbu29jCazLIssrKyWnsYImKoNhGAwMBAYmJiWnsYTXam
+      HychItIcNAUkImIoBUBExFAKgIiIoRQAERFDKQAiIoZSAEREDKUAiIgYSgEQETGUAiAiYigF
+      QETEUAqAiIihFAAREUMpACIihlIAREQMpQCIiBhKARARMZQCICJiKAVARMRQCoCIiKEUABGR
+      JvJ6vRQVFVFYWNik7/auqalh/fr1zTiypmkTXwovItJStm3bxn//938TFBSEw+HA7Xbz6quv
+      kpSU9IPrHj9+nFmzZvHxxx83/0DPgM4ARESaoH379rz22mssWrSITz75hJtuuonXX3/9pOUs
+      y8KyrIbfPR5Po9/PBzoDEBFpgm7dujX87PV6KSsrIy4uDoBPPvmE0NBQcnJy+PDDD1mwYAEu
+      l4tnn32WoqIifD5faw37lBQAEZEm2rp1K0uWLGHDhg1069aNP/7xjwAcPXqUefPm0bdvX955
+      5x2ioqK4++67ueuuuxg7diz79+/nmWeeaeXRf0NTQCIiTRQSEkJcXBxJSUkcOnSI/Pz8httS
+      UlJ4+eWXSUpKorS0FJ/Px80330xISAhRUVHY7efPYVdnACIiTZSamkpqaioAq1at4oknnmDx
+      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
+    </thumbnail>
+    <thumbnail height='384' name='대시보드 1' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO3de3hU5aHv8d+aW2aSTO4EQgi3IAit9YJsJIKoB5WqVCvt2ULdR9Fu3SpP
+      1VarLdvzUFu0tB5bW6tYd4u7FUFQHkTBS6ko0ipoVVQEBCIQIKGQ60xmMre1zh+zMxIBDQgM
+      8H4/z+MDmZm11puhXd91m1mW4ziOAADGcWV7AACA7CAAAGAoAgAAhiIAAGAoAgAAhiIAAGAo
+      AgAAhiIAAGAoAgAAhiIAAGAoAgAAhiIAAGAoAgAAhiIAAGAoAgAAhiIAAGAoAgAAhiIAAGAo
+      AgAAhiIAwDEiFospFArpi27T3dbWplgsdpRGhROZxU3hge7761//qg0bNkiSvF6vKisrNXr0
+      aBUUFHzpeT/zzDNatGiR/uu//ks5OTkHfN2UKVM0evRoXXfddV9qebZta+XKlVqxYoWi0agG
+      Dhyoyy67TGVlZZ87XSqVUnNzswoLC+X1er/UGJBdnmwPADievPbaa3rllVc0cOBAxWIxbd26
+      VT169NCsWbNUWVn5pebd3T2AUCikaDT6pZYlSb/+9a81b9489e3bVxUVFVqwYIHKy8s1YcKE
+      z52urq5O1157rR588EGdcsopX3ocyB4CAByk6upq/eEPf5Ak1dbW6vrrr9fTTz+tW265RVL6
+      EM2WLVsUjUY1aNAglZaWSkpvOe/atUulpaVqbGxUbW2tBgwYcMBwRCIRNTU1qby8XD6fb5/n
+      t2/frm3btumkk05Sjx495DiOdu3apZycHBUXF0uSHMfRP//5T/l8vsxjkvT+++/rqaee0qRJ
+      kzR16lR5PB61t7crkUhkptu+fbvq6+sVCAQ0ZMgQ+Xw+xWIx7dy5U+3t7WpoaFBxcbHy8vJU
+      XFwsx3H08ccfa8uWLaqqqtLQoUNlWVZmmW1tbaqtrVVBQYH69Omj9vb2zJhSqZTee+89tbS0
+      aMiQIaqsrJRlWXIcRw0NDSooKFAgENDWrVsVDAbV0dHR5X2JxWLavXv3Ad8r7B8BAA6By+WS
+      y+XSoEGD1K9fP+3YsUOS9Prrr+uuu+7KvM62bf30pz/VuHHjtHPnTn37299WdXW1amtrZdu2
+      XC6XHnnkEZ122mld5t/R0aGbb75ZkvTII4/ss/ylS5dq7ty5mXn87Gc/09ixY3XPPfeotbVV
+      jz/+uLxer1pbWzVx4kRNnTpVV155ZWb6p59+WoWFhbrpppsyh3Hy8/Mzz99111169dVX5fV6
+      lUgkNGDAAM2aNUtr1qzRnXfeqVQqpbvvvluWZemKK67QD37wAz388MOaM2eOiouL1djYqKuv
+      vlo33nijJOm5557T/fffr0QiIcuylJOTo2984xu67bbbFIlEdNddd2nVqlXyer1KJpO6/vrr
+      NWXKFMViMX3rW9/S97//ff3tb3/TihUrdMstt+iRRx7R9773vczvtHDhQj322GOaP3/+Fx7C
+      wqc4CQwcJMdxFIvFFIlE9Nprr2njxo0aMmSIJKmiokK//OUv9fLLL+ull17SqaeeqieeeKLL
+      9F/72tf0xBNP6KmnnpLX69Xbb7/d5XnbtvXAAw9o586duu++++T3+/cZw+DBg7Vw4UItWrRI
+      J510kh5++GElk0l985vf1Mcff6z169dLklauXCmXy6Xzzjuvy/RbtmzRsGHDDniu4YILLtC8
+      efP06quv6tFHH1VdXZ1ee+01nXXWWfrd734nj8ejmTNnavHixbrxxhu1bt06Pfnkk/rJT36i
+      JUuW6D//8z/1pz/9STt27FB9fb3uv/9+nXPOOXr22Wf1wgsvdNkbWbhwod577z099NBDWr58
+      ua677jo99thj2rx5c+Y1c+bM0ZYtW3TnnXfqkksu0emnn67FixfLcRylUim98sorGjlyZGZv
+      C93DHgBwkDZu3KhJkyYpGo2qpaVFY8aM0eTJkyVJAwYMUDKZ1PPPP6+WlhbZtq09e/Z0mX7c
+      uHGqrq6WJBUVFSmZTGaeC4fD+u1vf6ulS5fqgQceUK9evfY7hkGDBqlnz56SpCuvvFL33nuv
+      mpubVVNTo4qKCj333HP66le/qmXLlunMM8/MvLaTbdvyeA78f/+amhqtXr1aK1asUCgUks/n
+      U2NjY+bwkmVZKioqUo8ePSRJa9asUWFhoQYOHKjt27frK1/5itxutz788EN5PB45jqMbb7xR
+      5eXlkpQJj+M4euuttzRy5EiNGDFCknTVVVdp7ty5evfdd9WnT5/M63/zm99klnfFFVforrvu
+      0vr161VQUKC1a9dq5syZXQ454YsRAOAglZWVaeLEiXr88cfVt29fTZ8+XYFAQJI0d+5cPfbY
+      Y6qpqVFVVZVcroPbyQ6FQvrLX/6ioqIiDR48uFvTBAKBzJZwXl6evv71r+vpp5/WNddco9Wr
+      V+uee+7ZZ5revXvr448/ViqVktvt7vJcJBLRTTfdpKamJp1zzjkKBAJf+Hu0tbWpqalJt912
+      W2YlXFpaqng8ro6ODnm9XuXm5u4zneM4CoVCOumkkzKP+f1++f1+tbW1ZR6bNGlSZuUvSaNH
+      j1bPnj317LPPqm/fviopKdHw4cO79X7hUxwCAg5SSUmJvvOd72jmzJlqaGjQ9OnTFY1G5TiO
+      lixZogkTJujee+/VTTfddNArpV69emnWrFmyLEs/+clPMidlD8RxHK1evVrBYFAlJSWSpEsu
+      uUQdHR2aMWOG8vLydPbZZ+8z3fjx47Vjxw49//zzmauOUqmUOjo6tGnTJq1du1a/+tWvdPvt
+      t+u73/1ul8tc3W63LMtSJBLJPFZZWalAIKCHHnpICxYs0IIFCzR//nyNGzdOffv2VTgc1vLl
+      y2XbtpqamjJXMVmWpcrKSq1bty7zu9bV1am1tVVVVVVdlrm3nJwcXXrppXr55Ze1dOlSnX/+
+      +fsNDD4fewDAITrzzDP105/+VNOmTdOMGTN09913q7CwUP/4xz/04osvasOGDVq0aFGXk6tf
+      xLIs9enTRzNmzNDUqVP10EMP6dZbb93n0MZbb72l+fPna9OmTVq8eLGmTJmSOaxSVVWlkSNH
+      asWKFZo4cWJm72RvY8eO1ahRo/Tzn/9cq1atUp8+ffT+++9rwoQJGjp0qDwejxYuXKjBgwdr
+      2bJlmZPcUnoPKBgMatasWdq2bZsqKytVU1OjRx55RNOmTdNll12mVCqllStX6oorrtCYMWNU
+      U1OjX/ziF/rzn/+saDSq1tbWzO97+eWXa+rUqfrZz36m4cOH6+mnn1ZJSYlqamo+9726/PLL
+      NXv2bG3cuLHLiXd0n3v69OnTsz0I4HixY8cO5efna9SoUbIsS/369VNlZaU++OAD+f1+jRs3
+      Tm+99ZZWrFih4uJiXXjhhfJ6vTrvvPMUj8f1ySefaMyYMZmTlRs2bNDQoUM1ePBg7dmzR/F4
+      XOecc4569+6tqqoqrV69WtXV1V1ObtbW1qpPnz5auXKlmpqa9K//+q+66qqrMsf0LcuS2+3W
+      smXLdMcdd+xz/F9KX8U0duxYeb1effjhh9q8ebN69uypiy66SAMGDJDH49GyZcu0YcMGjRs3
+      TqWlpRo2bJgGDRokn8+nfv36ac2aNXrnnXdUVVWlESNGaNSoUaqtrdUbb7yhrVu3atiwYbrg
+      ggsUDAZ17rnnasiQIerfv7+uueYarVq1StXV1Ro5cqQqKirUv39/vf7661q+fLkqKip0zz33
+      qLy8XI7jaP369Ro5cuQ+l8vm5+frvffek9/v1w033HDQh9vAJ4GBwy6VSmVOsh6Jk5KO48iy
+      LNm2LUn7rPhs29Z9992n999/X/PmzfvcMTiOI8dxZNt25tBO5+OpVCoTk/2xbXu/09m2Lcuy
+      Mv9Fo1GtXLlSNTU1CgQCevXVVzVt2jTdfffduvjii7uMI5lMyuPxdGtl3tjYqCuvvFLXXnut
+      Jk2a9MVvHPbBISDgMHO73QdcaR4OnSvb/a0k33nnHf3oRz9SJBLR/fff/4UB6lxJf3ZelmV9
+      7lVCncvf33Sf/d1jsZhmzJihSCQit9st27Y1ZswYXXDBBfuMo7sf4rrvvvu0dOlSVVdX6/LL
+      L+/WNNgXewDACaS5uVkffvihBg0apIqKimwPJyMSiWjLli1qb29XeXn5IV0htbePPvpI4XBY
+      p5566ud+bxI+HwEAAENx1gQADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAA
+      DEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAA
+      DEUAgBOcbdtqaGhQKpXK9lBwjCEAwAls48aN+vd//3edddZZCoVCn/vapqYmzZkz5yiNDMcC
+      AgCcwB599FFNnjxZp512WpfH29vb9fHHH2vHjh1KpVJKpVLavHmzlixZovr6ejU2NspxnCyN
+      GkeL5fCvDJzQHMfRxIkT9cc//lFFRUVqamrS5MmTdfLJJ2vPnj265JJLNH78eN16661atWqV
+      zj//fA0ePFi33HKLLMvK9vBxBHmyPQAAR9cnn3yi8vJy/fKXv5TH41EsFpPf79f06dM1Y8YM
+      Pfzww9keIo4SDgEBhjnllFPUq1cvTZgwQbfffrsaGxuzPSRkCQEADOPz+TRz5kw988wzGjdu
+      nG6//XZJkmVZXClkGA4BASeoZDKpefPmyXEcbdu2TfPnz1ePHj1UVFSkF154QRdeeKE++OAD
+      lZWVSZJKS0u1efNmzZ8/X+Xl5Ro7diznAE5wBAA4geXm5kqSfvzjH0uSAoGARo8eLbfbrbff
+      flt9+vTR9773PUlSMBjUH//4R7300ksqLi7O2phx9HAVEAAYinMAAGAoAgAAhiIAAGAoAgAc
+      B+LxuPbs2ZP5r6Wl5Qu/qmHt2rWHtJwNGzYc6jBxnCEAwHFg+/bt+sMf/qDrrrtODz74oBYt
+      WvSFAXj88ccPejnt7e1asGDBIY4SxxsuAwWOAwMHDtSdd96p++67T1OmTFGvXr0UDof14IMP
+      KpVK6eabb1ZpaanefPNNLV68WGeccYZSqZR+//vfa926dbrmmmtUVVWlxYsXa+PGjSouLtZt
+      t92m+vp6Pfzww8rPz9fUqVO7LHPdunWaPXu2KioqdNNNN8nj8WjBggVas2aNevfurcsuu0x1
+      dXU6++yztWvXLtXW1mrUqFFZeodwKNgDAI5T999/vyZPnqyrr75av/3tb9XQ0KC5c+dq+vTp
+      qqmpkW3bGjNmjKZNm6annnpKTU1NWrNmje6++241NTWpublZM2bM0B133KEJEyboN7/5TWbe
+      juNo5syZuueee3Taaadp9uzZeuGFF9TW1qZ7771X27ZtU1lZmWbNmiXHcbRgwQIFAoEsvhs4
+      FAQAOE5t3rxZTz75pP70pz8pHo9ry5YtOuuss+Tz+dS7d295vV4NHTpUfr9fOTk5kqQhQ4bI
+      7/ertLRUyWRSfr9fxcXFOvnkk9XW1paZdygUUr9+/eT3+zV8+HDt3LlTmzZt0kUXXSTLsuT1
+      euV2uzVixAi9+eab2rRpk0455ZRsvRU4RBwCAo5T1dXVuvTSS1VVVaVt27apZ8+eWrBggS68
+      8EJFo9FuzSMWi6m+vl719fUqLCzMPB4MBlVXV6fm5ma9/fbbqqys1IABAzRnzhxdeOGFmRPF
+      kydP1rXXXqsJEybI7XYfkd8TR457+vTp07M9CADdY9u2+vXrp5ycHJ1++ulauHChVq9erd69
+      e2vYsGEKBAJauHChYrGYhgwZokGDBklKf9Fb//795ff7VVlZKdu21bdvX51++umaPXu26urq
+      dMMNN8jv98vtdmvAgAEaOHCgZs+erUgkoilTpmjw4MFyHEd1dXXatWuXLr74YuXn52vZsmW6
+      +eablZ+fn+V3BweLr4IA0C3vvfeennvuObndbrndbv3whz/U73//e4VCocw3iuL4QgAAdIvj
+      OGptbVUymVRJSYlcLpf++c9/qqSkRB4PR5OPRwQAAAzFVUAAYCj224D92dhDSu3J9ihwOPR5
+      Qcofn+1RHJPYAwAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAU
+      AQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAU
+      AQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAU
+      AQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQAAQxEAADAUAQCOIQ17sj0C
+      mMST7QEAkFIpaf6L0jMvS/9xpTRuVPrx2jpp4V+k26/99LV/f1d6aaX0tSHSxAulht3S44uk
+      1pD07fHS1wZLjy2Q6vdIV4yTThv66bSr3pdeel3y50g3T06/LhpLL3/EKdIFNdLcJdLmOmnE
+      V6Wvn9N1nG+8J23aKv3bZdJf/i6t/Ic06jRp/BjpnY+k55dLPp9045VSYTA9TbQjvZymVulb
+      F0lfPenIvpfoPvYAgGPAOx9J4Yh08TlSn57pxxxHemiOVL/709d1xKQFL0l3XS+9+5G0q1Ha
+      ulO65pvStP+Q5i2RXv6b1K9S+vH10qyn0vPpnN/c56U7rpNqzpAWLpNunCR9/xqpZ5kUzJOW
+      r5YsS/rR9dK5I7uOsTUkPbdc+miz1B6Rlr4m/fiG9DTNrdKfn5V+cK30v85Kj7HTQ3Ok0cOl
+      O78r9el1RN9GHCQCABwDqiqk1e9L62qlvr3Tj/33Iul/f10K+D99XcMeadhAKZAjnX+W9MEG
+      aeSpUo9i6ZmXpKHVUjKV3qK3LKmsWGpuS09rWennf/Xf6VCcfbqU45NStrRus3TWadLbH0p1
+      DdKMWdLmbZ8u13GkR5+SvvstyeOWardL//K19PT/ckr651NPln71uPTEc9LZZ6Sn2/BJOkh/
+      e0d66wOpKHhU3k50EwEAjgG9yqSH7pZsW7rz/vRW/QuvS+1RacuO9Aq6k/0/W/S2LVmu9F7B
+      tF9LRQXpPYGvj5G2N0gPPC6t3SjleNOvT6WkbfXSpeemD9us3ZR+fPFfpQnnSS5LcmzpG+en
+      9xJ+9+Sny3zrg/Q4Ptme/rOuIb38znE4TjoCl5ybXvmv3Zh+znHSz9u25BzB9w+HhgAAx4BP
+      tksfbZIG9Elv8Xs90m1XS3n/83efL71S71Esrf8kvVW/7A3p1CHpY/bDvyKdc6YUak+vaK+8
+      RLruW1L/yvT8tu2U4sn0oZu+vaWTB6a38GNx6Y010tgR6XGcMji9V2Hb6ekiHenDTP16S//n
+      Mik3IHm90pD+0uoPpLZw+s9+vaW2UHp5Qwakfx8p/ffx50hnfjU97z3N2XqHsT+W4ziEGfis
+      jT2k1NG7JKc1LC1+RXp5pXTr1dIZw9KHbBwnvaIfM1z6wS+k//dD6cON6cMqp50sXTxWWvKa
+      tHGL5HKl9yTGj0mfdE0kpasmpFfi85ZI//fm9Jb88lXplfs130wHY8eu9AlgSUompSeXpGNz
+      6bnpQ0L9K9OHm6T0eP76Zvok9Yq30yeBa06Xzv0X6d110l/+lj7B/G+XScUF6Wnao9ITi9Pn
+      EL5xfjo+R1WfF6T88Ud5occHAgDsz1EOQKe/v5teoX5WY0v6+P9XBh38PNesl/r3kQrzD37a
+      1/8hjT4jHaPjFgE4IAIA7E+WAoAjgAAcEJ8DAI4hNZOkjVuzPYoj46R+0t/nZnsU2BsBAI4h
+      zW3SRRd/R+PHn1hbrC+++KL+8cacbA8Dn0EAgGPM8OHDddVVV2V7GIfV7t27CcAxiMtAAcBQ
+      BAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQ
+      BAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQ
+      BAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQ
+      BAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQ
+      BAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQ
+      BAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQ
+      BAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQ
+      BAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQ
+      BAAADEUAAMBQBAAADEUAAMBQBCCLUqmUOjo6lEqlDnq6UCh0hEYFwBSebA/AVPX19WpqalIg
+      EFAkElFlZaWKi4u7NW0ikdDu3bsVDAaP8CgBnMgIQJa4XC4NGzZMlmUpHo+rtrZWRUVFchxH
+      lmUpmUzK5XLJ7XZnpnEcR6lUSrZtZ3HkAE4UBCBLevbsKSm9Ug+Hw/L5fHIcR+vXr5fb7ZbL
+      5VI0GtWgQYOUm5uraDSqLVu2yOPxKJVKyePhnw7Al8NaJIts21ZDQ4Pa2tpUXV0tSbIsS9XV
+      1fJ4PNq9e7fC4bACgYC2b9+uqqoq5efnq6OjQzt37szy6AEc7zgJnCXJZFKbNm1SKpXS4MGD
+      5fV6JanLYR+XK/3PY9u2UqmU8vLysjZeACce9gCyZNu2bSoqKlKPHj1kWdbnvtayLDmOkzk/
+      AACHAwHIgs7LOAsLC9Xc3CwpvbVfUFCw39dblqXc3Fxt375dxcXFampq4kQwgC+NAGRJRUWF
+      kslk5mePxyPLsjInhyUpLy8vs9VfVVWlPXv2qKWlRYWFhZnDQwBwqAhAFrjdbpWXl+/3uaKi
+      oszf/X5/5u8ul+uA0wDAoWAzEgAMRQAAwFAEAAAMxTmAI8BxnC5X6bhcroO+fDOVSh3SdADQ
+      XewBHAGd3+1TX1+vhoaGQ5pH56WebW1tSiQSh3mEAMAewBHhOI7y8/NVUVGR+TkcDis/P1+x
+      WCyzh+B2uzOXdUYiEXV0dMjn86m0tFR+v1+pVEoNDQ0KBALKz8/PvC4/P1/RaFRut1uJREIe
+      j0etra0qLS1Vc3Oz4vG4ysrK5PP5svxOADiWsQdwhMTjcbW3tysSici27cwHvjo6OhSNRhUK
+      hbR161bl5uYqmUyqra1NZWVlCofDSqVSam5ultvtVn5+voqLixUMBpVKpdTa2ipJikQiisVi
+      am1tVV1dnfLy8tTS0iLLslRaWqr6+no5jpPNtwDAMY4AHCGJRELRaFQdHR0HfE3v3r0VDAZl
+      WZby8/Pl8/ky3woqpT8B7Ha75fF4PvfbPysrK5WXl6dIJKJwOKzdu3crkUgQAACfi0NAR0he
+      Xp7Kysokpb/MrfO/RCKR+bK3vb/r/0A67w3Q+YngzvnE4/HMIZ7O+eTk5CgnJ0fBYFDxeJwT
+      yAA+F3sAR4Db7VZubm7mZ8uy5Pf7VVdXp1gsppycHAUCgcxWvcfjyXzqNzc3Vy6XS/n5+ZKk
+      4uJi7dmzR42NjXK73XK73aqrq5Nt2/J6vZnXS1Jpaana29u1Y8cOhcPho/xbAzjesAdwBHi9
+      XhUWFmZ+/ux3/HxW55a79OlXQZSUlEhKX0Lav3//zGt79+7dZdq9vy7C7Xbv8zwAHAh7AABg
+      KAIAAIYiAABgqOPuHEAymVRLS0u2h4HDwOfzHfAmOACOvOMuAJ23RsTxj39HILs4BAQAhiIA
+      AGAoAgAAhiIAAGAoAgAAhiIAAGAoAgAAhiIA3WTbtlKpVLaHAQCHzXH3QbBs6LxDVyqVUnFx
+      sbxerxKJhEKhkEpLSzOv67yzl+M4ysnJUV5enqLRqKLRqCzLUmFhodxutxzHUVNTk4LBYOY7
+      /R3HUSgUUiKRkMvlUlFRUZefCwsL1dbWJtu2M/Pv/MroRCKhtrY2SelvB/X7/WptbZXjOAoE
+      AsrJycncScy2bRUUFGSWG4/HFQqFuowPgBkIQDeEQiHl5eXJcRy5XC45jqOOjo59PsnaueK2
+      LEuNjY3Ky8tTe3u7ysrKMreILCgoUHt7uyR12aPoXKkXFBSotbU1c8OXgoICtbW1KZlMZr4q
+      uq2trcsdwtxud+broxsbG2XbtnJzc+X3+7V7927l5uaqpKQkE57OaW3bVktLi0pKSuRyubiB
+      DGAYDgF1g9/vVygUUjwel9vtlsvlUkFBQeZGLJ1cLpdisZiampoyW9g5OTlqampSa2urAoGA
+      ksmkEolEl+/x75zW5/MpFospkUjI6/XK7/crFospHo93WWknEonM/QM6p41EImpsbJTf71cg
+      EFBbW5saGxu73Bi+cz6d4+6MWOd9iwkAYBb2ALrB7/fL5XIpHA6rpaVFxcXFB3xt5126Orfy
+      4/G4CgsLFY/HFYvFFI1G5fP51NHRIZfLJb/fL8uy5DiO2tvbFY/HM1vk4XC4y8+S1N7ertzc
+      3H1W1j6fT5ZlKRqNynEc5eXlyefzZQ4FSVI4HM7sRUjpvY5UKpU5rATALOwBdEMkEsncy7fz
+      y+iSyaRs2878GY/HFY/HZdt25sbujuNktqwty1IqlVJRUZECgYC8Xq88Hk9mi962bUUiEQWD
+      wcwJ571/7pxXLBbL7D10TheLxSSl9zY6V+qWZcnlcsm27cxrO28p2SkvLy8TrM75AzAHewDd
+      kJOTo3A4rFQqpcLCwszK2uv1Zv7s6OhQMBjMHE4JBoOyLEtFRUUKh8Nyu90KBoOZLfnOKITD
+      YeXk5MjlciknJ0fRaFRSeq9j7587t/o75ytJLS0tKi0tzRwCchxHwWBQXq9X7e3tCoVCmXMS
+      nc99VklJicLhsCzLypxUBmAGAtANbrdb+fn5sm07swW99/fYdx7m6Tw3sDefzzT7x8AAAANC
+      SURBVNflOHwnr9crKb2i7zx8s/d9hDun3d9YpPThm87zEJ1XCe3tsyv7vc8ZfHZ+n50WgBkI
+      QDd99vDJ3va3ou6uA62Yv4hlWYc8LQBInAMAAGOxB3CQAoHAPpd/Hu86Ojr4lDNgoBNrTQYA
+      6DYCAACGIgAAYCgCAACGIgAAYCgCAACGOuBloGt3R7UjlDgsC+kT9GpYj8BhmRcA4PBgDwAA
+      DEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAA
+      DEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQB7wpPADgxBSPx1VfX88eAACYZvv2
+      7erVqxcBAACT2LYtt9stn89HAADAJI7jyLIsWZZFAADAJG63W4lEQqlUigAAgGnKy8u1detW
+      rgICANMEg0Hl5+ezBwAAJuIcAAAYjAAAgIEaGxs5BwAA2ZCMdygabs7a8pt2NxMAAMiGVCqh
+      eCSUteUHvA6HgADARH6fhwAAgIlawh0EAABMVJjnJwAAYCKXi88BAICxCAAAGIrLQAHAMC5P
+      jnzBUvYAAMA4lmRZLgIAAKYiAABgKAIAAIYiAABgKAIAAIYiAABgKAIAAIYiAABgKAIAAIYi
+      AABgKAIAAIYiAABgKAIAAIYiAABgKAIAAIYiAABgKAIAAIYiAABgKAIAAIYiAABgKAIAAIYi
+      AABgKAIAAIYiAABgKAIAAIYiAABgKAIAAIbyZHsAALpaunSp9uzZk+1hHFarV6/O9hCwH8dd
+      ACzLktfrzdry3W63LMvK2vKPBI/HI5fr6O8MejzH8P/8AmdJqdajvtgzR0hbd8b0+uuvH/Vl
+      H2lnjhgjBbKwYHdxFhb6xVwutzy+bLwhksvjk8vlkuU4jrO/F6zdHdWOUOKwLCzP61KR331Y
+      5gUAODyOyiZYe8JWe8I+GosCAHQTJ4EBwFAEAAAMRQAAwFAEAAAMRQAAwFAEAAAMRQAAwFAE
+      AAAMRQAAwFAEAAAMRQAAwFAEAAAMRQAAwFAEAAAMRQAAwFAEAAAMRQAAwFAEAAAMRQAAwFAE
+      AAAMRQAAwFAEAAAMRQAAwFAEAAAM9f8BOJiAWZu6buIAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
