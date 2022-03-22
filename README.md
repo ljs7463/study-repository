@@ -139,6 +139,8 @@
 ###### 특정문자가 포함되거나 일치하는 데이터(행)추출하기 <https://velog.io/@ljs7463/특정문자가-포함되거나-일치하는-데이터행추출하기>
 ###### 특정 컬럼에 중복값 이 있는 행 제거하기 <https://velog.io/@ljs7463/특정-컬럼에-중복값-이-있는-행-제거하기>
 ###### 특정 문자열이 포함되지 않는 데이터(열)찾기, 추출하기 <https://velog.io/@ljs7463/특정-문자열이-포함되지-않는-데이터열찾기-추출하기>
+###### 판다스 각각의 로우(row) 백분율 구하는 방법(The method Compute row percentages in pandas DataFrame) <https://velog.io/@ljs7463/판다스-각각의-로우row-백분율-구하는-방법The-method-Compute-row-percentages-in-pandas-DataFrame>
+
 
 
 
