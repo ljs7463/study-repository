@@ -132,6 +132,8 @@
 ######  웹페이지 스크레핑/크롤링<기본> <https://velog.io/@ljs7463/%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%8A%A4%ED%81%AC%EB%A0%88%ED%95%91%ED%81%AC%EB%A1%A4%EB%A7%81%EA%B8%B0%EB%B3%B8>
 
 
+
+
 ## 판다스
 ###### 판다스 계층적 색인( stack(), unstack() )<https://velog.io/@ljs7463/판다스-계층적-색인-stack-unstack>
 ###### 판다스 특정 문자로 검색하는 str.contains() <https://velog.io/@ljs7463/판다스-특정-문자로-검색하는-str.contains>
@@ -140,6 +142,8 @@
 ###### 특정 컬럼에 중복값 이 있는 행 제거하기 <https://velog.io/@ljs7463/특정-컬럼에-중복값-이-있는-행-제거하기>
 ###### 특정 문자열이 포함되지 않는 데이터(열)찾기, 추출하기 <https://velog.io/@ljs7463/특정-문자열이-포함되지-않는-데이터열찾기-추출하기>
 ###### 판다스 각각의 로우(row) 백분율 구하는 방법(The method Compute row percentages in pandas DataFrame) <https://velog.io/@ljs7463/판다스-각각의-로우row-백분율-구하는-방법The-method-Compute-row-percentages-in-pandas-DataFrame>
+###### 구글코렙, 쥬피터노트북 한글 폰트 적용하는 방법 <https://velog.io/@ljs7463/구글코렙-쥬피터노트북-한글-폰트-적용하는-방법>
+
 
 
 
