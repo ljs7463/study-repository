@@ -19,6 +19,13 @@
 ######  Telco 고객 이탈방지 모델만들기(데이터 탐색과 시각화 1) <https://blog.naver.com/ljs7463/222324974737>
 
 
+## 공간데이터
+###### 공간 데이터, 지리 데이터 입문하기 <https://velog.io/@ljs7463/공간-데이터-지리-데이터-입문하기>
+
+
+
+
+
 ## 통계
 ######  데이터의 종류 <https://velog.io/@ljs7463/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98-%EC%A2%85%EB%A5%98>
 ######  독립표본T 검정, 대응표본 검정 <https://velog.io/@ljs7463/%EB%8F%85%EB%A6%BD%ED%91%9C%EB%B3%B8%EA%B2%80%EC%A0%95-%EB%8C%80%EC%9D%91%ED%91%9C%EB%B3%B8-%EA%B2%80%EC%A0%95>
