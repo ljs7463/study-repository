@@ -133,7 +133,7 @@
 ###### SQL 가상테이블을 만드는 With문 <https://velog.io/@ljs7463/SQL-%EA%B0%80%EC%83%81%ED%85%8C%EC%9D%B4%EB%B8%94%EC%9D%84-%EB%A7%8C%EB%93%9C%EB%8A%94-With%EB%AC%B8>
 ###### [MySQL] 행의 순위를 만드는 함수 RANK, DENSE_RANK, ROW_NUMBER(), <https://velog.io/@ljs7463/MySQL-행의-순위를-만드는-함수-RANK-DENSERANK-ROWNUMBER>
 ###### [MySQL] Index정리 (미완성) <https://velog.io/@ljs7463/MySQL-Index정리>
-
+###### FULL OUTER JOIN 복수개의 KEY값을 MERGE하는 방법 <https://velog.io/@ljs7463/FULL-OUTER-JOIN-%EB%B3%B5%EC%88%98%EA%B0%9C%EC%9D%98-KEY%EA%B0%92%EC%9D%84-MERGE%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95>
 
 
 ## 크롤링
