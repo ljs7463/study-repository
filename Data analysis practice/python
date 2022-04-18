@@ -1,9 +1,0 @@
-    
-    # 컬럼내 정수 이외의 이상한 문자열값 제거 
-    
-    for data in melt_df['unsold']:
-        try:
-            float(data)
-            pass
-        except:
-            melt_df.loc[melt_df['unsold']==data] =0
