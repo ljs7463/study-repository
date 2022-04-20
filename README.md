@@ -134,6 +134,8 @@
 ###### [MySQL] 행의 순위를 만드는 함수 RANK, DENSE_RANK, ROW_NUMBER(), <https://velog.io/@ljs7463/MySQL-행의-순위를-만드는-함수-RANK-DENSERANK-ROWNUMBER>
 ###### [MySQL] Index정리 (미완성) <https://velog.io/@ljs7463/MySQL-Index정리>
 ###### FULL OUTER JOIN 복수개의 KEY값을 MERGE하는 방법 <https://velog.io/@ljs7463/FULL-OUTER-JOIN-%EB%B3%B5%EC%88%98%EA%B0%9C%EC%9D%98-KEY%EA%B0%92%EC%9D%84-MERGE%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95>
+###### SQL CASE절 활용하기 <https://velog.io/@ljs7463/SQL-CASE절-활용하기>
+
 
 
 ## 크롤링
