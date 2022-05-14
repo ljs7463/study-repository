@@ -24,7 +24,7 @@
 ###### 공간데이터 파일 유형(타입) <https://velog.io/@ljs7463/공간데이터-파일-유형타입>
 ###### [공간데이터] 지오판다스 기초 <https://velog.io/@ljs7463/공간데이터-지오판다스-벡터-다루기점-선-면>
 ###### GeoJson 공간정보 데이터를 담다. <https://velog.io/@ljs7463/GeoJson-공간정보-데이터를-담다>
-
+###### folium 서울시 지도 시각화 <https://velog.io/@ljs7463/GeoJson-%EA%B3%B5%EA%B0%84%EC%A0%95%EB%B3%B4-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-%EB%8B%B4%EB%8B%A4>
 
 ## 통계
 ######  데이터의 종류 <https://velog.io/@ljs7463/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98-%EC%A2%85%EB%A5%98>
