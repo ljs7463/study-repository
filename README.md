@@ -27,7 +27,8 @@
 
 ## 시계열 데이터
 ###### 시계열 데이터의 구성 <https://velog.io/@ljs7463/시계열-데이터의-구성>
-
+###### 시계열 데이터 분해 <https://velog.io/@ljs7463/시계열-데이터-분해>
+###### 시계열 데이터 정상성(안정성, stationary), AR, MR, ACF, PACF <https://velog.io/@ljs7463/시계열-데이터-정상성안정성-stationary-AR-MR-ACF-PACF>
 
 ## 데이터분석
 ######  타이타닉 생존자 예측 (데이터확인) <https://blog.naver.com/ljs7463/222253966591>
