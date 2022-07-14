@@ -37,7 +37,7 @@
 ###### 시계열 데이터 분해 <https://velog.io/@ljs7463/시계열-데이터-분해>
 ###### 시계열 데이터 정상성(안정성, stationary), AR, MR, ACF, PACF <https://velog.io/@ljs7463/시계열-데이터-정상성안정성-stationary-AR-MR-ACF-PACF>
 ###### ACF, PACF 외부요인 영향 분석 <https://velog.io/@ljs7463/ACF-와-PACF로-외부요인-영향-분석>
-
+###### ARIMA모델 종류 <https://velog.io/@ljs7463/ARIMA%EB%AA%A8%EB%8D%B8-%EC%A2%85%EB%A5%98>
 
 
 ## 데이터분석
