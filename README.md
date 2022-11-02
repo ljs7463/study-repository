@@ -48,7 +48,8 @@
 ######  Telco 고객 이탈 방지 모델 만들기(소개)<https://blog.naver.com/ljs7463/222316544585>
 ######  Telco 고객 이탈방지 모델만들기(데이터 탐색과 시각화 1) <https://blog.naver.com/ljs7463/222324974737>
 
-
+## 태블로
+- 아파트단지 준공연도 필터 대시보드 https://public.tableau.com/app/profile/.69605281/viz/_16651423755570/1_1
 
 ## 통계
 ######  데이터의 종류 <https://velog.io/@ljs7463/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98-%EC%A2%85%EB%A5%98>
