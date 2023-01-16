@@ -49,8 +49,8 @@
 ######  Telco 고객 이탈방지 모델만들기(데이터 탐색과 시각화 1) <https://blog.naver.com/ljs7463/222324974737>
 
 ## 태블로
-- 아파트단지 준공연도 필터 대시보드 https://public.tableau.com/app/profile/.69605281/viz/_16651423755570/1_1
-
+- 아파트단지 준공연도 필터 대시보드 <https://public.tableau.com/app/profile/.69605281/viz/_16651423755570/1_1>
+- 반경(km)내 아파트 단지조회(태블로,LOD 세부계산식) <https://velog.io/@ljs7463/%EB%B0%98%EA%B2%BDkm%EB%82%B4%EC%95%84%ED%8C%8C%ED%8A%B8%EB%8B%A8%EC%A7%80%EC%A1%B0%ED%9A%8C>
 ## 통계
 ######  데이터의 종류 <https://velog.io/@ljs7463/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98-%EC%A2%85%EB%A5%98>
 ######  독립표본T 검정, 대응표본 검정 <https://velog.io/@ljs7463/%EB%8F%85%EB%A6%BD%ED%91%9C%EB%B3%B8%EA%B2%80%EC%A0%95-%EB%8C%80%EC%9D%91%ED%91%9C%EB%B3%B8-%EA%B2%80%EC%A0%95>
