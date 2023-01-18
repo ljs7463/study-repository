@@ -32,6 +32,12 @@
 ##### [BigQuery, MySQL]공간데이터 특정 반경내 조회 쿼리 <https://velog.io/@ljs7463/BigQuery-MySQL공간데이터-특정-반경내-조회-쿼리>
 ##### 공간데이터 패키지 의존성 극복하기(Python) <https://velog.io/@ljs7463/공간데이터-패키지-의존성-극복하기Python>
 
+
+## 데이터 엔지니어링
+###### [SSH란 무엇인가?]데이터분석가의 데이터공학 스터디1 <https://velog.io/@ljs7463/SSH%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B3%B5%ED%95%99-%EC%8A%A4%ED%84%B0%EB%94%941>
+
+
+
 ## 시계열 데이터
 ###### 시계열 데이터의 구성 <https://velog.io/@ljs7463/시계열-데이터의-구성>
 ###### 시계열 데이터 분해 <https://velog.io/@ljs7463/시계열-데이터-분해>
