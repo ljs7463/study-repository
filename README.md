@@ -36,6 +36,7 @@
 ## 데이터 엔지니어링
 ###### [SSH란 무엇인가?]데이터분석가의 데이터공학 스터디1 <https://velog.io/@ljs7463/SSH%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B3%B5%ED%95%99-%EC%8A%A4%ED%84%B0%EB%94%941>
 
+###### Apache NiFi(아파치 나이파이)설치 및 빌드 <https://velog.io/@ljs7463/Apache-NiFi%EC%95%84%ED%8C%8C%EC%B9%98-%EB%82%98%EC%9D%B4%ED%8C%8C%EC%9D%B4%EC%84%A4%EC%B9%98-%ED%95%98%EA%B8%B0>
 
 
 ## 시계열 데이터
