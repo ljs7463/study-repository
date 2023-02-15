@@ -192,7 +192,7 @@
 ###### 판다스 각각의 로우(row) 백분율 구하는 방법(The method Compute row percentages in pandas DataFrame) <https://velog.io/@ljs7463/판다스-각각의-로우row-백분율-구하는-방법The-method-Compute-row-percentages-in-pandas-DataFrame>
 ###### 구글코렙, 쥬피터노트북 한글 폰트 적용하는 방법 <https://velog.io/@ljs7463/구글코렙-쥬피터노트북-한글-폰트-적용하는-방법>
 ###### [판다스] 날짜 범위를 출력 하는 date_range <https://velog.io/@ljs7463/판다스-날짜-범위를-출력-하는-daterange>
-
+###### 판다스 inplace = True를 사용하지 말아야 하는 이유 <https://velog.io/@ljs7463/%ED%8C%90%EB%8B%A4%EC%8A%A4-inplace-True%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%A7%80-%EB%A7%90%EC%95%84%EC%95%BC-%ED%95%9C%EB%8A%94-%EC%9D%B4%EC%9C%A0>
 
 
 
