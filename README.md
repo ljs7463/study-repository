@@ -254,14 +254,16 @@ Funnel Analysis(Funnel, AARRR) <https://velog.io/@ljs7463/Funnel-AnalysisFunnel-
 ###### [알고리즘] 손익분기점 <https://velog.io/@ljs7463/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%86%90%EC%9D%B5%EB%B6%84%EA%B8%B0%EC%A0%90>
 
 
-
-
-
 # 생각과 일상
 ##### 내가 되고싶은 데이터분석가의 모습 <https://velog.io/@ljs7463/%EB%82%B4%EA%B0%80-%EB%90%98%EA%B3%A0%EC%8B%B6%EC%9D%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EB%AA%A8%EC%8A%B5>
 
 # 머신러닝 완벽가이드 공부
 https://velog.io/@ljs7463?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%99%84%EB%B2%BD%EA%B0%80%EC%9D%B4%EB%93%9C
+
+
+## 스타트업생존일기
+###### [스타트업 데이터분석가 홀로 서기1부] 홀로 성장해보기 <https://velog.io/@ljs7463/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80-%ED%99%80%EB%A1%9C-%EC%84%9C%EA%B8%B01%EB%B6%80-%ED%99%80%EB%A1%9C-%EC%84%B1%EC%9E%A5%ED%95%B4%EB%B3%B4%EA%B8%B0>
+
 
 ___
 # 데이터 분석가 브런치
