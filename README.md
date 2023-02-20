@@ -32,6 +32,14 @@
 ##### [BigQuery, MySQL]공간데이터 특정 반경내 조회 쿼리 <https://velog.io/@ljs7463/BigQuery-MySQL공간데이터-특정-반경내-조회-쿼리>
 ##### 공간데이터 패키지 의존성 극복하기(Python) <https://velog.io/@ljs7463/공간데이터-패키지-의존성-극복하기Python>
 
+
+## 데이터 엔지니어링
+###### [SSH란 무엇인가?]데이터분석가의 삽지니어링1 <https://velog.io/@ljs7463/SSH%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B3%B5%ED%95%99-%EC%8A%A4%ED%84%B0%EB%94%941>
+
+###### [Apache NiFi(아파치 나이파이)설치 및 빌드]데이터분석가의 삽지니어링2 <https://velog.io/@ljs7463/Apache-NiFi%EC%95%84%ED%8C%8C%EC%B9%98-%EB%82%98%EC%9D%B4%ED%8C%8C%EC%9D%B4%EC%84%A4%EC%B9%98-%ED%95%98%EA%B8%B0>
+
+###### [PuTTY Fatal Error, 연결중단 에러 해결방법]데이터분석가의 삽지니어링3 <https://velog.io/@ljs7463/PuTTY-Fatal-Error-%EC%97%B0%EA%B2%B0%EC%A4%91%EB%8B%A8-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EC%82%BD%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%813>
+
 ## 시계열 데이터
 ###### 시계열 데이터의 구성 <https://velog.io/@ljs7463/시계열-데이터의-구성>
 ###### 시계열 데이터 분해 <https://velog.io/@ljs7463/시계열-데이터-분해>
@@ -49,7 +57,11 @@
 ######  Telco 고객 이탈방지 모델만들기(데이터 탐색과 시각화 1) <https://blog.naver.com/ljs7463/222324974737>
 
 ## 태블로
-- 아파트단지 준공연도 필터 대시보드 https://public.tableau.com/app/profile/.69605281/viz/_16651423755570/1_1
+###### 아파트단지 준공연도 필터 대시보드 <https://public.tableau.com/app/profile/.69605281/viz/_16651423755570/1_1>
+###### 반경(km)내 아파트 단지조회(태블로,LOD 세부계산식) <https://velog.io/@ljs7463/%EB%B0%98%EA%B2%BDkm%EB%82%B4%EC%95%84%ED%8C%8C%ED%8A%B8%EB%8B%A8%EC%A7%80%EC%A1%B0%ED%9A%8C>
+###### 주니어 데이터분석가의 태블로 활용 후기 <https://velog.io/@ljs7463/%EC%A3%BC%EB%8B%88%EC%96%B4-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%ED%83%9C%EB%B8%94%EB%A1%9C-%ED%99%9C%EC%9A%A9-%ED%9B%84%EA%B8%B0>
+ 
+
 
 ## 통계
 ######  데이터의 종류 <https://velog.io/@ljs7463/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98-%EC%A2%85%EB%A5%98>
@@ -180,7 +192,7 @@
 ###### 판다스 각각의 로우(row) 백분율 구하는 방법(The method Compute row percentages in pandas DataFrame) <https://velog.io/@ljs7463/판다스-각각의-로우row-백분율-구하는-방법The-method-Compute-row-percentages-in-pandas-DataFrame>
 ###### 구글코렙, 쥬피터노트북 한글 폰트 적용하는 방법 <https://velog.io/@ljs7463/구글코렙-쥬피터노트북-한글-폰트-적용하는-방법>
 ###### [판다스] 날짜 범위를 출력 하는 date_range <https://velog.io/@ljs7463/판다스-날짜-범위를-출력-하는-daterange>
-
+###### 판다스 inplace = True를 사용하지 말아야 하는 이유 <https://velog.io/@ljs7463/%ED%8C%90%EB%8B%A4%EC%8A%A4-inplace-True%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%A7%80-%EB%A7%90%EC%95%84%EC%95%BC-%ED%95%9C%EB%8A%94-%EC%9D%B4%EC%9C%A0>
 
 
 
@@ -242,14 +254,16 @@ Funnel Analysis(Funnel, AARRR) <https://velog.io/@ljs7463/Funnel-AnalysisFunnel-
 ###### [알고리즘] 손익분기점 <https://velog.io/@ljs7463/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%86%90%EC%9D%B5%EB%B6%84%EA%B8%B0%EC%A0%90>
 
 
-
-
-
 # 생각과 일상
 ##### 내가 되고싶은 데이터분석가의 모습 <https://velog.io/@ljs7463/%EB%82%B4%EA%B0%80-%EB%90%98%EA%B3%A0%EC%8B%B6%EC%9D%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EB%AA%A8%EC%8A%B5>
 
 # 머신러닝 완벽가이드 공부
 https://velog.io/@ljs7463?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%99%84%EB%B2%BD%EA%B0%80%EC%9D%B4%EB%93%9C
+
+
+## 스타트업생존일기
+###### [스타트업 데이터분석가 홀로 서기1부] 홀로 성장해보기 <https://velog.io/@ljs7463/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80-%ED%99%80%EB%A1%9C-%EC%84%9C%EA%B8%B01%EB%B6%80-%ED%99%80%EB%A1%9C-%EC%84%B1%EC%9E%A5%ED%95%B4%EB%B3%B4%EA%B8%B0>
+
 
 ___
 # 데이터 분석가 브런치
