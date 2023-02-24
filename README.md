@@ -256,7 +256,7 @@ Funnel Analysis(Funnel, AARRR) <https://velog.io/@ljs7463/Funnel-AnalysisFunnel-
 
 # 생각과 일상
 ##### 내가 되고싶은 데이터분석가의 모습 <https://velog.io/@ljs7463/%EB%82%B4%EA%B0%80-%EB%90%98%EA%B3%A0%EC%8B%B6%EC%9D%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EB%AA%A8%EC%8A%B5>
-
+##### 코드스테이츠 졸업생 알럼나이 발표 후기 <https://velog.io/@ljs7463/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0-%EC%A1%B8%EC%97%85%EC%83%9D-%EC%95%8C%EB%9F%BC%EB%82%98%EC%9D%B4-%EB%B0%9C%ED%91%9C-%ED%9B%84%EA%B8%B0>
 # 머신러닝 완벽가이드 공부
 https://velog.io/@ljs7463?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%99%84%EB%B2%BD%EA%B0%80%EC%9D%B4%EB%93%9C
 
