@@ -40,6 +40,11 @@
 
 ###### [PuTTY Fatal Error, 연결중단 에러 해결방법]데이터분석가의 삽지니어링3 <https://velog.io/@ljs7463/PuTTY-Fatal-Error-%EC%97%B0%EA%B2%B0%EC%A4%91%EB%8B%A8-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EC%82%BD%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%813>
 
+###### [Apach Airflow 설치 및 빌드]데이터분석가의 삽지니어링4 <https://velog.io/@ljs7463/Apach-Airflow-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EB%B9%8C%EB%93%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EC%82%BD%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%814>
+
+
+
+
 ## 시계열 데이터
 ###### 시계열 데이터의 구성 <https://velog.io/@ljs7463/시계열-데이터의-구성>
 ###### 시계열 데이터 분해 <https://velog.io/@ljs7463/시계열-데이터-분해>
