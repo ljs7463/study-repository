@@ -40,6 +40,11 @@
 
 ###### [PuTTY Fatal Error, 연결중단 에러 해결방법]데이터분석가의 삽지니어링3 <https://velog.io/@ljs7463/PuTTY-Fatal-Error-%EC%97%B0%EA%B2%B0%EC%A4%91%EB%8B%A8-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EC%82%BD%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%813>
 
+###### [Apach Airflow 설치 및 빌드]데이터분석가의 삽지니어링4 <https://velog.io/@ljs7463/Apach-Airflow-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EB%B9%8C%EB%93%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EC%82%BD%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%814>
+
+
+
+
 ## 시계열 데이터
 ###### 시계열 데이터의 구성 <https://velog.io/@ljs7463/시계열-데이터의-구성>
 ###### 시계열 데이터 분해 <https://velog.io/@ljs7463/시계열-데이터-분해>
@@ -256,7 +261,7 @@ Funnel Analysis(Funnel, AARRR) <https://velog.io/@ljs7463/Funnel-AnalysisFunnel-
 
 # 생각과 일상
 ##### 내가 되고싶은 데이터분석가의 모습 <https://velog.io/@ljs7463/%EB%82%B4%EA%B0%80-%EB%90%98%EA%B3%A0%EC%8B%B6%EC%9D%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80%EC%9D%98-%EB%AA%A8%EC%8A%B5>
-
+##### 코드스테이츠 졸업생 알럼나이 발표 후기 <https://velog.io/@ljs7463/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0-%EC%A1%B8%EC%97%85%EC%83%9D-%EC%95%8C%EB%9F%BC%EB%82%98%EC%9D%B4-%EB%B0%9C%ED%91%9C-%ED%9B%84%EA%B8%B0>
 # 머신러닝 완벽가이드 공부
 https://velog.io/@ljs7463?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%99%84%EB%B2%BD%EA%B0%80%EC%9D%B4%EB%93%9C
 
@@ -264,7 +269,9 @@ https://velog.io/@ljs7463?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EB%A8%B8%EC%8B%A0%EB%9
 ## 스타트업생존일기
 ###### [스타트업 데이터분석가 홀로 서기1부] 홀로 성장해보기 <https://velog.io/@ljs7463/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80-%ED%99%80%EB%A1%9C-%EC%84%9C%EA%B8%B01%EB%B6%80-%ED%99%80%EB%A1%9C-%EC%84%B1%EC%9E%A5%ED%95%B4%EB%B3%B4%EA%B8%B0>
 
+###### [스타트업 데이터분석가 홀로 서기2부] 코드 문서화(Documentaion) <https://velog.io/@ljs7463/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80-%ED%99%80%EB%A1%9C-%EC%84%9C%EA%B8%B02%EB%B6%80-%EC%BD%94%EB%93%9C-%EB%AC%B8%EC%84%9C%ED%99%94Documentaion>
 
+###### [스타트업 데이터분석가 홀로 서기3부] 데이터 타입 일관성 검사(mypy) <https://velog.io/@ljs7463/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80-%ED%99%80%EB%A1%9C-%EC%84%9C%EA%B8%B03%EB%B6%80-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%83%80%EC%9E%85-%EC%9D%BC%EA%B4%80%EC%84%B1-%EA%B2%80%EC%82%ACmypy>
 ___
 # 데이터 분석가 브런치
 https://brunch.co.kr/@hozoon1027/10
