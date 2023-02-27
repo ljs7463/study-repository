@@ -271,6 +271,7 @@ https://velog.io/@ljs7463?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EB%A8%B8%EC%8B%A0%EB%9
 
 ###### [스타트업 데이터분석가 홀로 서기2부] 코드 문서화(Documentaion) <https://velog.io/@ljs7463/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80-%ED%99%80%EB%A1%9C-%EC%84%9C%EA%B8%B02%EB%B6%80-%EC%BD%94%EB%93%9C-%EB%AC%B8%EC%84%9C%ED%99%94Documentaion>
 
+###### [스타트업 데이터분석가 홀로 서기3부] 데이터 타입 일관성 검사(mypy) <https://velog.io/@ljs7463/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B0%80-%ED%99%80%EB%A1%9C-%EC%84%9C%EA%B8%B03%EB%B6%80-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%83%80%EC%9E%85-%EC%9D%BC%EA%B4%80%EC%84%B1-%EA%B2%80%EC%82%ACmypy>
 ___
 # 데이터 분석가 브런치
 https://brunch.co.kr/@hozoon1027/10
